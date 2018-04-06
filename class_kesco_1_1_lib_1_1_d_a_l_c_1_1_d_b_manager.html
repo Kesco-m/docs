@@ -1,0 +1,846 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Класс Kesco.Lib.DALC.DBManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Kesco.Lib.DALC.DBManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Объект управления подключениями и запросами к БД  
+ <a href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:a920ac411dcc3c00f7216fe30d2a3251a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a920ac411dcc3c00f7216fe30d2a3251a">ParameterTypes</a> { <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a920ac411dcc3c00f7216fe30d2a3251aac06129f6e6e15c09328365e553f1dc31">ParameterTypes.Int32</a> = 1, 
+<a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a920ac411dcc3c00f7216fe30d2a3251aa937504f318f04eaf0f1d701df4c4d7f3">ParameterTypes.Decimal</a> = 2, 
+<a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a920ac411dcc3c00f7216fe30d2a3251aa27118326006d3829667a400ad23d5d98">ParameterTypes.String</a> = 3
+ }</td></tr>
+<tr class="memdesc:a920ac411dcc3c00f7216fe30d2a3251a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum, описывающий типы данных  <a href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a920ac411dcc3c00f7216fe30d2a3251a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a920ac411dcc3c00f7216fe30d2a3251a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a496b437d82f3077e10533d9fc2e8de41"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a496b437d82f3077e10533d9fc2e8de41">GetStringValue</a> (Enum value)</td></tr>
+<tr class="memdesc:a496b437d82f3077e10533d9fc2e8de41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение текстового значения Enum  <a href="#a496b437d82f3077e10533d9fc2e8de41">Подробнее...</a><br /></td></tr>
+<tr class="separator:a496b437d82f3077e10533d9fc2e8de41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a410f04b325fb4a78d4e9d75658d6080c"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a410f04b325fb4a78d4e9d75658d6080c">GetReaderValue</a> (<a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_reader.html">DBReader</a> dbReader, Type type, int ordinal)</td></tr>
+<tr class="memdesc:a410f04b325fb4a78d4e9d75658d6080c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение значение из <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_reader.html" title="Класс абстрагирует работу с несколькими классами SqlDataReader и SqlConnection, объединяя их в единое...">DBReader</a>  <a href="#a410f04b325fb4a78d4e9d75658d6080c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a410f04b325fb4a78d4e9d75658d6080c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa11e3782b0718aa67362339b762327b3"><td class="memItemLeft" align="right" valign="top">static DataTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#aa11e3782b0718aa67362339b762327b3">GetData</a> (string sql, string cn)</td></tr>
+<tr class="memdesc:aa11e3782b0718aa67362339b762327b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполнение переданного sql  <a href="#aa11e3782b0718aa67362339b762327b3">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa11e3782b0718aa67362339b762327b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d33e3eefb971f788ecc136e39e42997"><td class="memItemLeft" align="right" valign="top">static DataTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a0d33e3eefb971f788ecc136e39e42997">GetData</a> (string sql, string cn, CommandType ctype, Dictionary&lt; string, object &gt; args)</td></tr>
+<tr class="memdesc:a0d33e3eefb971f788ecc136e39e42997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполнение переданного sql  <a href="#a0d33e3eefb971f788ecc136e39e42997">Подробнее...</a><br /></td></tr>
+<tr class="separator:a0d33e3eefb971f788ecc136e39e42997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9dcf5318fe686530c406da8ffded536"><td class="memItemLeft" align="right" valign="top">static DataTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#ae9dcf5318fe686530c406da8ffded536">GetData</a> (string sql, string cn, CommandType ctype, Dictionary&lt; string, object &gt; args, StringCollection localParams, string _sort, string _defaultSort, Dictionary&lt; string, Type &gt; columnList, Dictionary&lt; string, bool &gt; groupByList, Dictionary&lt; string, decimal &gt; sumList, ref string _pageNum, ref string _itemsPerPage, ref string _pageCount, out string _sRez)</td></tr>
+<tr class="memdesc:ae9dcf5318fe686530c406da8ffded536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполнение переданного sql  <a href="#ae9dcf5318fe686530c406da8ffded536">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae9dcf5318fe686530c406da8ffded536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f214172dbadb9ee790b25a115b5b03"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a23f214172dbadb9ee790b25a115b5b03">ExecuteNonQuery</a> (string comdText, CommandType type, string cn, Dictionary&lt; string, object &gt; parameters=null, Dictionary&lt; string, object &gt; parametersOut=null)</td></tr>
+<tr class="memdesc:a23f214172dbadb9ee790b25a115b5b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполнить SQL инструкцию.  <a href="#a23f214172dbadb9ee790b25a115b5b03">Подробнее...</a><br /></td></tr>
+<tr class="separator:a23f214172dbadb9ee790b25a115b5b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ff1b993269021b1ca4993e6f213bbd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#af8ff1b993269021b1ca4993e6f213bbd">ExecuteNonQuery</a> (string comdText, CommandType type, string cn, IEnumerable&lt; SqlParameter &gt; parameters=null, Dictionary&lt; string, object &gt; parametersOut=null)</td></tr>
+<tr class="memdesc:af8ff1b993269021b1ca4993e6f213bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполнить SQL инструкцию. Используется, когда необходимо указывать дополнительные параметры для SqlParameter -ов  <a href="#af8ff1b993269021b1ca4993e6f213bbd">Подробнее...</a><br /></td></tr>
+<tr class="separator:af8ff1b993269021b1ca4993e6f213bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2cc51d094f4c4957dc6e37255f6b89"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a9d2cc51d094f4c4957dc6e37255f6b89">ExecuteNonQuery</a> (string comdText, int id, CommandType type, string cn, Dictionary&lt; string, object &gt; parametersOut=null)</td></tr>
+<tr class="memdesc:a9d2cc51d094f4c4957dc6e37255f6b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполнить SQL инструкцию.  <a href="#a9d2cc51d094f4c4957dc6e37255f6b89">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9d2cc51d094f4c4957dc6e37255f6b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acffe7575af179abce995110465f869ba"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#acffe7575af179abce995110465f869ba">ExecuteScalar</a> (string comdText, CommandType type, string cn, Dictionary&lt; string, object &gt; parameters=null, Dictionary&lt; string, object &gt; parametersOut=null)</td></tr>
+<tr class="memdesc:acffe7575af179abce995110465f869ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет запрос и возвращает первый столбец первой строки результирующего набора, возвращаемого запросом. Дополнительные столбцы и строки игнорируются.  <a href="#acffe7575af179abce995110465f869ba">Подробнее...</a><br /></td></tr>
+<tr class="separator:acffe7575af179abce995110465f869ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecf16f3fd3e38d17508fdea381e1f0c"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#aeecf16f3fd3e38d17508fdea381e1f0c">ExecuteScalar</a> (string comdText, int id, CommandType type, string cn, Dictionary&lt; string, object &gt; parametersOut=null)</td></tr>
+<tr class="memdesc:aeecf16f3fd3e38d17508fdea381e1f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет запрос и возвращает первый столбец первой строки результирующего набора, возвращаемого запросом. Дополнительные столбцы и строки игнорируются.  <a href="#aeecf16f3fd3e38d17508fdea381e1f0c">Подробнее...</a><br /></td></tr>
+<tr class="separator:aeecf16f3fd3e38d17508fdea381e1f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Объект управления подключениями и запросами к БД </p>
+</div><h2 class="groupheader">Перечисления</h2>
+<a id="a920ac411dcc3c00f7216fe30d2a3251a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920ac411dcc3c00f7216fe30d2a3251a">&#9670;&nbsp;</a></span>ParameterTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html#a920ac411dcc3c00f7216fe30d2a3251a">Kesco.Lib.DALC.DBManager.ParameterTypes</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enum, описывающий типы данных </p>
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a920ac411dcc3c00f7216fe30d2a3251aac06129f6e6e15c09328365e553f1dc31"></a>Int32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a920ac411dcc3c00f7216fe30d2a3251aa937504f318f04eaf0f1d701df4c4d7f3"></a>Decimal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a920ac411dcc3c00f7216fe30d2a3251aa27118326006d3829667a400ad23d5d98"></a>String&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a23f214172dbadb9ee790b25a115b5b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f214172dbadb9ee790b25a115b5b03">&#9670;&nbsp;</a></span>ExecuteNonQuery() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.DALC.DBManager.ExecuteNonQuery </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>comdText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parameters</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parametersOut</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнить SQL инструкцию. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comdText</td><td>Текст запроса или название ХП</td></tr>
+    <tr><td class="paramname">type</td><td>Тип команыды - текст или хранимая процедура</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка соединения</td></tr>
+    <tr><td class="paramname">parameters</td><td>Входные значения</td></tr>
+    <tr><td class="paramname">parametersOut</td><td>Выходные параметры, для хп автоматически формируется возвращаемое значение()</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af8ff1b993269021b1ca4993e6f213bbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8ff1b993269021b1ca4993e6f213bbd">&#9670;&nbsp;</a></span>ExecuteNonQuery() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.DALC.DBManager.ExecuteNonQuery </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>comdText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IEnumerable&lt; SqlParameter &gt;&#160;</td>
+          <td class="paramname"><em>parameters</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parametersOut</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнить SQL инструкцию. Используется, когда необходимо указывать дополнительные параметры для SqlParameter -ов </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comdText</td><td>Текст запроса или название ХП</td></tr>
+    <tr><td class="paramname">type</td><td>Тип команыды - текст или хранимая процедура</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка соединения</td></tr>
+    <tr><td class="paramname">parameters</td><td>Входные значения в виде SqlParameter</td></tr>
+    <tr><td class="paramname">parametersOut</td><td>Выходные параметры, для хп автоматически формируется возвращаемое значение()</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9d2cc51d094f4c4957dc6e37255f6b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2cc51d094f4c4957dc6e37255f6b89">&#9670;&nbsp;</a></span>ExecuteNonQuery() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.DALC.DBManager.ExecuteNonQuery </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>comdText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parametersOut</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнить SQL инструкцию. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comdText</td><td>Текст запроса или название ХП</td></tr>
+    <tr><td class="paramname">id</td><td>Один единственный параметр </td></tr>
+    <tr><td class="paramname">type</td><td>Тип команыды - текст или хранимая процедура</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка соединения</td></tr>
+    <tr><td class="paramname">parametersOut</td><td>Выходные параметры, для хп автоматически формируется возвращаемое значение()</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Перегрузка сделана для работы с одним единственным параметром </p>
+
+</div>
+</div>
+<a id="acffe7575af179abce995110465f869ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acffe7575af179abce995110465f869ba">&#9670;&nbsp;</a></span>ExecuteScalar() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static object Kesco.Lib.DALC.DBManager.ExecuteScalar </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>comdText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parameters</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parametersOut</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполняет запрос и возвращает первый столбец первой строки результирующего набора, возвращаемого запросом. Дополнительные столбцы и строки игнорируются. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comdText</td><td>Текст запроса или название ХП</td></tr>
+    <tr><td class="paramname">type</td><td>Тип команыды - текст или хранимая процедура</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка соединения</td></tr>
+    <tr><td class="paramname">parameters</td><td>Входные значения</td></tr>
+    <tr><td class="paramname">parametersOut</td><td>Выходные параметры, для хп автоматически формируется возвращаемое значение()</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeecf16f3fd3e38d17508fdea381e1f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeecf16f3fd3e38d17508fdea381e1f0c">&#9670;&nbsp;</a></span>ExecuteScalar() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static object Kesco.Lib.DALC.DBManager.ExecuteScalar </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>comdText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>parametersOut</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполняет запрос и возвращает первый столбец первой строки результирующего набора, возвращаемого запросом. Дополнительные столбцы и строки игнорируются. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comdText</td><td>Текст запроса или название ХП</td></tr>
+    <tr><td class="paramname">id</td><td>Один единственный параметр </td></tr>
+    <tr><td class="paramname">type</td><td>Тип команыды - текст или хранимая процедура</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка соединения</td></tr>
+    <tr><td class="paramname">parametersOut</td><td>Выходные параметры, для хп автоматически формируется возвращаемое значение()</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Перегрузка сделана для работы с одним единственным параметром </p>
+
+</div>
+</div>
+<a id="aa11e3782b0718aa67362339b762327b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11e3782b0718aa67362339b762327b3">&#9670;&nbsp;</a></span>GetData() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DataTable Kesco.Lib.DALC.DBManager.GetData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнение переданного sql </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sql</td><td>Текст запроса, который необходимо выполнить</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка подключения</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает DataTable с результами запроса</dd></dl>
+
+</div>
+</div>
+<a id="a0d33e3eefb971f788ecc136e39e42997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d33e3eefb971f788ecc136e39e42997">&#9670;&nbsp;</a></span>GetData() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DataTable Kesco.Lib.DALC.DBManager.GetData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>ctype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнение переданного sql </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sql</td><td>Текст запроса, который необходимо выполнить</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка подключения</td></tr>
+    <tr><td class="paramname">ctype</td><td>Тип sql-команды</td></tr>
+    <tr><td class="paramname">args</td><td>Словарь с параметрами: Название параметра с @; значение параметра</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает DataTable с результами запроса</dd></dl>
+
+</div>
+</div>
+<a id="ae9dcf5318fe686530c406da8ffded536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9dcf5318fe686530c406da8ffded536">&#9670;&nbsp;</a></span>GetData() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DataTable Kesco.Lib.DALC.DBManager.GetData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>ctype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringCollection&#160;</td>
+          <td class="paramname"><em>localParams</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_sort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_defaultSort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, Type &gt;&#160;</td>
+          <td class="paramname"><em>columnList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, bool &gt;&#160;</td>
+          <td class="paramname"><em>groupByList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, decimal &gt;&#160;</td>
+          <td class="paramname"><em>sumList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref string&#160;</td>
+          <td class="paramname"><em>_pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref string&#160;</td>
+          <td class="paramname"><em>_itemsPerPage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref string&#160;</td>
+          <td class="paramname"><em>_pageCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string&#160;</td>
+          <td class="paramname"><em>_sRez</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнение переданного sql </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sql</td><td>Текст запроса, который необходимо выполнить</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка подключения</td></tr>
+    <tr><td class="paramname">ctype</td><td>Тип sql-команды</td></tr>
+    <tr><td class="paramname">args</td><td>Словарь с параметрами: Название параметра с @; значение параметра</td></tr>
+    <tr><td class="paramname">localParams</td><td>Дополнительные параметры фильтрации, ограничения которых накладываются без учета args</td></tr>
+    <tr><td class="paramname">_sort</td><td>Порядок сортировки заданный пользователем</td></tr>
+    <tr><td class="paramname">_defaultSort</td><td>Порядок сортировки по-умолчанию</td></tr>
+    <tr><td class="paramname">columnList</td><td>Словарь с названием и типом колонок, которые возвращает sql</td></tr>
+    <tr><td class="paramname">groupByList</td><td>Словарь c колонками, по которым возможна группировка. Значением записи в словаре является флаг о необходимости группировки по данному полю </td></tr>
+    <tr><td class="paramname">sumList</td><td>Словарь c колонками, по которым необходимо суммирование значений</td></tr>
+    <tr><td class="paramname">_pageNum</td><td>Номер текущей страницы на форме списка</td></tr>
+    <tr><td class="paramname">_itemsPerPage</td><td>Количество выводимых записей на страницу</td></tr>
+    <tr><td class="paramname">_pageCount</td><td>Общее количество страниц</td></tr>
+    <tr><td class="paramname">_sRez</td><td>Количество найденных записей</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает DataTable с результами запроса</dd></dl>
+
+</div>
+</div>
+<a id="a410f04b325fb4a78d4e9d75658d6080c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a410f04b325fb4a78d4e9d75658d6080c">&#9670;&nbsp;</a></span>GetReaderValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static object Kesco.Lib.DALC.DBManager.GetReaderValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_reader.html">DBReader</a>&#160;</td>
+          <td class="paramname"><em>dbReader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ordinal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Получение значение из <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_reader.html" title="Класс абстрагирует работу с несколькими классами SqlDataReader и SqlConnection, объединяя их в единое...">DBReader</a> </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dbReader</td><td><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_reader.html" title="Класс абстрагирует работу с несколькими классами SqlDataReader и SqlConnection, объединяя их в единое...">DBReader</a></td></tr>
+    <tr><td class="paramname">type</td><td>Тип значения</td></tr>
+    <tr><td class="paramname">ordinal</td><td>Порядок колонки</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Значение</dd></dl>
+
+</div>
+</div>
+<a id="a496b437d82f3077e10533d9fc2e8de41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a496b437d82f3077e10533d9fc2e8de41">&#9670;&nbsp;</a></span>GetStringValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string Kesco.Lib.DALC.DBManager.GetStringValue </td>
+          <td>(</td>
+          <td class="paramtype">Enum&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Получение текстового значения Enum </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Enum</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Текствого значени Enum</dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Source/WEB_V4/Kesco.Lib.DALC/<a class="el" href="_d_b_manager_8cs.html">DBManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib_1_1_d_a_l_c.html">DALC</a></li><li class="navelem"><a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html">DBManager</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Исходный файл Source/WEB_V4/Kesco.App.Web.TimeControl/Forms/Error.aspx.cs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_4781ae3b1ec0850db8bd10105eacd4d3.html">WEB_V4</a></li><li class="navelem"><a class="el" href="../../dir_3c3358de32cee74b90054ab2ba6ae9a8.html">Kesco.App.Web.TimeControl</a></li><li class="navelem"><a class="el" href="../../dir_23b55b330df3c721ac1c33e23ded6317.html">Forms</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Error.aspx.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d8/d69/_error_8aspx_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>.Data.SqlClient;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>.IO;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>.Resources;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.<a class="code" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a>.<a class="code" href="../../d2/de5/namespace_kesco_1_1_lib_1_1_log.html">Log</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.<a class="code" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a>.<a class="code" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a>.<a class="code" href="../../d5/d39/namespace_kesco_1_1_lib_1_1_web_1_1_comet.html">Comet</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.App.Web.TimeControl.Forms</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html">   13</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code" href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html">Error</a> : <a class="code" href="../../d8/dd0/namespace_system.html">System</a>.Web.UI.<a class="code" href="../../df/dcf/namespace_page.html">Page</a></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html#a44d137a07a9eadefb558b1b851e9c8c5">   18</a></span>&#160;        <span class="keyword">public</span> ResourceManager Resx = Lib.Localization.Resources.Resx;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html#ae18f0422c2d45310b25f70de044db581">   24</a></span>&#160;        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html#ae18f0422c2d45310b25f70de044db581">RenderError</a>(TextWriter w)</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keywordflow">if</span> (Application[<span class="stringliteral">&quot;Error&quot;</span>] != null)</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">if</span> (Application[<span class="stringliteral">&quot;Error&quot;</span>] is Exception)</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                    var ex = (Exception) Application[<span class="stringliteral">&quot;Error&quot;</span>];</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                    w.Write(ex.Message + <span class="stringliteral">&quot;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&quot;</span> + ex.StackTrace.Replace(<span class="stringliteral">&quot;\r\n&quot;</span>, <span class="stringliteral">&quot;&lt;br /&gt;&quot;</span>));</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (Application[<span class="stringliteral">&quot;Error&quot;</span>] is SqlException || Application[<span class="stringliteral">&quot;Error&quot;</span>] is <a class="code" href="../../de/d04/class_kesco_1_1_lib_1_1_log_1_1_logical_exception.html">LogicalException</a>)</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                    var ex = (SqlException)Application[<span class="stringliteral">&quot;Error&quot;</span>];</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    w.Write(ex.Message + <span class="stringliteral">&quot;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&quot;</span> + ex.StackTrace.Replace(<span class="stringliteral">&quot;\r\n&quot;</span>, <span class="stringliteral">&quot;&lt;br /&gt;&quot;</span>));</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                Application[<span class="stringliteral">&quot;Error&quot;</span>] = null;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div><div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_logical_exception_html"><div class="ttname"><a href="../../de/d04/class_kesco_1_1_lib_1_1_log_1_1_logical_exception.html">Kesco.Lib.Log.LogicalException</a></div><div class="ttdoc">Переопределение базового класса Exception. Используется в приложениях холдинга для формирования цепоч...</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d28/_logical_exception_8cs_source.html#l00010">LogicalException.cs:10</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_log_html"><div class="ttname"><a href="../../d2/de5/namespace_kesco_1_1_lib_1_1_log.html">Kesco.Lib.Log</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2e/_assembly_is_kesco_attribute_8cs_source.html#l00005">AssemblyIsKescoAttribute.cs:5</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="../../d8/dd0/namespace_system.html">System</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_html"><div class="ttname"><a href="../../dd/d63/namespace_kesco_1_1_lib.html">Kesco.Lib</a></div></div>
+<div class="ttc" id="namespace_page_html"><div class="ttname"><a href="../../df/dcf/namespace_page.html">Page</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_web_1_1_comet_html"><div class="ttname"><a href="../../d5/d39/namespace_kesco_1_1_lib_1_1_web_1_1_comet.html">Kesco.Lib.Web.Comet</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/_comet_async_handler_8cs_source.html#l00009">CometAsyncHandler.cs:9</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_web_html"><div class="ttname"><a href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Kesco.Lib.Web</a></div></div>
+<div class="ttc" id="namespace_kesco_html"><div class="ttname"><a href="../../d2/d2a/namespace_kesco.html">Kesco</a></div></div>
+<div class="ttc" id="class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error_html"><div class="ttname"><a href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html">Kesco.App.Web.TimeControl.Forms.Error</a></div><div class="ttdoc">Отображение ошибок </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d69/_error_8aspx_8cs_source.html#l00013">Error.aspx.cs:13</a></div></div>
+<div class="ttc" id="class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error_html_ae18f0422c2d45310b25f70de044db581"><div class="ttname"><a href="../../d7/d93/class_kesco_1_1_app_1_1_web_1_1_time_control_1_1_forms_1_1_error.html#ae18f0422c2d45310b25f70de044db581">Kesco.App.Web.TimeControl.Forms.Error.RenderError</a></div><div class="ttdeci">virtual void RenderError(TextWriter w)</div><div class="ttdoc">Рендеринг ошибки </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d69/_error_8aspx_8cs_source.html#l00024">Error.aspx.cs:24</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:35. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

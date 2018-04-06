@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.ProcessCommand</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="../../dd/d85/namespace_kesco_1_1_lib_1_1_web_1_1_d_b_select.html">DBSelect</a></li><li class="navelem"><a class="el" href="../../dd/d4c/namespace_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4.html">V4</a></li><li class="navelem"><a class="el" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes.html">DBSPersonDossierThemes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a72f25a8063adb99f9af7f54dc83f6bb0.html#a72f25a8063adb99f9af7f54dc83f6bb0">DBSPersonDossierThemes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a288a6574899af2b577432a03563e9b2e.html#a288a6574899af2b577432a03563e9b2e">FillSelect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_ab4362d5a2996a84766a608caa7e59294.html#ab4362d5a2996a84766a608caa7e59294">Filter</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_abdf8d7b5c13c9392e57808869be131f4.html#abdf8d7b5c13c9392e57808869be131f4">GetObjectById</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a1ba355daed08bd2308792ba0d33ab70e.html#a1ba355daed08bd2308792ba0d33ab70e">GetPersonsTypes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a32b103ec4bdbeb158f143afd230d99e8.html#a32b103ec4bdbeb158f143afd230d99e8">OnChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a5b3009cf18a2c9b196f5afa081779a58.html#a5b3009cf18a2c9b196f5afa081779a58">OpenPopup</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aef5400cdc77aa1c0ce58606c38f6a09c.html#aef5400cdc77aa1c0ce58606c38f6a09c">PersonTypesList</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a29b2cb1215efbb2df095a5608f3b5a72.html#a29b2cb1215efbb2df095a5608f3b5a72">ProcessCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a122d86c83bd567325fc732cf8232013a.html#a122d86c83bd567325fc732cf8232013a">RenderControlBody</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aae1095ba18aba32788b7d3291ec9edee.html#aae1095ba18aba32788b7d3291ec9edee">RenderFields</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aebbc65714e39eb7f808ad5a970ce3a67.html#aebbc65714e39eb7f808ad5a970ce3a67">RenderFieldsContainer</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_afa56ba1443fe93fef02d784d1c327291.html#afa56ba1443fe93fef02d784d1c327291">SetPersonTypes</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a29b2cb1215efbb2df095a5608f3b5a72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b2cb1215efbb2df095a5608f3b5a72">&#9670;&nbsp;</a></span>ProcessCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.ProcessCommand </td>
+          <td>(</td>
+          <td class="paramtype">NameValueCollection&#160;</td>
+          <td class="paramname"><em>collection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переопреденная функция обработки событий расширенного поиска и открытия формы сущности, если значение в контроле заполнено </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collection</td><td>Коллекция параметров, переданных с клиента</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяет метод предка <a class="el" href="../../d6/dbe/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_select_a1cef12c33d2f6b136f3866efbf05cf04.html#a1cef12c33d2f6b136f3866efbf05cf04">Kesco.Lib.Web.DBSelect.V4.DBSelect</a>.</p>
+<div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        {</div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">switch</span> (collection[<span class="stringliteral">&quot;cmd&quot;</span>])</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            {</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;search&quot;</span>:</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                    <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a5b3009cf18a2c9b196f5afa081779a58.html#a5b3009cf18a2c9b196f5afa081779a58">OpenPopup</a>(<a class="code" href="../../d1/de5/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_aa41abe6324dde9ef040c3bd5af508c76.html#aa41abe6324dde9ef040c3bd5af508c76">URLAdvancedSearch</a>);</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;clearSelectedItems&quot;</span>:</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                    <span class="comment">//PersonTypesList = new List&lt;PersonType&gt;();</span></div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;setPersonTypes&quot;</span>:</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                    <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_afa56ba1443fe93fef02d784d1c327291.html#afa56ba1443fe93fef02d784d1c327291">SetPersonTypes</a>(collection[<span class="stringliteral">&quot;ptypes&quot;</span>], collection[<span class="stringliteral">&quot;ptheme&quot;</span>], collection[<span class="stringliteral">&quot;type&quot;</span>]);</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;deletePersonTheme&quot;</span>:</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <span class="keywordflow">if</span> (!String.IsNullOrEmpty(collection[<span class="stringliteral">&quot;themeid&quot;</span>]))</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    {</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                        <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aef5400cdc77aa1c0ce58606c38f6a09c.html#aef5400cdc77aa1c0ce58606c38f6a09c">PersonTypesList</a>.RemoveAll(t =&gt; t.ThemeID.Id == collection[<span class="stringliteral">&quot;themeid&quot;</span>]);</div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                        <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aae1095ba18aba32788b7d3291ec9edee.html#aae1095ba18aba32788b7d3291ec9edee">RenderFields</a>();</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    }</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;editPersonTheme&quot;</span>:</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    <span class="keywordflow">if</span> (!String.IsNullOrEmpty(collection[<span class="stringliteral">&quot;themeid&quot;</span>]))</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    {</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                        <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_abdf8d7b5c13c9392e57808869be131f4.html#abdf8d7b5c13c9392e57808869be131f4">GetObjectById</a>(collection[<span class="stringliteral">&quot;themeid&quot;</span>]);</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                    }</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            }</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            base.ProcessCommand(collection);</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ad482015da81923c3240b9231d3b1dc69.html#ad482015da81923c3240b9231d3b1dc69">IsRequired</a> &amp;&amp; <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aef5400cdc77aa1c0ce58606c38f6a09c.html#aef5400cdc77aa1c0ce58606c38f6a09c">PersonTypesList</a>.Count == 0)</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            {</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ab81a8ffc9f7fa4a28ecf39464a315476.html#ab81a8ffc9f7fa4a28ecf39464a315476">JS</a>.Write(<span class="stringliteral">&quot;gi(&#39;{0}_0&#39;).setAttribute(&#39;isRequired&#39;,&#39;{1}&#39;);&quot;</span>, <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_a17d9ea70b1203340b9949708ace75f70.html#a17d9ea70b1203340b9949708ace75f70">HtmlID</a>, 1);</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ab81a8ffc9f7fa4a28ecf39464a315476.html#ab81a8ffc9f7fa4a28ecf39464a315476">JS</a>.Write(<span class="stringliteral">&quot;v4_replaceStyleRequired(gi(&#39;{0}_0&#39;));&quot;</span>, <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_a17d9ea70b1203340b9949708ace75f70.html#a17d9ea70b1203340b9949708ace75f70">HtmlID</a>);</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            }</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ad482015da81923c3240b9231d3b1dc69.html#ad482015da81923c3240b9231d3b1dc69">IsRequired</a> &amp;&amp; <a class="code" href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aef5400cdc77aa1c0ce58606c38f6a09c.html#aef5400cdc77aa1c0ce58606c38f6a09c">PersonTypesList</a>.Count &gt; 0)</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            {</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ab81a8ffc9f7fa4a28ecf39464a315476.html#ab81a8ffc9f7fa4a28ecf39464a315476">JS</a>.Write(<span class="stringliteral">&quot;gi(&#39;{0}_0&#39;).setAttribute(&#39;isRequired&#39;,&#39;{1}&#39;);&quot;</span>, <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_a17d9ea70b1203340b9949708ace75f70.html#a17d9ea70b1203340b9949708ace75f70">HtmlID</a>, 0);</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ab81a8ffc9f7fa4a28ecf39464a315476.html#ab81a8ffc9f7fa4a28ecf39464a315476">JS</a>.Write(<span class="stringliteral">&quot;v4_replaceStyleRequired(gi(&#39;{0}_0&#39;));&quot;</span>, <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_a17d9ea70b1203340b9949708ace75f70.html#a17d9ea70b1203340b9949708ace75f70">HtmlID</a>);</div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            }</div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aef5400cdc77aa1c0ce58606c38f6a09c_html_aef5400cdc77aa1c0ce58606c38f6a09c"><div class="ttname"><a href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aef5400cdc77aa1c0ce58606c38f6a09c.html#aef5400cdc77aa1c0ce58606c38f6a09c">Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.PersonTypesList</a></div><div class="ttdeci">List&lt; PersonType &gt; PersonTypesList</div><div class="ttdoc">Список типов лица </div><div class="ttdef"><b>Definition:</b> DBSPersonDossierThemes.cs:44</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ab81a8ffc9f7fa4a28ecf39464a315476_html_ab81a8ffc9f7fa4a28ecf39464a315476"><div class="ttname"><a href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ab81a8ffc9f7fa4a28ecf39464a315476.html#ab81a8ffc9f7fa4a28ecf39464a315476">Kesco.Lib.Web.Controls.V4.V4Control.JS</a></div><div class="ttdeci">TextWriter JS</div><div class="ttdoc">Коллекция скриптов </div><div class="ttdef"><b>Definition:</b> Control.cs:352</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_aa41abe6324dde9ef040c3bd5af508c76_html_aa41abe6324dde9ef040c3bd5af508c76"><div class="ttname"><a href="../../d1/de5/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_aa41abe6324dde9ef040c3bd5af508c76.html#aa41abe6324dde9ef040c3bd5af508c76">Kesco.Lib.Web.Controls.V4.Select.URLAdvancedSearch</a></div><div class="ttdeci">string URLAdvancedSearch</div><div class="ttdoc">Путь к расширенному поиску сущности </div><div class="ttdef"><b>Definition:</b> Select.cs:1020</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a5b3009cf18a2c9b196f5afa081779a58_html_a5b3009cf18a2c9b196f5afa081779a58"><div class="ttname"><a href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_a5b3009cf18a2c9b196f5afa081779a58.html#a5b3009cf18a2c9b196f5afa081779a58">Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.OpenPopup</a></div><div class="ttdeci">void OpenPopup(string url)</div><div class="ttdef"><b>Definition:</b> DBSPersonDossierThemes.cs:179</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_afa56ba1443fe93fef02d784d1c327291_html_afa56ba1443fe93fef02d784d1c327291"><div class="ttname"><a href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_afa56ba1443fe93fef02d784d1c327291.html#afa56ba1443fe93fef02d784d1c327291">Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.SetPersonTypes</a></div><div class="ttdeci">void SetPersonTypes(string personTypes, string themeID, string types)</div><div class="ttdef"><b>Definition:</b> DBSPersonDossierThemes.cs:206</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ad482015da81923c3240b9231d3b1dc69_html_ad482015da81923c3240b9231d3b1dc69"><div class="ttname"><a href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_ad482015da81923c3240b9231d3b1dc69.html#ad482015da81923c3240b9231d3b1dc69">Kesco.Lib.Web.Controls.V4.V4Control.IsRequired</a></div><div class="ttdeci">bool IsRequired</div><div class="ttdoc">Признак обязательности заполнения </div><div class="ttdef"><b>Definition:</b> Control.cs:406</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aae1095ba18aba32788b7d3291ec9edee_html_aae1095ba18aba32788b7d3291ec9edee"><div class="ttname"><a href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_aae1095ba18aba32788b7d3291ec9edee.html#aae1095ba18aba32788b7d3291ec9edee">Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.RenderFields</a></div><div class="ttdeci">void RenderFields()</div><div class="ttdef"><b>Definition:</b> DBSPersonDossierThemes.cs:90</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_a17d9ea70b1203340b9949708ace75f70_html_a17d9ea70b1203340b9949708ace75f70"><div class="ttname"><a href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_a17d9ea70b1203340b9949708ace75f70.html#a17d9ea70b1203340b9949708ace75f70">Kesco.Lib.Web.Controls.V4.V4Control.HtmlID</a></div><div class="ttdeci">virtual string HtmlID</div><div class="ttdoc">Клиентский ID контрола </div><div class="ttdef"><b>Definition:</b> Control.cs:365</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_abdf8d7b5c13c9392e57808869be131f4_html_abdf8d7b5c13c9392e57808869be131f4"><div class="ttname"><a href="../../d3/da5/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_person_dossier_themes_abdf8d7b5c13c9392e57808869be131f4.html#abdf8d7b5c13c9392e57808869be131f4">Kesco.Lib.Web.DBSelect.V4.DBSPersonDossierThemes.GetObjectById</a></div><div class="ttdeci">override object GetObjectById(string id, string name=&quot;&quot;)</div><div class="ttdoc">Получение темы лица по ID </div><div class="ttdef"><b>Definition:</b> DBSPersonDossierThemes.cs:127</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:17. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

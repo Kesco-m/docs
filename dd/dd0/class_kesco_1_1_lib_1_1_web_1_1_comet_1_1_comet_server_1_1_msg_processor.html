@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Класс Kesco.Lib.Web.Comet.CometServer.MsgProcessor</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="../../d5/d39/namespace_kesco_1_1_lib_1_1_web_1_1_comet.html">Comet</a></li><li class="navelem"><a class="el" href="../../dd/daa/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server.html">CometServer</a></li><li class="navelem"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html">MsgProcessor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="#pri-static-attribs">Закрытые статические данные</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Kesco.Lib.Web.Comet.CometServer.MsgProcessor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс объекта обрабатывающего Long Pooling запросы  
+ <a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a8b9fab8e585147f04aa7e74fe5477ef1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a8b9fab8e585147f04aa7e74fe5477ef1">AddMessage</a> (<a class="el" href="../../dd/d3a/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_message.html">CometMessage</a> m, Predicate&lt; <a class="el" href="../../d1/d65/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_async_state.html">CometAsyncState</a> &gt; filter)</td></tr>
+<tr class="memdesc:a8b9fab8e585147f04aa7e74fe5477ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить сообщение в очередь для клиентов удовлетворяющих заданному условию  <a href="#a8b9fab8e585147f04aa7e74fe5477ef1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8b9fab8e585147f04aa7e74fe5477ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add79dc5cb125acd01789ad5f32ba7b3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#add79dc5cb125acd01789ad5f32ba7b3a">AddMessage</a> (<a class="el" href="../../dd/d3a/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_message.html">CometMessage</a> m, string clientGuid=&quot;&quot;)</td></tr>
+<tr class="memdesc:add79dc5cb125acd01789ad5f32ba7b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить сообщение в очередь для клиентов с указанным guid  <a href="#add79dc5cb125acd01789ad5f32ba7b3a">Подробнее...</a><br /></td></tr>
+<tr class="separator:add79dc5cb125acd01789ad5f32ba7b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51023c8935d9287472f70135cb8b6b82"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a51023c8935d9287472f70135cb8b6b82">Processing</a> (Object obj)</td></tr>
+<tr class="separator:a51023c8935d9287472f70135cb8b6b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f382121a3920e99c2ccc23e277c502d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a7f382121a3920e99c2ccc23e277c502d">TryNow</a> ()</td></tr>
+<tr class="separator:a7f382121a3920e99c2ccc23e277c502d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d6e8799b26af1711ba33b1f46239b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a71d6e8799b26af1711ba33b1f46239b9">Stop</a> ()</td></tr>
+<tr class="separator:a71d6e8799b26af1711ba33b1f46239b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a0ca44ff81a33a535e86d4e2572a1cafd"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a0ca44ff81a33a535e86d4e2572a1cafd">timeout</a> = 60000</td></tr>
+<tr class="separator:a0ca44ff81a33a535e86d4e2572a1cafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Закрытые статические данные</h2></td></tr>
+<tr class="memitem:a80e9bdcadfa07205b9c5457dbc3c1698"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a80e9bdcadfa07205b9c5457dbc3c1698">fStop</a> = false</td></tr>
+<tr class="separator:a80e9bdcadfa07205b9c5457dbc3c1698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157b8b2c5edc16c79110eb7198bfa037"><td class="memItemLeft" align="right" valign="top">static AutoResetEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a157b8b2c5edc16c79110eb7198bfa037">msgEvent</a> = new AutoResetEvent(false)</td></tr>
+<tr class="separator:a157b8b2c5edc16c79110eb7198bfa037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc658751469aa8b7186e473ab89e2bb"><td class="memItemLeft" align="right" valign="top">static AutoResetEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#addc658751469aa8b7186e473ab89e2bb">stopEvent</a> = new AutoResetEvent(false)</td></tr>
+<tr class="separator:addc658751469aa8b7186e473ab89e2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cea0e7746783a7f20fcebf02afd6faf"><td class="memItemLeft" align="right" valign="top">static WaitHandle []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a5cea0e7746783a7f20fcebf02afd6faf">waitHandles</a> = new WaitHandle[] { <a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a157b8b2c5edc16c79110eb7198bfa037">msgEvent</a>, <a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#addc658751469aa8b7186e473ab89e2bb">stopEvent</a> }</td></tr>
+<tr class="separator:a5cea0e7746783a7f20fcebf02afd6faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс объекта обрабатывающего Long Pooling запросы </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00055">55</a></p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a8b9fab8e585147f04aa7e74fe5477ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b9fab8e585147f04aa7e74fe5477ef1">&#9670;&nbsp;</a></span>AddMessage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.Web.Comet.CometServer.MsgProcessor.AddMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d3a/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_message.html">CometMessage</a>&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Predicate&lt; <a class="el" href="../../d1/d65/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_async_state.html">CometAsyncState</a> &gt;&#160;</td>
+          <td class="paramname"><em>filter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Добавить сообщение в очередь для клиентов удовлетворяющих заданному условию </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td></td></tr>
+    <tr><td class="paramname">filter</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00070">70</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00193">Kesco.Lib.Web.Comet.CometServer.PushMessage()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                lock (CometServer.SyncLock)</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    <span class="keywordflow">foreach</span> (CometAsyncState clientState <span class="keywordflow">in</span> CometServer.Connections)</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        <span class="keywordflow">if</span> (filter(clientState))</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        {</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                            clientState.AddMessage(m);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    }</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                }</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="add79dc5cb125acd01789ad5f32ba7b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add79dc5cb125acd01789ad5f32ba7b3a">&#9670;&nbsp;</a></span>AddMessage() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.Web.Comet.CometServer.MsgProcessor.AddMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d3a/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_message.html">CometMessage</a>&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>clientGuid</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Добавить сообщение в очередь для клиентов с указанным guid </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td></td></tr>
+    <tr><td class="paramname">clientGuid</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00089">89</a></p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordflow">if</span> (clientGuid == <span class="stringliteral">&quot;&quot;</span>)</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                {</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    Predicate&lt;CometAsyncState&gt; f = (client) =&gt; { <span class="keywordflow">return</span> clientGuid == <span class="stringliteral">&quot;&quot;</span> || client.ClientGuid == clientGuid; };</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                    <a class="code" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a8b9fab8e585147f04aa7e74fe5477ef1">AddMessage</a>(m, f);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                }</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="keywordflow">else</span></div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    CometAsyncState client = CometServer.Connections.FirstOrDefault(c =&gt; c.ClientGuid == clientGuid);</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <span class="keywordflow">if</span> (client != null)</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        client.AddMessage(m);</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                }</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor_html_a8b9fab8e585147f04aa7e74fe5477ef1"><div class="ttname"><a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a8b9fab8e585147f04aa7e74fe5477ef1">Kesco.Lib.Web.Comet.CometServer.MsgProcessor.AddMessage</a></div><div class="ttdeci">static void AddMessage(CometMessage m, Predicate&lt; CometAsyncState &gt; filter)</div><div class="ttdoc">Добавить сообщение в очередь для клиентов удовлетворяющих заданному условию </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00070">CometServer.cs:70</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a51023c8935d9287472f70135cb8b6b82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51023c8935d9287472f70135cb8b6b82">&#9670;&nbsp;</a></span>Processing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.Web.Comet.CometServer.MsgProcessor.Processing </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00104">104</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00206">Kesco.Lib.Web.Comet.CometServer.Start()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                <span class="keywordflow">while</span> (!<a class="code" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a80e9bdcadfa07205b9c5457dbc3c1698">fStop</a>)</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                    <span class="keywordtype">int</span> result = WaitHandle.WaitAny(<a class="code" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a5cea0e7746783a7f20fcebf02afd6faf">waitHandles</a>, <a class="code" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a0ca44ff81a33a535e86d4e2572a1cafd">timeout</a>);</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                    <span class="keywordflow">if</span> (result == 1)</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                    lock (CometServer.SyncLock)</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                    {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                        <span class="keywordflow">foreach</span> (CometAsyncState clientState <span class="keywordflow">in</span> CometServer.Connections)</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                            clientState.SendMessage(WaitHandle.WaitTimeout == result);</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                        <span class="keywordtype">int</span> before = <a class="code" href="../../dd/daa/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server.html#adb6eaa3084a86c391a0f035103ad1f85">Connections</a>.Count;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                        <a class="code" href="../../dd/daa/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server.html#adb6eaa3084a86c391a0f035103ad1f85">Connections</a>.RemoveAll(</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                            st =&gt; st.Tries &lt; 1 &amp;&amp; (null == st.Messages || st.Messages.Count &lt; 1));</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                        <span class="keywordflow">if</span> (before != <a class="code" href="../../dd/daa/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server.html#adb6eaa3084a86c391a0f035103ad1f85">Connections</a>.Count)</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                        {</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                            StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                            <span class="keywordflow">foreach</span> (CometAsyncState clientState <span class="keywordflow">in</span> CometServer.Connections)</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                            {</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                sb.Append(<span class="stringliteral">&quot; &quot;</span> + clientState.ClientGuid.ToString() + <span class="stringliteral">&quot; &quot;</span> + clientState.Tries.ToString() + <span class="stringliteral">&quot; &quot;</span> + clientState.Start.ToLongTimeString());</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                            }</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                            <span class="comment">/*</span></div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">                            lock (fs)</span></div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">                            {</span></div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">                                byte[] g = new UTF8Encoding(true).GetBytes(Environment.NewLine + &quot;Connections&quot; + CometServer.Connections.Count.ToString() + sb.ToString());</span></div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">                                fs.Write(g, 0, g.Length);</span></div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="comment">                            }</span></div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">                            */</span></div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                        }</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                    }</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                }</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor_html_a5cea0e7746783a7f20fcebf02afd6faf"><div class="ttname"><a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a5cea0e7746783a7f20fcebf02afd6faf">Kesco.Lib.Web.Comet.CometServer.MsgProcessor.waitHandles</a></div><div class="ttdeci">static WaitHandle [] waitHandles</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00063">CometServer.cs:63</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_html_adb6eaa3084a86c391a0f035103ad1f85"><div class="ttname"><a href="../../dd/daa/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server.html#adb6eaa3084a86c391a0f035103ad1f85">Kesco.Lib.Web.Comet.CometServer.Connections</a></div><div class="ttdeci">static List&lt; CometAsyncState &gt; Connections</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00284">CometServer.cs:284</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor_html_a80e9bdcadfa07205b9c5457dbc3c1698"><div class="ttname"><a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a80e9bdcadfa07205b9c5457dbc3c1698">Kesco.Lib.Web.Comet.CometServer.MsgProcessor.fStop</a></div><div class="ttdeci">static bool fStop</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00058">CometServer.cs:58</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor_html_a0ca44ff81a33a535e86d4e2572a1cafd"><div class="ttname"><a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a0ca44ff81a33a535e86d4e2572a1cafd">Kesco.Lib.Web.Comet.CometServer.MsgProcessor.timeout</a></div><div class="ttdeci">const int timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00057">CometServer.cs:57</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a71d6e8799b26af1711ba33b1f46239b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d6e8799b26af1711ba33b1f46239b9">&#9670;&nbsp;</a></span>Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.Web.Comet.CometServer.MsgProcessor.Stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00148">148</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00223">Kesco.Lib.Web.Comet.CometServer.Stop()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            {</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <a class="code" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#addc658751469aa8b7186e473ab89e2bb">stopEvent</a>.Set();</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor_html_addc658751469aa8b7186e473ab89e2bb"><div class="ttname"><a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#addc658751469aa8b7186e473ab89e2bb">Kesco.Lib.Web.Comet.CometServer.MsgProcessor.stopEvent</a></div><div class="ttdeci">static AutoResetEvent stopEvent</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00061">CometServer.cs:61</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7f382121a3920e99c2ccc23e277c502d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f382121a3920e99c2ccc23e277c502d">&#9670;&nbsp;</a></span>TryNow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.Web.Comet.CometServer.MsgProcessor.TryNow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00143">143</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00215">Kesco.Lib.Web.Comet.CometServer.Process()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            {</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <a class="code" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a157b8b2c5edc16c79110eb7198bfa037">msgEvent</a>.Set();</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor_html_a157b8b2c5edc16c79110eb7198bfa037"><div class="ttname"><a href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a157b8b2c5edc16c79110eb7198bfa037">Kesco.Lib.Web.Comet.CometServer.MsgProcessor.msgEvent</a></div><div class="ttdeci">static AutoResetEvent msgEvent</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d16/_comet_server_8cs_source.html#l00060">CometServer.cs:60</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Поля</h2>
+<a id="a80e9bdcadfa07205b9c5457dbc3c1698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e9bdcadfa07205b9c5457dbc3c1698">&#9670;&nbsp;</a></span>fStop</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Web.Comet.CometServer.MsgProcessor.fStop = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00058">58</a></p>
+
+</div>
+</div>
+<a id="a157b8b2c5edc16c79110eb7198bfa037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157b8b2c5edc16c79110eb7198bfa037">&#9670;&nbsp;</a></span>msgEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AutoResetEvent Kesco.Lib.Web.Comet.CometServer.MsgProcessor.msgEvent = new AutoResetEvent(false)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00060">60</a></p>
+
+</div>
+</div>
+<a id="addc658751469aa8b7186e473ab89e2bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc658751469aa8b7186e473ab89e2bb">&#9670;&nbsp;</a></span>stopEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AutoResetEvent Kesco.Lib.Web.Comet.CometServer.MsgProcessor.stopEvent = new AutoResetEvent(false)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00061">61</a></p>
+
+</div>
+</div>
+<a id="a0ca44ff81a33a535e86d4e2572a1cafd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca44ff81a33a535e86d4e2572a1cafd">&#9670;&nbsp;</a></span>timeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Kesco.Lib.Web.Comet.CometServer.MsgProcessor.timeout = 60000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00057">57</a></p>
+
+</div>
+</div>
+<a id="a5cea0e7746783a7f20fcebf02afd6faf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cea0e7746783a7f20fcebf02afd6faf">&#9670;&nbsp;</a></span>waitHandles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WaitHandle [] Kesco.Lib.Web.Comet.CometServer.MsgProcessor.waitHandles = new WaitHandle[] { <a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#a157b8b2c5edc16c79110eb7198bfa037">msgEvent</a>, <a class="el" href="../../dd/dd0/class_kesco_1_1_lib_1_1_web_1_1_comet_1_1_comet_server_1_1_msg_processor.html#addc658751469aa8b7186e473ab89e2bb">stopEvent</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a> строка <a class="el" href="../../d2/d16/_comet_server_8cs_source.html#l00063">63</a></p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Source/WEB_V4/Kesco.Lib.Web.Comet/Kesco.Lib.Web.Comet/<a class="el" href="../../d2/d16/_comet_server_8cs_source.html">CometServer.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:41. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Класс Kesco.Lib.Entities.Persons.PersonBase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
+<a href="#properties">Свойства</a> &#124;
+<a href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Kesco.Lib.Entities.Persons.PersonBase</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс сущности Лицо  
+ <a href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:Kesco.Lib.Entities.Persons.PersonBase:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.png" usemap="#Kesco.Lib.Entities.Persons.PersonBase_map" alt=""/>
+  <map id="Kesco.Lib.Entities.Persons.PersonBase_map" name="Kesco.Lib.Entities.Persons.PersonBase_map">
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html" title="Базовый класс сущности " alt="Kesco.Lib.Entities.Entity" shape="rect" coords="132,0,387,24"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_juridical.html" title="Класс сущности Юридическое лицо " alt="Kesco.Lib.Entities.Persons.PersonJuridical" shape="rect" coords="0,112,255,136"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_natural.html" title="Класс сущности Лицо " alt="Kesco.Lib.Entities.Persons.PersonNatural" shape="rect" coords="265,112,520,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:af60de17485b0ce26980807fb404aae7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#af60de17485b0ce26980807fb404aae7a">PersonBase</a> (string id)</td></tr>
+<tr class="memdesc:af60de17485b0ce26980807fb404aae7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор  <a href="#af60de17485b0ce26980807fb404aae7a">Подробнее...</a><br /></td></tr>
+<tr class="separator:af60de17485b0ce26980807fb404aae7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14c5f34a5c700a9c766536428411926"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#ab14c5f34a5c700a9c766536428411926">PersonBase</a> ()</td></tr>
+<tr class="memdesc:ab14c5f34a5c700a9c766536428411926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор  <a href="#ab14c5f34a5c700a9c766536428411926">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab14c5f34a5c700a9c766536428411926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34f506d51d3dfd7ae16f6d4bfed5c4a"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#ab34f506d51d3dfd7ae16f6d4bfed5c4a">AddPersonEmployes</a> (int? empoyeePersonID, int personID)</td></tr>
+<tr class="memdesc:ab34f506d51d3dfd7ae16f6d4bfed5c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод вызывающий хранимую процедуру Удаления/Создания/Изменения связей лиц  <a href="#ab34f506d51d3dfd7ae16f6d4bfed5c4a">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab34f506d51d3dfd7ae16f6d4bfed5c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d39ea32f22c66044e238e1501e75404"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a9d39ea32f22c66044e238e1501e75404">Load</a> ()</td></tr>
+<tr class="memdesc:a9d39ea32f22c66044e238e1501e75404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод загрузки данных сущности "Лицо"  <a href="#a9d39ea32f22c66044e238e1501e75404">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9d39ea32f22c66044e238e1501e75404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a1593064b6632a9b086c46c6447db2"><td class="memItemLeft" align="right" valign="top">virtual object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#aa6a1593064b6632a9b086c46c6447db2">Create</a> ()</td></tr>
+<tr class="memdesc:aa6a1593064b6632a9b086c46c6447db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод создания сущности лицо  <a href="#aa6a1593064b6632a9b086c46c6447db2">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa6a1593064b6632a9b086c46c6447db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:a8c87000cea9b65e6274cf1c5c46bdfa3 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a8c87000cea9b65e6274cf1c5c46bdfa3">Save</a> (bool evalLoad, List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds=null)</td></tr>
+<tr class="memdesc:a8c87000cea9b65e6274cf1c5c46bdfa3 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохранение сущности  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a8c87000cea9b65e6274cf1c5c46bdfa3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8c87000cea9b65e6274cf1c5c46bdfa3 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72016415c7e0db1f2369fc4ef39e0fb7 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a72016415c7e0db1f2369fc4ef39e0fb7">Delete</a> (bool evalLoad, List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds=null)</td></tr>
+<tr class="memdesc:a72016415c7e0db1f2369fc4ef39e0fb7 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаление сущности  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a72016415c7e0db1f2369fc4ef39e0fb7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a72016415c7e0db1f2369fc4ef39e0fb7 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2904f477f563d12c8ec545df4573740 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af2904f477f563d12c8ec545df4573740">ValueChangedEvent_Invoke</a> (string newVal, string oldVal)</td></tr>
+<tr class="memdesc:af2904f477f563d12c8ec545df4573740 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполяняет действия события ValueChangedEvent  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af2904f477f563d12c8ec545df4573740">Подробнее...</a><br /></td></tr>
+<tr class="separator:af2904f477f563d12c8ec545df4573740 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a8c5bf9d74b26c5f3db800db5d339791d"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html">PersonBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a8c5bf9d74b26c5f3db800db5d339791d">GetPersonsList</a> (DataTable dt)</td></tr>
+<tr class="memdesc:a8c5bf9d74b26c5f3db800db5d339791d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение списка лиц из таблицы данных  <a href="#a8c5bf9d74b26c5f3db800db5d339791d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8c5bf9d74b26c5f3db800db5d339791d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:a02013993829c5d8192d7c038ff7f9202"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a02013993829c5d8192d7c038ff7f9202">TranslateRusToEng</a> (string rusValue)</td></tr>
+<tr class="memdesc:a02013993829c5d8192d7c038ff7f9202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод вызова функции транслитерации с Русского на латиницу в базе  <a href="#a02013993829c5d8192d7c038ff7f9202">Подробнее...</a><br /></td></tr>
+<tr class="separator:a02013993829c5d8192d7c038ff7f9202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f8c38138f71015b66d6ca5d666bbe14"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a0f8c38138f71015b66d6ca5d666bbe14">FillData</a> (DataTable dt)</td></tr>
+<tr class="memdesc:a0f8c38138f71015b66d6ca5d666bbe14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация сущности Лицо на основе таблицы данных  <a href="#a0f8c38138f71015b66d6ca5d666bbe14">Подробнее...</a><br /></td></tr>
+<tr class="separator:a0f8c38138f71015b66d6ca5d666bbe14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:ad70c2b95c253aec72c709fc4d896d05e inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ad70c2b95c253aec72c709fc4d896d05e">Entity</a> ()</td></tr>
+<tr class="memdesc:ad70c2b95c253aec72c709fc4d896d05e inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор базовой сущности  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ad70c2b95c253aec72c709fc4d896d05e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad70c2b95c253aec72c709fc4d896d05e inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17196659d5305852536b06a896e8657 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac17196659d5305852536b06a896e8657">Entity</a> (string id)</td></tr>
+<tr class="memdesc:ac17196659d5305852536b06a896e8657 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор базовой сущности с параметрами  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac17196659d5305852536b06a896e8657">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac17196659d5305852536b06a896e8657 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Свойства</h2></td></tr>
+<tr class="memitem:ac55a0288187e81023051fb13758a48bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#ac55a0288187e81023051fb13758a48bc">Type</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac55a0288187e81023051fb13758a48bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип лица  <a href="#ac55a0288187e81023051fb13758a48bc">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac55a0288187e81023051fb13758a48bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7677d32a3308e7d5f967a5a1bf7aa432"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a7677d32a3308e7d5f967a5a1bf7aa432">BusinessProjectID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7677d32a3308e7d5f967a5a1bf7aa432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код бизнес-проекта  <a href="#a7677d32a3308e7d5f967a5a1bf7aa432">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7677d32a3308e7d5f967a5a1bf7aa432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196286f4487ce160d4d252f48f5bc874"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a196286f4487ce160d4d252f48f5bc874">Cheching</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a196286f4487ce160d4d252f48f5bc874"><td class="mdescLeft">&#160;</td><td class="mdescRight">ВыполнятьПроверкуНаПохожиеЛица  <a href="#a196286f4487ce160d4d252f48f5bc874">Подробнее...</a><br /></td></tr>
+<tr class="separator:a196286f4487ce160d4d252f48f5bc874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07ec2c61cae52efc2929fdae58e259c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#ab07ec2c61cae52efc2929fdae58e259c">NickRL</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab07ec2c61cae52efc2929fdae58e259c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Кличка RL  <a href="#ab07ec2c61cae52efc2929fdae58e259c">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab07ec2c61cae52efc2929fdae58e259c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca05c2e04056e02698f25a1e0f2215c7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#aca05c2e04056e02698f25a1e0f2215c7">NameRL</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aca05c2e04056e02698f25a1e0f2215c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Название RL  <a href="#aca05c2e04056e02698f25a1e0f2215c7">Подробнее...</a><br /></td></tr>
+<tr class="separator:aca05c2e04056e02698f25a1e0f2215c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e09724536385ad8f5b44a587946d6eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a8e09724536385ad8f5b44a587946d6eb">RegionID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8e09724536385ad8f5b44a587946d6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код территории  <a href="#a8e09724536385ad8f5b44a587946d6eb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8e09724536385ad8f5b44a587946d6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11e4964ac8528cf9f70410e8467a2c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#af11e4964ac8528cf9f70410e8467a2c2">IsStateCompany</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af11e4964ac8528cf9f70410e8467a2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ГосОрганизация  <a href="#af11e4964ac8528cf9f70410e8467a2c2">Подробнее...</a><br /></td></tr>
+<tr class="separator:af11e4964ac8528cf9f70410e8467a2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23e4ff6a89afb3424fa9284d604ab40b"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a23e4ff6a89afb3424fa9284d604ab40b">BirthDate</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a23e4ff6a89afb3424fa9284d604ab40b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дата рождения  <a href="#a23e4ff6a89afb3424fa9284d604ab40b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a23e4ff6a89afb3424fa9284d604ab40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ee6be8a329dedae036c839bad37f61"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a84ee6be8a329dedae036c839bad37f61">EndDate</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a84ee6be8a329dedae036c839bad37f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дата окончания  <a href="#a84ee6be8a329dedae036c839bad37f61">Подробнее...</a><br /></td></tr>
+<tr class="separator:a84ee6be8a329dedae036c839bad37f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49bec4be37b6cf60c81f36b4179488b2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a49bec4be37b6cf60c81f36b4179488b2">Note</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a49bec4be37b6cf60c81f36b4179488b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Примечание  <a href="#a49bec4be37b6cf60c81f36b4179488b2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a49bec4be37b6cf60c81f36b4179488b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b9693673617ab4e35fc26b43839617"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#af2b9693673617ab4e35fc26b43839617">Sex</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af2b9693673617ab4e35fc26b43839617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Пол  <a href="#af2b9693673617ab4e35fc26b43839617">Подробнее...</a><br /></td></tr>
+<tr class="separator:af2b9693673617ab4e35fc26b43839617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631ff96d7ec102372e34f9d0f2afef27"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="_dossier_8cs.html#ae1382deb244bdddd9c62fadd26c4f301">Attribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a631ff96d7ec102372e34f9d0f2afef27">PersonAttributes</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a631ff96d7ec102372e34f9d0f2afef27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Атрибуты лица  <a href="#a631ff96d7ec102372e34f9d0f2afef27">Подробнее...</a><br /></td></tr>
+<tr class="separator:a631ff96d7ec102372e34f9d0f2afef27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd0b8f0bbd6a42df33572477484c162"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html">Employee</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a9bd0b8f0bbd6a42df33572477484c162">ResponsibleEmployes</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a9bd0b8f0bbd6a42df33572477484c162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отвественные сотрудники  <a href="#a9bd0b8f0bbd6a42df33572477484c162">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9bd0b8f0bbd6a42df33572477484c162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab38e820a4e20c9be35b1721d2dada0de"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_type.html">PersonType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#ab38e820a4e20c9be35b1721d2dada0de">PersonTypes</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab38e820a4e20c9be35b1721d2dada0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Типы лица  <a href="#ab38e820a4e20c9be35b1721d2dada0de">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab38e820a4e20c9be35b1721d2dada0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ade98f4ecfc3ba1aad1a62e984750c7"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_contacts_1_1_contact.html">Contact</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a4ade98f4ecfc3ba1aad1a62e984750c7">PersonContacts</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4ade98f4ecfc3ba1aad1a62e984750c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контакты лица  <a href="#a4ade98f4ecfc3ba1aad1a62e984750c7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4ade98f4ecfc3ba1aad1a62e984750c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b406c80817a7df8c309f5085f275fa"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_link_1_1_link.html">Link.Link</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a92b406c80817a7df8c309f5085f275fa">PersonLinks</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a92b406c80817a7df8c309f5085f275fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Связи лица  <a href="#a92b406c80817a7df8c309f5085f275fa">Подробнее...</a><br /></td></tr>
+<tr class="separator:a92b406c80817a7df8c309f5085f275fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e91e65cf0bb6d50c3c9c0707ed7a9d"><td class="memItemLeft" align="right" valign="top">sealed override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a90e91e65cf0bb6d50c3c9c0707ed7a9d">CN</a><code> [get]</code></td></tr>
+<tr class="memdesc:a90e91e65cf0bb6d50c3c9c0707ed7a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Строка подключения к БД.  <a href="#a90e91e65cf0bb6d50c3c9c0707ed7a9d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a90e91e65cf0bb6d50c3c9c0707ed7a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b6507bd36fee9bebdd7597847a6ff3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a49b6507bd36fee9bebdd7597847a6ff3">ConnString</a><code> [get]</code></td></tr>
+<tr class="memdesc:a49b6507bd36fee9bebdd7597847a6ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Статическое поле для получения строки подключения  <a href="#a49b6507bd36fee9bebdd7597847a6ff3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a49b6507bd36fee9bebdd7597847a6ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('properties_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Свойства унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:aa29286b090ec7be0dc967c073514d29a inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Unavailable</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa29286b090ec7be0dc967c073514d29a inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность сущности. Удалось по ключу создать экземпляр объекта. false = ok  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa29286b090ec7be0dc967c073514d29a inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d166c745c27f42d9c96e1bc7f621ebb inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a4d166c745c27f42d9c96e1bc7f621ebb">RequiredRefreshInfo</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4d166c745c27f42d9c96e1bc7f621ebb inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Необходимо заново получить данные для закэшированных свойств объекта  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a4d166c745c27f42d9c96e1bc7f621ebb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4d166c745c27f42d9c96e1bc7f621ebb inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5395d4e7d9753f78dbfb281d3a80786 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac5395d4e7d9753f78dbfb281d3a80786">Available</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac5395d4e7d9753f78dbfb281d3a80786 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность сущности. Удалось по ключу создать экземпляр объекта.  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac5395d4e7d9753f78dbfb281d3a80786">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac5395d4e7d9753f78dbfb281d3a80786 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a76df4523b9913e6c91f736174e8bd inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a66a76df4523b9913e6c91f736174e8bd">CN</a><code> [get]</code></td></tr>
+<tr class="memdesc:a66a76df4523b9913e6c91f736174e8bd inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Строка подключения к БД. Обязательно к переопределению для классов подключающихся к БД  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a66a76df4523b9913e6c91f736174e8bd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a66a76df4523b9913e6c91f736174e8bd inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab166d4768d2953e6646d13bd320c0b inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Id</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:adab166d4768d2953e6646d13bd320c0b inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код объекта  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Подробнее...</a><br /></td></tr>
+<tr class="separator:adab166d4768d2953e6646d13bd320c0b inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383c4b9da28d1b2fad3cc1eafcd7dd89 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a383c4b9da28d1b2fad3cc1eafcd7dd89">Name</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a383c4b9da28d1b2fad3cc1eafcd7dd89 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Имя объекта  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a383c4b9da28d1b2fad3cc1eafcd7dd89">Подробнее...</a><br /></td></tr>
+<tr class="separator:a383c4b9da28d1b2fad3cc1eafcd7dd89 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('events_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;События унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:af304c276e111a99483ade098b6cb5fac inherit events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">ValueChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">ValueChangedEvent</a></td></tr>
+<tr class="memdesc:af304c276e111a99483ade098b6cb5fac inherit events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие изменения значения  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">Подробнее...</a><br /></td></tr>
+<tr class="separator:af304c276e111a99483ade098b6cb5fac inherit events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс сущности Лицо </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="af60de17485b0ce26980807fb404aae7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60de17485b0ce26980807fb404aae7a">&#9670;&nbsp;</a></span>PersonBase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Entities.Persons.PersonBase.PersonBase </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID лица</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab14c5f34a5c700a9c766536428411926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14c5f34a5c700a9c766536428411926">&#9670;&nbsp;</a></span>PersonBase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Entities.Persons.PersonBase.PersonBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор </p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ab34f506d51d3dfd7ae16f6d4bfed5c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34f506d51d3dfd7ae16f6d4bfed5c4a">&#9670;&nbsp;</a></span>AddPersonEmployes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">object Kesco.Lib.Entities.Persons.PersonBase.AddPersonEmployes </td>
+          <td>(</td>
+          <td class="paramtype">int?&#160;</td>
+          <td class="paramname"><em>empoyeePersonID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>personID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод вызывающий хранимую процедуру Удаления/Создания/Изменения связей лиц </p>
+
+</div>
+</div>
+<a id="aa6a1593064b6632a9b086c46c6447db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a1593064b6632a9b086c46c6447db2">&#9670;&nbsp;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual object Kesco.Lib.Entities.Persons.PersonBase.Create </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод создания сущности лицо </p>
+
+<p>Переопределяется в <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_juridical.html#afe2d416dbb813911898daee51f746b58">Kesco.Lib.Entities.Persons.PersonJuridical</a> и <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_natural.html#ab826b01eaa1c2640e2c131ec43c7cc7b">Kesco.Lib.Entities.Persons.PersonNatural</a>.</p>
+
+</div>
+</div>
+<a id="a0f8c38138f71015b66d6ca5d666bbe14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f8c38138f71015b66d6ca5d666bbe14">&#9670;&nbsp;</a></span>FillData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Entities.Persons.PersonBase.FillData </td>
+          <td>(</td>
+          <td class="paramtype">DataTable&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Инициализация сущности Лицо на основе таблицы данных </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dt</td><td>Таблица данных места хранения</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяет метод предка <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a622ac5255416c0dc6e62998089c46112">Kesco.Lib.Entities.Entity</a>.</p>
+
+<p>Переопределяется в <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_natural.html#a2a92483c3f7dff77f021769f95de90b3">Kesco.Lib.Entities.Persons.PersonNatural</a>.</p>
+
+</div>
+</div>
+<a id="a8c5bf9d74b26c5f3db800db5d339791d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c5bf9d74b26c5f3db800db5d339791d">&#9670;&nbsp;</a></span>GetPersonsList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html">PersonBase</a>&gt; Kesco.Lib.Entities.Persons.PersonBase.GetPersonsList </td>
+          <td>(</td>
+          <td class="paramtype">DataTable&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Получение списка лиц из таблицы данных </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dt</td><td>Таблица данных лиц</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9d39ea32f22c66044e238e1501e75404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d39ea32f22c66044e238e1501e75404">&#9670;&nbsp;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Entities.Persons.PersonBase.Load </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод загрузки данных сущности "Лицо" </p>
+
+<p>Переопределяет метод предка <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a03943afe95acb2c6eaabe63c06983ae7">Kesco.Lib.Entities.Entity</a>.</p>
+
+<p>Переопределяется в <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_natural.html#a7a04239e89d13658d0dd9c1c15e67641">Kesco.Lib.Entities.Persons.PersonNatural</a> и <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_juridical.html#ab2dc6304656ef66fc5f60033117bdd86">Kesco.Lib.Entities.Persons.PersonJuridical</a>.</p>
+
+</div>
+</div>
+<a id="a02013993829c5d8192d7c038ff7f9202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02013993829c5d8192d7c038ff7f9202">&#9670;&nbsp;</a></span>TranslateRusToEng()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Persons.PersonBase.TranslateRusToEng </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>rusValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод вызова функции транслитерации с Русского на латиницу в базе </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rusValue</td><td>Значение на Русском языке</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Полный список свойств</h2>
+<a id="a23e4ff6a89afb3424fa9284d604ab40b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23e4ff6a89afb3424fa9284d604ab40b">&#9670;&nbsp;</a></span>BirthDate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime Kesco.Lib.Entities.Persons.PersonBase.BirthDate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Дата рождения </p>
+
+</div>
+</div>
+<a id="a7677d32a3308e7d5f967a5a1bf7aa432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7677d32a3308e7d5f967a5a1bf7aa432">&#9670;&nbsp;</a></span>BusinessProjectID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Persons.PersonBase.BusinessProjectID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Код бизнес-проекта </p>
+
+</div>
+</div>
+<a id="a196286f4487ce160d4d252f48f5bc874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196286f4487ce160d4d252f48f5bc874">&#9670;&nbsp;</a></span>Cheching</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Persons.PersonBase.Cheching</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ВыполнятьПроверкуНаПохожиеЛица </p>
+
+</div>
+</div>
+<a id="a90e91e65cf0bb6d50c3c9c0707ed7a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e91e65cf0bb6d50c3c9c0707ed7a9d">&#9670;&nbsp;</a></span>CN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sealed override string Kesco.Lib.Entities.Persons.PersonBase.CN</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Строка подключения к БД. </p>
+
+</div>
+</div>
+<a id="a49b6507bd36fee9bebdd7597847a6ff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b6507bd36fee9bebdd7597847a6ff3">&#9670;&nbsp;</a></span>ConnString</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Persons.PersonBase.ConnString</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Статическое поле для получения строки подключения </p>
+
+</div>
+</div>
+<a id="a84ee6be8a329dedae036c839bad37f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84ee6be8a329dedae036c839bad37f61">&#9670;&nbsp;</a></span>EndDate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime Kesco.Lib.Entities.Persons.PersonBase.EndDate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Дата окончания </p>
+
+</div>
+</div>
+<a id="af11e4964ac8528cf9f70410e8467a2c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af11e4964ac8528cf9f70410e8467a2c2">&#9670;&nbsp;</a></span>IsStateCompany</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Persons.PersonBase.IsStateCompany</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ГосОрганизация </p>
+
+</div>
+</div>
+<a id="aca05c2e04056e02698f25a1e0f2215c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca05c2e04056e02698f25a1e0f2215c7">&#9670;&nbsp;</a></span>NameRL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Persons.PersonBase.NameRL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Название RL </p>
+
+</div>
+</div>
+<a id="ab07ec2c61cae52efc2929fdae58e259c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07ec2c61cae52efc2929fdae58e259c">&#9670;&nbsp;</a></span>NickRL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Persons.PersonBase.NickRL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Кличка RL </p>
+
+</div>
+</div>
+<a id="a49bec4be37b6cf60c81f36b4179488b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49bec4be37b6cf60c81f36b4179488b2">&#9670;&nbsp;</a></span>Note</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Persons.PersonBase.Note</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Примечание </p>
+
+</div>
+</div>
+<a id="a631ff96d7ec102372e34f9d0f2afef27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631ff96d7ec102372e34f9d0f2afef27">&#9670;&nbsp;</a></span>PersonAttributes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="_dossier_8cs.html#ae1382deb244bdddd9c62fadd26c4f301">Attribute</a>&gt; Kesco.Lib.Entities.Persons.PersonBase.PersonAttributes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Атрибуты лица </p>
+
+</div>
+</div>
+<a id="a4ade98f4ecfc3ba1aad1a62e984750c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ade98f4ecfc3ba1aad1a62e984750c7">&#9670;&nbsp;</a></span>PersonContacts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_contacts_1_1_contact.html">Contact</a>&gt; Kesco.Lib.Entities.Persons.PersonBase.PersonContacts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Контакты лица </p>
+
+</div>
+</div>
+<a id="a92b406c80817a7df8c309f5085f275fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b406c80817a7df8c309f5085f275fa">&#9670;&nbsp;</a></span>PersonLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_link_1_1_link.html">Link.Link</a>&gt; Kesco.Lib.Entities.Persons.PersonBase.PersonLinks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Связи лица </p>
+
+</div>
+</div>
+<a id="ab38e820a4e20c9be35b1721d2dada0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab38e820a4e20c9be35b1721d2dada0de">&#9670;&nbsp;</a></span>PersonTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_type.html">PersonType</a>&gt; Kesco.Lib.Entities.Persons.PersonBase.PersonTypes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Типы лица </p>
+
+</div>
+</div>
+<a id="a8e09724536385ad8f5b44a587946d6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e09724536385ad8f5b44a587946d6eb">&#9670;&nbsp;</a></span>RegionID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Persons.PersonBase.RegionID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Код территории </p>
+
+</div>
+</div>
+<a id="a9bd0b8f0bbd6a42df33572477484c162"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd0b8f0bbd6a42df33572477484c162">&#9670;&nbsp;</a></span>ResponsibleEmployes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html">Employee</a>&gt; Kesco.Lib.Entities.Persons.PersonBase.ResponsibleEmployes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Отвественные сотрудники </p>
+
+</div>
+</div>
+<a id="af2b9693673617ab4e35fc26b43839617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2b9693673617ab4e35fc26b43839617">&#9670;&nbsp;</a></span>Sex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Kesco.Lib.Entities.Persons.PersonBase.Sex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Пол </p>
+
+</div>
+</div>
+<a id="ac55a0288187e81023051fb13758a48bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55a0288187e81023051fb13758a48bc">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Persons.PersonBase.Type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Тип лица </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Source/WEB_V4/Kesco.Lib.Entities/Persons/<a class="el" href="_person_base_8cs.html">PersonBase.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib_1_1_entities.html">Entities</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib_1_1_entities_1_1_persons.html">Persons</a></li><li class="navelem"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html">PersonBase</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

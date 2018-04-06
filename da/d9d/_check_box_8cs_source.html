@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Исходный файл Source/WEB_V4/Kesco.Lib.Web.Controls.V4/CheckBox.cs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_4781ae3b1ec0850db8bd10105eacd4d3.html">WEB_V4</a></li><li class="navelem"><a class="el" href="../../dir_7dca8a941fb28335e1583370d3dbcce4.html">Kesco.Lib.Web.Controls.V4</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CheckBox.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../da/d9d/_check_box_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>.IO;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.Lib.Web.Controls.V4</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html">    8</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d4/d01/namespace_check_box.html">CheckBox</a> : <a class="code" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control.html">V4Control</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#af64465787ebdf03bf8cb841bb04a442e">   10</a></span>&#160;        <span class="keyword">private</span> <span class="keywordtype">bool</span> _labelFor = <span class="keyword">true</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#a535abb277fa853580217d6a7e7471123">   15</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> Text { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> LabelFor</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#ac9be18e89f80134367ed018f16769b1f">   21</a></span>&#160;        {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> _labelFor; }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">set</span> { _labelFor = value; }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> Checked</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#ae0e35d954043268f935523f74b49d179">   30</a></span>&#160;        {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> Value.Equals(<span class="stringliteral">&quot;1&quot;</span>); }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keyword">set</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">if</span> (Value.Equals(<span class="stringliteral">&quot;1&quot;</span>) ^ value)</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    SetPropertyChanged(<span class="stringliteral">&quot;Value&quot;</span>);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                Value = value ? <span class="stringliteral">&quot;1&quot;</span> : <span class="stringliteral">&quot;0&quot;</span>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#a663665da4e2bf4b5584b8d82d5b91ffb">   45</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#a663665da4e2bf4b5584b8d82d5b91ffb">Flush</a>()</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            base.Flush();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">if</span> (PropertyChanged.Contains(<span class="stringliteral">&quot;Value&quot;</span>))</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                JS.Write(<span class="stringliteral">&quot;if (gi(&#39;{0}_0&#39;)) gi(&#39;{0}_0&#39;).checked={1};&quot;</span>, HtmlID, Checked ? 1 : 0);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#afbff9269a1e53d898bad0b3f70e8780f">   58</a></span>&#160;        <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#afbff9269a1e53d898bad0b3f70e8780f">RenderControlBody</a>(TextWriter w)</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            w.Write(</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="stringliteral">&quot;&lt;input type=&#39;checkbox&#39; id=&#39;{0}_0&#39; {1} style=&#39;padding-bottom: 3px;&#39; onclick=\&quot;cmd(&#39;ctrl&#39;,&#39;{0}&#39;,&#39;v&#39;,(this.checked?&#39;1&#39;:&#39;0&#39;));\&quot;&quot;</span>,</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                HtmlID, Checked ? <span class="stringliteral">&quot;checked&quot;</span> : <span class="stringliteral">&quot;&quot;</span>);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">if</span> (IsReadOnly || IsDisabled)</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                w.Write(<span class="stringliteral">&quot; disabled=&#39;1&#39;&quot;</span>);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">if</span> (!<span class="keywordtype">string</span>.IsNullOrEmpty(NextControl))</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                w.Write(<span class="stringliteral">&quot; nc=&#39;{0}&#39;&quot;</span>, GetHtmlIdNextControl());</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">if</span> (TabIndex.HasValue)</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                w.Write(<span class="stringliteral">&quot; TabIndex={0} &quot;</span>, TabIndex);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            w.Write(<span class="stringliteral">&quot; onkeydown=&#39;v4cb_keyDown(event)&#39;&quot;</span>);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            w.Write(<span class="stringliteral">&quot; /&gt;&lt;label {0}&gt;{1}&lt;/label&gt;&quot;</span>, LabelFor ? <span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot;for=\&quot;{0}_0\&quot;&quot;</span>, HtmlID) : <span class="stringliteral">&quot;&quot;</span>, Text);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box_html_afbff9269a1e53d898bad0b3f70e8780f"><div class="ttname"><a href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#afbff9269a1e53d898bad0b3f70e8780f">Kesco.Lib.Web.Controls.V4.CheckBox.RenderControlBody</a></div><div class="ttdeci">override void RenderControlBody(TextWriter w)</div><div class="ttdoc">Отрисовка контрола </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9d/_check_box_8cs_source.html#l00058">CheckBox.cs:58</a></div></div>
+<div class="ttc" id="namespace_check_box_html"><div class="ttname"><a href="../../d4/d01/namespace_check_box.html">CheckBox</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control_html"><div class="ttname"><a href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control.html">Kesco.Lib.Web.Controls.V4.V4Control</a></div><div class="ttdoc">Базовый класс всех контролов версии 4 </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d87/_control_8cs_source.html#l00199">Control.cs:199</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="../../d8/dd0/namespace_system.html">System</a></div></div>
+<div class="ttc" id="namespace_kesco_html"><div class="ttname"><a href="../../d2/d2a/namespace_kesco.html">Kesco</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box_html_a663665da4e2bf4b5584b8d82d5b91ffb"><div class="ttname"><a href="../../d8/d4b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_check_box.html#a663665da4e2bf4b5584b8d82d5b91ffb">Kesco.Lib.Web.Controls.V4.CheckBox.Flush</a></div><div class="ttdeci">override void Flush()</div><div class="ttdoc">Отправка клиенту скрипта с изменениями контрола </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9d/_check_box_8cs_source.html#l00045">CheckBox.cs:45</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:36. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

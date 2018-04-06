@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Web.DBSelect.V4.DBSDocument.ProcessCommand</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="../../dd/d85/namespace_kesco_1_1_lib_1_1_web_1_1_d_b_select.html">DBSelect</a></li><li class="navelem"><a class="el" href="../../dd/d4c/namespace_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4.html">V4</a></li><li class="navelem"><a class="el" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document.html">DBSDocument</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a8e824a99cffd2db115a324c46741cb3c.html#a8e824a99cffd2db115a324c46741cb3c">Buyer</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a2c2c82f79639a9f5198a839ee82982e0.html#a2c2c82f79639a9f5198a839ee82982e0">DBSDocument</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a95dd82aa1da387b48f63180846b0b13a.html#a95dd82aa1da387b48f63180846b0b13a">FillSelect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_af2fc2da62a134dff02d81a9ceb7c0f7f.html#af2fc2da62a134dff02d81a9ceb7c0f7f">Filter</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a02487eda8302407f8051ebd90c94559b.html#a02487eda8302407f8051ebd90c94559b">GetDocuments</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a0960cdedf0b54a5adeed56b069c5990e.html#a0960cdedf0b54a5adeed56b069c5990e">GetObjectById</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a9214619eedc5c43a0edd920796284413.html#a9214619eedc5c43a0edd920796284413">OpenDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a1ccc51588086d1e834b3bb99b6482142.html#a1ccc51588086d1e834b3bb99b6482142">ProcessCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a25836047775634de0d2f5616cfde79df.html#a25836047775634de0d2f5616cfde79df">SearchDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_ae6e7194909dcd7d927fc7ce5e2e1cabf.html#ae6e7194909dcd7d927fc7ce5e2e1cabf">Seller</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a1ccc51588086d1e834b3bb99b6482142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ccc51588086d1e834b3bb99b6482142">&#9670;&nbsp;</a></span>ProcessCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Web.DBSelect.V4.DBSDocument.ProcessCommand </td>
+          <td>(</td>
+          <td class="paramtype">NameValueCollection&#160;</td>
+          <td class="paramname"><em>collection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переопреденная функция обработки событий расширенного поиска и открытия формы сущности, если значение в контроле заполнено </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collection</td><td>Коллекция параметров, переданных с клиента</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяет метод предка <a class="el" href="../../d1/de5/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_ad57101077a5f0acac350bfad561c2fc3.html#ad57101077a5f0acac350bfad561c2fc3">Kesco.Lib.Web.Controls.V4.Select</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span> (collection == null) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">switch</span> (collection[<span class="stringliteral">&quot;cmd&quot;</span>])</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            {</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;search&quot;</span>:</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                    <a class="code" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a25836047775634de0d2f5616cfde79df.html#a25836047775634de0d2f5616cfde79df">SearchDoc</a>(<span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot;types={0}&amp;persons={1}&amp;search={2}&quot;</span>,</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                        <a class="code" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_af2fc2da62a134dff02d81a9ceb7c0f7f.html#af2fc2da62a134dff02d81a9ceb7c0f7f">Filter</a>.<a class="code" href="../../dd/d11/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_a0275664eb724f65312857e83d9d914d6.html#a0275664eb724f65312857e83d9d914d6">Type</a>.DocTypeParamsStr,</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                        <a class="code" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_af2fc2da62a134dff02d81a9ceb7c0f7f.html#af2fc2da62a134dff02d81a9ceb7c0f7f">Filter</a>.<a class="code" href="../../dd/d11/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_a848177ac7cadfbd0e41ced6bd2a19ac2.html#a848177ac7cadfbd0e41ced6bd2a19ac2">PersonIDs</a>.DocViewParamsStr,</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                        Regex.Replace(<a class="code" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_af2fc2da62a134dff02d81a9ceb7c0f7f.html#af2fc2da62a134dff02d81a9ceb7c0f7f">Filter</a>.<a class="code" href="../../dd/d11/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_abaf67e9c66af1598ee099e8969987ab3.html#abaf67e9c66af1598ee099e8969987ab3">Name</a>.Value, <span class="stringliteral">@&quot;[^\\?]{0,}[?]&quot;</span>, <span class="keywordtype">string</span>.Empty)));</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;OpenDoc&quot;</span>:</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    <a class="code" href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a9214619eedc5c43a0edd920796284413.html#a9214619eedc5c43a0edd920796284413">OpenDoc</a>(collection[<span class="stringliteral">&quot;id&quot;</span>], <span class="keyword">false</span>);</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                <span class="keywordflow">default</span>:</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                    base.ProcessCommand(collection);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            }</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a25836047775634de0d2f5616cfde79df_html_a25836047775634de0d2f5616cfde79df"><div class="ttname"><a href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a25836047775634de0d2f5616cfde79df.html#a25836047775634de0d2f5616cfde79df">Kesco.Lib.Web.DBSelect.V4.DBSDocument.SearchDoc</a></div><div class="ttdeci">void SearchDoc(string searchParams)</div><div class="ttdoc">Поиск документов Архиве по строке параметров </div><div class="ttdef"><b>Definition:</b> DBSDocument.cs:147</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_a848177ac7cadfbd0e41ced6bd2a19ac2_html_a848177ac7cadfbd0e41ced6bd2a19ac2"><div class="ttname"><a href="../../dd/d11/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_a848177ac7cadfbd0e41ced6bd2a19ac2.html#a848177ac7cadfbd0e41ced6bd2a19ac2">Kesco.Lib.Web.DBSelect.V4.DSO.DSODocument.PersonIDs</a></div><div class="ttdeci">FOptPersonIDs PersonIDs</div><div class="ttdoc">Опция фильтра: ID лиц </div><div class="ttdef"><b>Definition:</b> DSODocument.cs:54</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_abaf67e9c66af1598ee099e8969987ab3_html_abaf67e9c66af1598ee099e8969987ab3"><div class="ttname"><a href="../../dd/d11/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_abaf67e9c66af1598ee099e8969987ab3.html#abaf67e9c66af1598ee099e8969987ab3">Kesco.Lib.Web.DBSelect.V4.DSO.DSODocument.Name</a></div><div class="ttdeci">FOptName Name</div><div class="ttdoc">Опция фильтра: по названию документа </div><div class="ttdef"><b>Definition:</b> DSODocument.cs:44</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a9214619eedc5c43a0edd920796284413_html_a9214619eedc5c43a0edd920796284413"><div class="ttname"><a href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_a9214619eedc5c43a0edd920796284413.html#a9214619eedc5c43a0edd920796284413">Kesco.Lib.Web.DBSelect.V4.DBSDocument.OpenDoc</a></div><div class="ttdeci">void OpenDoc(string id, bool openImage=true)</div><div class="ttdoc">Открытие документа в Архиве </div><div class="ttdef"><b>Definition:</b> DBSDocument.cs:115</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_a0275664eb724f65312857e83d9d914d6_html_a0275664eb724f65312857e83d9d914d6"><div class="ttname"><a href="../../dd/d11/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_document_a0275664eb724f65312857e83d9d914d6.html#a0275664eb724f65312857e83d9d914d6">Kesco.Lib.Web.DBSelect.V4.DSO.DSODocument.Type</a></div><div class="ttdeci">FOptDocType Type</div><div class="ttdoc">Опция фильтра: тип документа </div><div class="ttdef"><b>Definition:</b> DSODocument.cs:59</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_af2fc2da62a134dff02d81a9ceb7c0f7f_html_af2fc2da62a134dff02d81a9ceb7c0f7f"><div class="ttname"><a href="../../d9/d5b/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_document_af2fc2da62a134dff02d81a9ceb7c0f7f.html#af2fc2da62a134dff02d81a9ceb7c0f7f">Kesco.Lib.Web.DBSelect.V4.DBSDocument.Filter</a></div><div class="ttdeci">new DSODocument Filter</div><div class="ttdoc">Дополнительный фильтр по условиям поиска </div><div class="ttdef"><b>Definition:</b> DBSDocument.cs:45</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:17. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

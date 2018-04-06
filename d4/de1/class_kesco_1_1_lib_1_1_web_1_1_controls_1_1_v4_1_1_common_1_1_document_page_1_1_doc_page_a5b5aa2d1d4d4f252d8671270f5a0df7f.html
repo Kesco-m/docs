@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.OnDocumentSaved</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="../../df/d82/namespace_kesco_1_1_lib_1_1_web_1_1_controls.html">Controls</a></li><li class="navelem"><a class="el" href="../../d3/df8/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4.html">V4</a></li><li class="navelem"><a class="el" href="../../d7/da9/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="../../da/d72/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page.html">DocumentPage</a></li><li class="navelem"><a class="el" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page.html">DocPage</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a0cbd4fb33e851028b547c82da328f657.html#a0cbd4fb33e851028b547c82da328f657">_docControlFilters</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aeab5aadd3d340a227e836626b5c82a53.html#aeab5aadd3d340a227e836626b5c82a53">_numberDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a6afb03d0723d2f965b5c150829514ca7.html#a6afb03d0723d2f965b5c150829514ca7">_sb</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ab99148c42812b0ee32bab5f6cfb2bb65.html#ab99148c42812b0ee32bab5f6cfb2bb65">_signsManager</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a469941007f2b695f8c546fcff356ad50.html#a469941007f2b695f8c546fcff356ad50">AddSign</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a63c49286ebd542e0451c7df8cc00740b.html#a63c49286ebd542e0451c7df8cc00740b">AfterSave</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a942c119e015fd210afe09a4d17548135.html#a942c119e015fd210afe09a4d17548135">CbNumberNotExistsChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a451aea30de1d2c68f201b851b81c2378.html#a451aea30de1d2c68f201b851b81c2378">CheckBeforeSave</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a1278e6aeffc9d0ab905c7089b25313d7.html#a1278e6aeffc9d0ab905c7089b25313d7">CheckBeforeSign</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a7040bff25f86d59c1f4f99fc722c220f.html#a7040bff25f86d59c1f4f99fc722c220f">CheckBeforeSign</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a9c896db44aa372b6010d6900bce52df6.html#a9c896db44aa372b6010d6900bce52df6">CheckDocNumber</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a2ec5217d26b83bb0906ebdf23d235156.html#a2ec5217d26b83bb0906ebdf23d235156">CheckForChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a647fd15ef08d3b20d9a6eceea51210f3.html#a647fd15ef08d3b20d9a6eceea51210f3">CheckForRewriting</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ac409c8722d0d4ef3cac674ae7dc2f906.html#ac409c8722d0d4ef3cac674ae7dc2f906">CheckForSimilarity</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a712dffc5352e7e70390246a36a1cca70.html#a712dffc5352e7e70390246a36a1cca70">Collection2Str</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a3cc8257631c031a28320ad47c1d1f3ca.html#a3cc8257631c031a28320ad47c1d1f3ca">Collection2Str</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aa0c2aa9fe6b9e13b108619cbc6246864.html#aa0c2aa9fe6b9e13b108619cbc6246864">CometSyncSigns</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a3385339c03e3be89eae3ccce5506c52d.html#a3385339c03e3be89eae3ccce5506c52d">CopyDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ab271b7d43e553c23ae9aedfbdb419e12.html#ab271b7d43e553c23ae9aedfbdb419e12">CopyDocMethod</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_adaa88932ac4f5f96b48a0d143c1f0e2b.html#adaa88932ac4f5f96b48a0d143c1f0e2b">CurrentPerson</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a4cc2d83e0cc0a32d48844d4ea7a7c8f5.html#a4cc2d83e0cc0a32d48844d4ea7a7c8f5">Doc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a67c6ff349a979a01ee71d1fe7b981f52.html#a67c6ff349a979a01ee71d1fe7b981f52">DocDateReadOnly</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_acfba13b0fc58dfb96bf7808c5e7ad096.html#acfba13b0fc58dfb96bf7808c5e7ad096">Docdir</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a40c3d28e21e38ef1bb9bcc6190f1b062.html#a40c3d28e21e38ef1bb9bcc6190f1b062">DocEditable</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a61c1784d857a8c044945effec5183fe3.html#a61c1784d857a8c044945effec5183fe3">DocId</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a36c8f1e6f63d6502c32cabeb85651e8a.html#a36c8f1e6f63d6502c32cabeb85651e8a">DocNameChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a63196ce4eaa0e0dd5b9f10a71cae8aeb.html#a63196ce4eaa0e0dd5b9f10a71cae8aeb">DocNumberIsCorrect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a08c029db04ee8a20c64c57dacf00d594.html#a08c029db04ee8a20c64c57dacf00d594">DocOnChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aae395f67b812bac4174bc8bfaf611bf2.html#aae395f67b812bac4174bc8bfaf611bf2">DocPage</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a47c09521502c82428f678ee19f8435de.html#a47c09521502c82428f678ee19f8435de">DocSigned</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5d87081e7b07f6f0b3d3a8c1c72fdefe.html#a5d87081e7b07f6f0b3d3a8c1c72fdefe">DocumentInitialization</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aec9c51fbaa310e4abf8db8ab5da5f763.html#aec9c51fbaa310e4abf8db8ab5da5f763">DocumentSave</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a223e8b80376d706e0203df946ff39102.html#a223e8b80376d706e0203df946ff39102">DocumentToControls</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aec06028db48c3dad1852b6f90ac812cd.html#aec06028db48c3dad1852b6f90ac812cd">EndRenderVariablePart</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a3b8a5adf35d60362c5db3216ef9d6289.html#a3b8a5adf35d60362c5db3216ef9d6289">ForseSave</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a608c742e597609168d3131ef4e46e3a4.html#a608c742e597609168d3131ef4e46e3a4">GenerateNumber</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a51ab8c3db8f3c53fcedb496b2853e6ab.html#a51ab8c3db8f3c53fcedb496b2853e6ab">GetControlTypeFilter</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a29e032ddea7d44adffea11d5ee386d49.html#a29e032ddea7d44adffea11d5ee386d49">GeterateTextFromSqlCmd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ae371984ee1c404b369f6412bf1245d8a.html#ae371984ee1c404b369f6412bf1245d8a">GetHelpUrl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a49a89db0d2fa6a5e4b329ce9f91eb6fd.html#a49a89db0d2fa6a5e4b329ce9f91eb6fd">GetLinkedDocsInfo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5ae013b03cb17da35810eda857d5263a.html#a5ae013b03cb17da35810eda857d5263a">GetLocalizationFieldName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ad1fe3ad6c5e51c2e392ed976836bafcb.html#ad1fe3ad6c5e51c2e392ed976836bafcb">GetPageTitle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a95554624f3eee87cb962f57a4610fbec.html#a95554624f3eee87cb962f57a4610fbec">GetPersonsForSimilarCheck</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a09256b608270296ecbd414a194804096.html#a09256b608270296ecbd414a194804096">GetQueryStringIntParameter</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a169b625b8e7b3515a1d98d16c4e128d1.html#a169b625b8e7b3515a1d98d16c4e128d1">GetSettingsLinkedDocsInfo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_adfee0e2446dd140cd7c9da4dfb36bcff.html#adfee0e2446dd140cd7c9da4dfb36bcff">HelpUrl</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_adf2135a5faa1aee54527d7c29cbaaecd.html#adf2135a5faa1aee54527d7c29cbaaecd">HideDocSignDialog</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a4780fce0ca8922a45526c4f20922c0be.html#a4780fce0ca8922a45526c4f20922c0be">InitControls</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a29316a1eaee13fa0771f588f10dd5113.html#a29316a1eaee13fa0771f588f10dd5113">InitFields</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_acbf66da9c14d402080dce45523f32fc9.html#acbf66da9c14d402080dce45523f32fc9">IsInDocView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a6196be15b87242e71ff27e6528f82951.html#a6196be15b87242e71ff27e6528f82951">IsPrintVersion</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a06d3b71dd4b24e13e6af4db3d59fca30.html#a06d3b71dd4b24e13e6af4db3d59fca30">LoadData</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ac154ad1517782eae38a413ee6422846a.html#ac154ad1517782eae38a413ee6422846a">LoadSequelDocs</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a13dca6d1c3d1d28b279ad5d575364b37.html#a13dca6d1c3d1d28b279ad5d575364b37">NextControlAfterNumber</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a7b455fd6d034725d5326ed3e1a197e8d.html#a7b455fd6d034725d5326ed3e1a197e8d">NoSign</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a605f10d82d158ff8d16c8c8dd6dabf40.html#a605f10d82d158ff8d16c8c8dd6dabf40">NumberDocChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a4c1a51c53b470c24a92ddbf9a2b0fec6.html#a4c1a51c53b470c24a92ddbf9a2b0fec6">NumberNotExists</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a732386c74c54f6c94846900cd498a5fe.html#a732386c74c54f6c94846900cd498a5fe">NumberReadOnly</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_af09ab3d9c66d3f3aa740c796efda0d29.html#af09ab3d9c66d3f3aa740c796efda0d29">NumberRequired</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ad0aa9cba1321d1830ae33bcae1c692c7.html#ad0aa9cba1321d1830ae33bcae1c692c7">OnBeforeSave</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ac6c319924c830cb7619c136ec6942f47.html#ac6c319924c830cb7619c136ec6942f47">OnDocDateChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5b5aa2d1d4d4f252d8671270f5a0df7f.html#a5b5aa2d1d4d4f252d8671270f5a0df7f">OnDocumentSaved</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ab81c71bcb5bee29268bb7e414497b317.html#ab81c71bcb5bee29268bb7e414497b317">OnInit</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_afd4d7e76b5cf467971d53ad98fe91cb0.html#afd4d7e76b5cf467971d53ad98fe91cb0">OnSignChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a0d965a276b6893cb753ccf1ebd2d4c43.html#a0d965a276b6893cb753ccf1ebd2d4c43">OpenDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ac241f0c2fda9034936df37b0bb819bb0.html#ac241f0c2fda9034936df37b0bb819bb0">OriginalDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5776e5235254c71b241268af904fbad0.html#a5776e5235254c71b241268af904fbad0">PrepareDocToCopy</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a9333f4a2e57cd592d1621c893bfc4349.html#a9333f4a2e57cd592d1621c893bfc4349">ProcessCommand</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aa1532929da79d3e1414ae1209949fa13.html#aa1532929da79d3e1414ae1209949fa13">RefreshCurrentDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aa66e33f1c55361da550814016c097084.html#aa66e33f1c55361da550814016c097084">RefreshDocTitle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aab847ba04f496b0c4492206ea15d3241.html#aab847ba04f496b0c4492206ea15d3241">RefreshDocument</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_af1c58ab4f2aae780b01c0894c9bb3d81.html#af1c58ab4f2aae780b01c0894c9bb3d81">RefreshNumber</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a1f58f6c327e4053996e74801bd074156.html#a1f58f6c327e4053996e74801bd074156">RefreshrDocNumDateNameRows</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5d4c9049081c5c8e94adda8db62cc6fa.html#a5d4c9049081c5c8e94adda8db62cc6fa">RenderBaseDocsHTML</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a43265d1d74a9d1e1fed7d393f940bd78.html#a43265d1d74a9d1e1fed7d393f940bd78">RenderChangeSignsConfirmDialog</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a764c4d4cbf019ee51478fccfe385de1f.html#a764c4d4cbf019ee51478fccfe385de1f">RenderDocDescription</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a552a0742e1c4f39a6fd49a3b4f6e66f3.html#a552a0742e1c4f39a6fd49a3b4f6e66f3">RenderDocDescription</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aee1388d5b29ba1a9a8fa5767fcb7d71d.html#aee1388d5b29ba1a9a8fa5767fcb7d71d">RenderDocNumDateNameRows</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_acc432c9ebe93dc36ba36173154ba6653.html#acc432c9ebe93dc36ba36173154ba6653">RenderDocTitle</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aedbefd977452f296f4040888e15ecd8e.html#aedbefd977452f296f4040888e15ecd8e">RenderDocumentHeader</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aee80073aaacb0f18cc709e4337270134.html#aee80073aaacb0f18cc709e4337270134">RenderErrors</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ae13a23153b76a005ee39d8c757d9beb9.html#ae13a23153b76a005ee39d8c757d9beb9">RenderLinkDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a26eff4fc3d3354917280ae21bfd9c3fa.html#a26eff4fc3d3354917280ae21bfd9c3fa">RenderLinkedDocsInfo</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a46825f61d58f6db3f1b54af7637cf845.html#a46825f61d58f6db3f1b54af7637cf845">RenderLinkedDocsInfoDetails</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aeab20e64b715e2fdc9b8e9b62149a54c.html#aeab20e64b715e2fdc9b8e9b62149a54c">RenderNumber</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_af2ad918d4624243100f8b01527f40488.html#af2ad918d4624243100f8b01527f40488">RenderNumberContent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_abb813c5daae1c25e321e7b014380423b.html#abb813c5daae1c25e321e7b014380423b">RenderNumberInput</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a7f77b2b3cb62c87d861c9201a5ba14c3.html#a7f77b2b3cb62c87d861c9201a5ba14c3">RenderNumberNotExistsInput</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aa53f3f1b30ccf46de3fc4b9f7a40afd2.html#aa53f3f1b30ccf46de3fc4b9f7a40afd2">SaveDocument</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5660b2ba802eaad2eed06a3add8b6a10.html#a5660b2ba802eaad2eed06a3add8b6a10">SaveDocument</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aa188c54d1152c668895bd9517858f3e6.html#aa188c54d1152c668895bd9517858f3e6">SetControlProperties</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a91979d272ef4a7904387fb54b66c00e5.html#a91979d272ef4a7904387fb54b66c00e5">SetDocMenuButtons</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a0266776e5f0175ef2e7ea4f0807444dc.html#a0266776e5f0175ef2e7ea4f0807444dc">SetGenerateNumber</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a5a7dacd3f53965c47db156435473cde6.html#a5a7dacd3f53965c47db156435473cde6">SetNumberNotExists</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a0dde64d3c270b1f830cf8a01a3a08c27.html#a0dde64d3c270b1f830cf8a01a3a08c27">ShowCopyButton</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_abff0adc7d7ad13532ec830ed55120051.html#abff0adc7d7ad13532ec830ed55120051">ShowDocDate</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_af1869368d058f23e96ffb7037865522a.html#af1869368d058f23e96ffb7037865522a">ShowRefreshButton</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a523cccaaa525d37ce6c8b9aa40e3a555.html#a523cccaaa525d37ce6c8b9aa40e3a555">ShowSaveButton</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ab0a7fd9c77b9bc36225e839a1b6f6bb6.html#ab0a7fd9c77b9bc36225e839a1b6f6bb6">ShowSaveData</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a44b4ffded879169105e220b6b21d50bb.html#a44b4ffded879169105e220b6b21d50bb">SimilarCheckRequired</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a56571d6cfc7d2375712a35b850c42158.html#a56571d6cfc7d2375712a35b850c42158">sParam</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ad76276e399994f4f8f5b6c744a923be7.html#ad76276e399994f4f8f5b6c744a923be7">StartRenderVariablePart</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a6f0d30ea9e4a34cd87019302cd72065c.html#a6f0d30ea9e4a34cd87019302cd72065c">StartRenderVariablePart</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_ac316d6b22240d5e450f00a3c4795ebc1.html#ac316d6b22240d5e450f00a3c4795ebc1">TranslatePageEvent</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a398a956a185a31f710923df5121f6bbc.html#a398a956a185a31f710923df5121f6bbc">txaDocDesc_OnChanged</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a3c096a79c388a6790382525546245da8.html#a3c096a79c388a6790382525546245da8">Url4Reload</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_aca4b4e9f5fc819f4437e1afd0684a8f8.html#aca4b4e9f5fc819f4437e1afd0684a8f8">V4SetFocus</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page_a703b09436f195ca29090f534181735be.html#a703b09436f195ca29090f534181735be">ValidateDocument</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a5b5aa2d1d4d4f252d8671270f5a0df7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5aa2d1d4d4f252d8671270f5a0df7f">&#9670;&nbsp;</a></span>OnDocumentSaved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.OnDocumentSaved </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод срабатывающий после сохранения документа </p>
+<div class="fragment"><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        {</div><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:16. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

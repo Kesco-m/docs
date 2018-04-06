@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Log.XmlTextEncoder.PopulateBuffer</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../d2/de5/namespace_kesco_1_1_lib_1_1_log.html">Log</a></li><li class="navelem"><a class="el" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder.html">XmlTextEncoder</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0.html#a6fb95fe0fb5d4ecbb2dfcee5bf924ec0">_buf</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a9b871f17c7e3a8d43d1d9f320a9293b5.html#a9b871f17c7e3a8d43d1d9f320a9293b5">_filterIllegalChars</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">_source</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_aab0d5379e70371ccc7877a9edc43dcf0.html#aab0d5379e70371ccc7877a9edc43dcf0">Encode</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a123473d0515a4d94d12f41a0829ae24e.html#a123473d0515a4d94d12f41a0829ae24e">Entities</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a70eed1b659545e207ee0324d0228b095.html#a70eed1b659545e207ee0324d0228b095">Peek</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a87fafdb698bba662c6029385945610f5.html#a87fafdb698bba662c6029385945610f5">PopulateBuffer</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_aad5dd820753fa67af0b6e81cfe176174.html#aad5dd820753fa67af0b6e81cfe176174">Read</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6890ecabe381a1b02036de9f001e2cbc.html#a6890ecabe381a1b02036de9f001e2cbc">XmlTextEncoder</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a87fafdb698bba662c6029385945610f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87fafdb698bba662c6029385945610f5">&#9670;&nbsp;</a></span>PopulateBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Log.XmlTextEncoder.PopulateBuffer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">int</span> endSentinel = -1;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">while</span> (<a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0.html#a6fb95fe0fb5d4ecbb2dfcee5bf924ec0">_buf</a>.Count == 0 &amp;&amp; <a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">_source</a>.Peek() != endSentinel)</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="comment">// Strings in .NET are assumed to be UTF-16 encoded [1].</span></div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                var c = (char)<a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">_source</a>.Read();</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//              if (Entities.ContainsKey(c))</span></div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">//              {</span></div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">//                  // Encode all entities defined in the XML spec [2].</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">//                  foreach (var i in Entities[c]) _buf.Enqueue(i);</span></div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">//              }</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">//              else !!!</span></div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="keywordflow">if</span> (!(0x0 &lt;= c &amp;&amp; c &lt;= 0x8) &amp;&amp;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                        c != (<span class="keywordtype">char</span>)0xB &amp;&amp; c != (<span class="keywordtype">char</span>)0xC &amp;&amp; c != 0xFFFE &amp;&amp; c != 0xFFFF &amp;&amp;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                        !(0xE &lt;= c &amp;&amp; c &lt;= 0x1F) &amp;&amp;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                        !(0x7F &lt;= c &amp;&amp; c &lt;= 0x84) &amp;&amp;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                        !(0x86 &lt;= c &amp;&amp; c &lt;= 0x9F) &amp;&amp;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                        !(0xD800 &lt;= c &amp;&amp; c &lt;= 0xDFFF) )</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    <span class="comment">// Allow if the Unicode codepoint is legal in XML [3].</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    <a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0.html#a6fb95fe0fb5d4ecbb2dfcee5bf924ec0">_buf</a>.Enqueue(c);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                }</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<span class="keywordtype">char</span>.IsHighSurrogate(c) &amp;&amp;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                         <a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">_source</a>.Peek() != endSentinel &amp;&amp;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                         <span class="keywordtype">char</span>.IsLowSurrogate((<span class="keywordtype">char</span>)<a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">_source</a>.Peek()))</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="comment">// Allow well-formed surrogate pairs [1].</span></div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    <a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0.html#a6fb95fe0fb5d4ecbb2dfcee5bf924ec0">_buf</a>.Enqueue(c);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    <a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0.html#a6fb95fe0fb5d4ecbb2dfcee5bf924ec0">_buf</a>.Enqueue((<span class="keywordtype">char</span>)<a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">_source</a>.Read());</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                }</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!<a class="code" href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a9b871f17c7e3a8d43d1d9f320a9293b5.html#a9b871f17c7e3a8d43d1d9f320a9293b5">_filterIllegalChars</a>)</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    <span class="comment">// Note that we cannot encode illegal characters as entity</span></div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                    <span class="comment">// references due to the &quot;Legal Character&quot; constraint of</span></div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    <span class="comment">// XML [4]. Nor are they allowed in CDATA sections [5].</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentException(</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        String.Format(<span class="stringliteral">&quot;Illegal character: &#39;{0:X}&#39;&quot;</span>, (<span class="keywordtype">int</span>)c));</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                }</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            }</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a9b871f17c7e3a8d43d1d9f320a9293b5_html_a9b871f17c7e3a8d43d1d9f320a9293b5"><div class="ttname"><a href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a9b871f17c7e3a8d43d1d9f320a9293b5.html#a9b871f17c7e3a8d43d1d9f320a9293b5">Kesco.Lib.Log.XmlTextEncoder._filterIllegalChars</a></div><div class="ttdeci">readonly bool _filterIllegalChars</div><div class="ttdef"><b>Definition:</b> XmlTextEncoder.cs:37</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0_html_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0"><div class="ttname"><a href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a6fb95fe0fb5d4ecbb2dfcee5bf924ec0.html#a6fb95fe0fb5d4ecbb2dfcee5bf924ec0">Kesco.Lib.Log.XmlTextEncoder._buf</a></div><div class="ttdeci">readonly Queue&lt; char &gt; _buf</div><div class="ttdef"><b>Definition:</b> XmlTextEncoder.cs:36</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375_html_a61140193bb313976e140ea8866e10375"><div class="ttname"><a href="../../da/dd5/class_kesco_1_1_lib_1_1_log_1_1_xml_text_encoder_a61140193bb313976e140ea8866e10375.html#a61140193bb313976e140ea8866e10375">Kesco.Lib.Log.XmlTextEncoder._source</a></div><div class="ttdeci">readonly TextReader _source</div><div class="ttdef"><b>Definition:</b> XmlTextEncoder.cs:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:13. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

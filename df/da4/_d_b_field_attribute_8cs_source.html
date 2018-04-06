@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Исходный файл Source/WEB_V4/Kesco.Lib.DALC/DBFieldAttribute.cs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_4781ae3b1ec0850db8bd10105eacd4d3.html">WEB_V4</a></li><li class="navelem"><a class="el" href="../../dir_81b42862ae7ff7e5fe9e382178ac1015.html">Kesco.Lib.DALC</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">DBFieldAttribute.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../df/da4/_d_b_field_attribute_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.Lib.DALC</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html">    8</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html">DBFieldAttribute</a> : <a class="code" href="../../db/da2/namespace_attribute.html">Attribute</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#a68270bdaf6aa6e31a3b29c8dafcdaf90">   10</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#a68270bdaf6aa6e31a3b29c8dafcdaf90">DBFieldAttribute</a>(<span class="keywordtype">string</span> fieldName, <span class="keywordtype">object</span> defaultValue)</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            FieldName = fieldName;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            IsPK = <span class="keyword">true</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            IsUpdateble = <span class="keyword">false</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            IsLinkParent = <span class="keyword">false</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            ParamName = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            DefaultValue = defaultValue;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#aeac69ad487a83967973a99e08af97a1f">   28</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#aeac69ad487a83967973a99e08af97a1f">DBFieldAttribute</a>(<span class="keywordtype">string</span> fieldName, <span class="keywordtype">string</span> paramName = <span class="stringliteral">&quot;&quot;</span>, <span class="keywordtype">bool</span> isUpdateble = <span class="keyword">true</span>, <span class="keywordtype">bool</span> isLinkParent = <span class="keyword">false</span>)</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            FieldName = fieldName;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            IsPK = <span class="keyword">false</span>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            IsUpdateble = isUpdateble;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            IsLinkParent = isLinkParent;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            ParamName = paramName;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            DefaultValue = null;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#ae4ee698fb61b9d764e47f04ec7f5aa3e">   41</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> FieldName { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#ae3e5cf41d2a8005cc80e5b966daf6c61">   46</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> ParamName { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#a2ffbabd17a4a77227654c9bb4d714342">   51</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> IsPK { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#aedb2b3985393c2dd04fed7bae7200f7e">   56</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> IsLinkParent { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#a123c9931f17f39508651400a3472767e">   61</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> IsUpdateble { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#a468d1faade6617282b728faa4f529b02">   66</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> Ordinal { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#ab070fa37248cf18210079f26cdaa2cc2">   71</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">object</span> DefaultValue { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div><div class="ttc" id="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute_html_a68270bdaf6aa6e31a3b29c8dafcdaf90"><div class="ttname"><a href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#a68270bdaf6aa6e31a3b29c8dafcdaf90">Kesco.Lib.DALC.DBFieldAttribute.DBFieldAttribute</a></div><div class="ttdeci">DBFieldAttribute(string fieldName, object defaultValue)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da4/_d_b_field_attribute_8cs_source.html#l00010">DBFieldAttribute.cs:10</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="../../d8/dd0/namespace_system.html">System</a></div></div>
+<div class="ttc" id="namespace_attribute_html"><div class="ttname"><a href="../../db/da2/namespace_attribute.html">Attribute</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute_html_aeac69ad487a83967973a99e08af97a1f"><div class="ttname"><a href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html#aeac69ad487a83967973a99e08af97a1f">Kesco.Lib.DALC.DBFieldAttribute.DBFieldAttribute</a></div><div class="ttdeci">DBFieldAttribute(string fieldName, string paramName=&quot;&quot;, bool isUpdateble=true, bool isLinkParent=false)</div><div class="ttdoc">Конструктор </div><div class="ttdef"><b>Definition:</b> <a href="../../df/da4/_d_b_field_attribute_8cs_source.html#l00028">DBFieldAttribute.cs:28</a></div></div>
+<div class="ttc" id="namespace_kesco_html"><div class="ttname"><a href="../../d2/d2a/namespace_kesco.html">Kesco</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute_html"><div class="ttname"><a href="../../d1/d27/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_field_attribute.html">Kesco.Lib.DALC.DBFieldAttribute</a></div><div class="ttdoc">Класс, реализующий возможность отметки поля класса как поля в таблице БД </div><div class="ttdef"><b>Definition:</b> <a href="../../df/da4/_d_b_field_attribute_8cs_source.html#l00008">DBFieldAttribute.cs:8</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:35. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,2281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Класс Kesco.Lib.Entities.Documents.Document</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="#properties">Свойства</a> &#124;
+<a href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Kesco.Lib.Entities.Documents.Document</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс сущности "Документ"  
+ <a href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:Kesco.Lib.Entities.Documents.Document:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.png" usemap="#Kesco.Lib.Entities.Documents.Document_map" alt=""/>
+  <map id="Kesco.Lib.Entities.Documents.Document_map" name="Kesco.Lib.Entities.Documents.Document_map">
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html" title="Базовый класс сущности " alt="Kesco.Lib.Entities.Entity" shape="rect" coords="0,0,360,24"/>
+<area href="interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable.html" alt="Kesco.Lib.BaseExtention.ICloneable&lt; Document &gt;" shape="rect" coords="370,0,730,24"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_applications_1_1_vacation.html" alt="Kesco.Lib.Entities.Documents.EF.Applications.Vacation" shape="rect" coords="555,112,915,136"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_directions_1_1_direction.html" title="Класс документа Указание на организацию рабочего места " alt="Kesco.Lib.Entities.Documents.EF.Directions.Direction" shape="rect" coords="555,168,915,192"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_dogovora_1_1_dogovor.html" title="Договор (класс также является базовым для приложения к договору) " alt="Kesco.Lib.Entities.Documents.EF.Dogovora.Dogovor" shape="rect" coords="555,224,915,248"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_invoice_1_1_invoice_base.html" title="Базовые элементы Invoice-ов " alt="Kesco.Lib.Entities.Documents.EF.Invoice.InvoiceBase" shape="rect" coords="555,280,915,304"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_m_t_r_1_1_m_t_r_claim.html" title="Документ заявки на МТР " alt="Kesco.Lib.Entities.Documents.EF.MTR.MTRClaim" shape="rect" coords="555,336,915,360"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_my_documents_1_1_my_document.html" alt="Kesco.Lib.Entities.Documents.EF.MyDocuments.MyDocument" shape="rect" coords="555,392,915,416"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_akt_usl.html" title="Документ: Акт выполненных работ, услуг " alt="Kesco.Lib.Entities.Documents.EF.Trade.AktUsl" shape="rect" coords="555,448,915,472"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_claim.html" title="Документ Претензия " alt="Kesco.Lib.Entities.Documents.EF.Trade.Claim" shape="rect" coords="555,504,915,528"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_predoplata.html" title="Документ Предоплата " alt="Kesco.Lib.Entities.Documents.EF.Trade.Predoplata" shape="rect" coords="555,560,915,584"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_schet_factura.html" title="Документ счет-фактура " alt="Kesco.Lib.Entities.Documents.EF.Trade.SchetFactura" shape="rect" coords="555,616,915,640"/>
+<area href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_t_t_n.html" title="Документ Товарно-транспортная накладная " alt="Kesco.Lib.Entities.Documents.EF.Trade.TTN" shape="rect" coords="555,672,915,696"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a648cffacf9a94602dfbef486528d76d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a648cffacf9a94602dfbef486528d76d5">DocSignsClear</a> ()</td></tr>
+<tr class="memdesc:a648cffacf9a94602dfbef486528d76d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обнуление подписи документа и присвоение новой ссылки  <a href="#a648cffacf9a94602dfbef486528d76d5">Подробнее...</a><br /></td></tr>
+<tr class="separator:a648cffacf9a94602dfbef486528d76d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2693325a5e2e58bb91d530ff46bb67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a6b2693325a5e2e58bb91d530ff46bb67">GetSignsFromDb</a> ()</td></tr>
+<tr class="memdesc:a6b2693325a5e2e58bb91d530ff46bb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновить и заново считать подписи документа  <a href="#a6b2693325a5e2e58bb91d530ff46bb67">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6b2693325a5e2e58bb91d530ff46bb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9657bb30b67fcf359e214d7c140f6497"><td class="memItemLeft" align="right" valign="top">DataTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a9657bb30b67fcf359e214d7c140f6497">GetDocSigners</a> ()</td></tr>
+<tr class="memdesc:a9657bb30b67fcf359e214d7c140f6497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить подписантов  <a href="#a9657bb30b67fcf359e214d7c140f6497">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9657bb30b67fcf359e214d7c140f6497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566b13759580120ae73811ace5c2da1a"><td class="memItemLeft" align="right" valign="top">DataTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a566b13759580120ae73811ace5c2da1a">GetDocSigners</a> (int PersonIndex)</td></tr>
+<tr class="memdesc:a566b13759580120ae73811ace5c2da1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить подписантов  <a href="#a566b13759580120ae73811ace5c2da1a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a566b13759580120ae73811ace5c2da1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0104fd254081a8dc8ee0488ac95ef8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_field.html">DocField</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ad0104fd254081a8dc8ee0488ac95ef8e">GetDocField</a> (string key)</td></tr>
+<tr class="memdesc:ad0104fd254081a8dc8ee0488ac95ef8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает поле документа по ключу(таблица ПоляДокументов)  <a href="#ad0104fd254081a8dc8ee0488ac95ef8e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad0104fd254081a8dc8ee0488ac95ef8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9370481d133b699fee1bf34ba5e5d21d"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_kesco_1_1_lib_1_1_entities_1_1_item.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a9370481d133b699fee1bf34ba5e5d21d">GetDocLinksItems</a> (int fieldId)</td></tr>
+<tr class="memdesc:a9370481d133b699fee1bf34ba5e5d21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить связи документа для контрола select  <a href="#a9370481d133b699fee1bf34ba5e5d21d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9370481d133b699fee1bf34ba5e5d21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f76451bbd9a2a23a9eb04bd6627fc5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a92f76451bbd9a2a23a9eb04bd6627fc5">GetBaseDocs</a> (int fieldId)</td></tr>
+<tr class="memdesc:a92f76451bbd9a2a23a9eb04bd6627fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить документы основания  <a href="#a92f76451bbd9a2a23a9eb04bd6627fc5">Подробнее...</a><br /></td></tr>
+<tr class="separator:a92f76451bbd9a2a23a9eb04bd6627fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c57227398c2f17ce23ea598b4d27dd"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a20c57227398c2f17ce23ea598b4d27dd">GetBaseDocsAll</a> ()</td></tr>
+<tr class="memdesc:a20c57227398c2f17ce23ea598b4d27dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить все базовые документы  <a href="#a20c57227398c2f17ce23ea598b4d27dd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a20c57227398c2f17ce23ea598b4d27dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4d4c5c71be318c0eb6d432684835c8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a4f4d4c5c71be318c0eb6d432684835c8">GetBaseDoc</a> (int fieldId)</td></tr>
+<tr class="memdesc:a4f4d4c5c71be318c0eb6d432684835c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить документ основание  <a href="#a4f4d4c5c71be318c0eb6d432684835c8">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4f4d4c5c71be318c0eb6d432684835c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022dc1111de156f6d29defbae2e57af2"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a022dc1111de156f6d29defbae2e57af2">GetBaseDocs</a> (int? fieldId)</td></tr>
+<tr class="memdesc:a022dc1111de156f6d29defbae2e57af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить коллекцию документов  <a href="#a022dc1111de156f6d29defbae2e57af2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a022dc1111de156f6d29defbae2e57af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f42240de1af06f75531b7341f4d0df4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a9f42240de1af06f75531b7341f4d0df4">SetBaseDoc</a> (int fieldId, int baseDocId)</td></tr>
+<tr class="memdesc:a9f42240de1af06f75531b7341f4d0df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить или изменить документ основание  <a href="#a9f42240de1af06f75531b7341f4d0df4">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9f42240de1af06f75531b7341f4d0df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8489e4aac5386cd06cf0131e545d1653"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a8489e4aac5386cd06cf0131e545d1653">AddBaseDoc</a> (string baseDocId, int fieldId)</td></tr>
+<tr class="memdesc:a8489e4aac5386cd06cf0131e545d1653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить базовый документ  <a href="#a8489e4aac5386cd06cf0131e545d1653">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8489e4aac5386cd06cf0131e545d1653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bacb0341aa9ba3e4022cb31db34f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ae2bacb0341aa9ba3e4022cb31db34f1c">RemoveAllBaseDocs</a> (int fieldId)</td></tr>
+<tr class="memdesc:ae2bacb0341aa9ba3e4022cb31db34f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удалить все базовые документы по полю  <a href="#ae2bacb0341aa9ba3e4022cb31db34f1c">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae2bacb0341aa9ba3e4022cb31db34f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1b093fcad81c15cb5279ab60f049de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aee1b093fcad81c15cb5279ab60f049de">RemoveBaseDoc</a> (int docId, int fieldId)</td></tr>
+<tr class="memdesc:aee1b093fcad81c15cb5279ab60f049de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удалить базовый документ  <a href="#aee1b093fcad81c15cb5279ab60f049de">Подробнее...</a><br /></td></tr>
+<tr class="separator:aee1b093fcad81c15cb5279ab60f049de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3e2756eb449ed5a8707485f36862bf"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_kesco_1_1_lib_1_1_entities_1_1_item.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a4c3e2756eb449ed5a8707485f36862bf">GetSequelItems</a> (int fieldId=0)</td></tr>
+<tr class="memdesc:a4c3e2756eb449ed5a8707485f36862bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить вытекающие связи документа для контрола select  <a href="#a4c3e2756eb449ed5a8707485f36862bf">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4c3e2756eb449ed5a8707485f36862bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad01cf17d9392187f513e5b7eb23c97b2"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ad01cf17d9392187f513e5b7eb23c97b2">GetSequelDocs</a> (int fieldId=0)</td></tr>
+<tr class="memdesc:ad01cf17d9392187f513e5b7eb23c97b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить все вытекающие документы  <a href="#ad01cf17d9392187f513e5b7eb23c97b2">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad01cf17d9392187f513e5b7eb23c97b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0325e993d0864fbedfc3e6e18873369"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ad0325e993d0864fbedfc3e6e18873369">GetPersonIndex</a> (string person)</td></tr>
+<tr class="memdesc:ad0325e993d0864fbedfc3e6e18873369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить индекс лица  <a href="#ad0325e993d0864fbedfc3e6e18873369">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad0325e993d0864fbedfc3e6e18873369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ffdc3447fa70f929747f58ce1f476e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ab1ffdc3447fa70f929747f58ce1f476e">Document</a> (string id, bool extendedLoad=true)</td></tr>
+<tr class="memdesc:ab1ffdc3447fa70f929747f58ce1f476e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация объекта Документ по ID  <a href="#ab1ffdc3447fa70f929747f58ce1f476e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab1ffdc3447fa70f929747f58ce1f476e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebeadc51b665708fdea0a5a9b62e6874"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aebeadc51b665708fdea0a5a9b62e6874">LoadDocument</a> (string id, bool extendedLoad)</td></tr>
+<tr class="memdesc:aebeadc51b665708fdea0a5a9b62e6874"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загрузить документ  <a href="#aebeadc51b665708fdea0a5a9b62e6874">Подробнее...</a><br /></td></tr>
+<tr class="separator:aebeadc51b665708fdea0a5a9b62e6874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae58a9c4952b31b9ea88ddd5461859bd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ae58a9c4952b31b9ea88ddd5461859bd8">Document</a> ()</td></tr>
+<tr class="memdesc:ae58a9c4952b31b9ea88ddd5461859bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация объекта Документ  <a href="#ae58a9c4952b31b9ea88ddd5461859bd8">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae58a9c4952b31b9ea88ddd5461859bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7844568b638f286ee57b2266b3505b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ad7844568b638f286ee57b2266b3505b1">FillData</a> (int id)</td></tr>
+<tr class="memdesc:ad7844568b638f286ee57b2266b3505b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод загрузки и заполнения данных сущности "Документ"  <a href="#ad7844568b638f286ee57b2266b3505b1">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad7844568b638f286ee57b2266b3505b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c9381a20dffef238dc4f2d77390cff"><td class="memItemLeft" align="right" valign="top">sealed override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a35c9381a20dffef238dc4f2d77390cff">Load</a> ()</td></tr>
+<tr class="memdesc:a35c9381a20dffef238dc4f2d77390cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод загрузки данных сущности "Документ"  <a href="#a35c9381a20dffef238dc4f2d77390cff">Подробнее...</a><br /></td></tr>
+<tr class="separator:a35c9381a20dffef238dc4f2d77390cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a616afac9496232a8d62db06fdec18b9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a616afac9496232a8d62db06fdec18b9b">Is1SExported</a> ()</td></tr>
+<tr class="memdesc:a616afac9496232a8d62db06fdec18b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак экспорта в 1С  <a href="#a616afac9496232a8d62db06fdec18b9b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a616afac9496232a8d62db06fdec18b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc01f8e5d949d2785d40989ef9aa86e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a8fc01f8e5d949d2785d40989ef9aa86e">IsNoBProject</a> ()</td></tr>
+<tr class="memdesc:a8fc01f8e5d949d2785d40989ef9aa86e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Документ не по проектам холдинга Определяет по количеству лиц по коду документа  <a href="#a8fc01f8e5d949d2785d40989ef9aa86e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8fc01f8e5d949d2785d40989ef9aa86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582417ff4cf0b1005893dc59576d6f0e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a582417ff4cf0b1005893dc59576d6f0e">Save</a> (bool evalLoad, List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds=null)</td></tr>
+<tr class="memdesc:a582417ff4cf0b1005893dc59576d6f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохраняем текущий документ, если новый то Insert если существующий то Update  <a href="#a582417ff4cf0b1005893dc59576d6f0e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a582417ff4cf0b1005893dc59576d6f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf30d22cffc5ddb214473fe6617b93e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#afaf30d22cffc5ddb214473fe6617b93e">Create</a> (List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds)</td></tr>
+<tr class="memdesc:afaf30d22cffc5ddb214473fe6617b93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод создания сущности документ(insert)  <a href="#afaf30d22cffc5ddb214473fe6617b93e">Подробнее...</a><br /></td></tr>
+<tr class="separator:afaf30d22cffc5ddb214473fe6617b93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd38154f09ef7ff8d775211f4840890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a4cd38154f09ef7ff8d775211f4840890">UpdateData</a> (List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds)</td></tr>
+<tr class="memdesc:a4cd38154f09ef7ff8d775211f4840890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод создания сущности документ(update)  <a href="#a4cd38154f09ef7ff8d775211f4840890">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4cd38154f09ef7ff8d775211f4840890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fe1c7cf92738d78bf08262035fc6bc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aa7fe1c7cf92738d78bf08262035fc6bc">GenerateDocumentNumber</a> ()</td></tr>
+<tr class="memdesc:aa7fe1c7cf92738d78bf08262035fc6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сгенирировать номер документа  <a href="#aa7fe1c7cf92738d78bf08262035fc6bc">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa7fe1c7cf92738d78bf08262035fc6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d8f03ebc7fecc74f9eb993fa1f018c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#af7d8f03ebc7fecc74f9eb993fa1f018c">Clone</a> ()</td></tr>
+<tr class="memdesc:af7d8f03ebc7fecc74f9eb993fa1f018c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает новый объект, являющийся копией текущего экземпляра.  <a href="#af7d8f03ebc7fecc74f9eb993fa1f018c">Подробнее...</a><br /></td></tr>
+<tr class="separator:af7d8f03ebc7fecc74f9eb993fa1f018c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28c79ef9be64654b85d441b561e40f4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ad28c79ef9be64654b85d441b561e40f4">CompareToChanges</a> (<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> original)</td></tr>
+<tr class="memdesc:ad28c79ef9be64654b85d441b561e40f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сравнивает первоначальное состояние документа(original) и текущую версию  <a href="#ad28c79ef9be64654b85d441b561e40f4">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad28c79ef9be64654b85d441b561e40f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:a72016415c7e0db1f2369fc4ef39e0fb7 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a72016415c7e0db1f2369fc4ef39e0fb7">Delete</a> (bool evalLoad, List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds=null)</td></tr>
+<tr class="memdesc:a72016415c7e0db1f2369fc4ef39e0fb7 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаление сущности  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a72016415c7e0db1f2369fc4ef39e0fb7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a72016415c7e0db1f2369fc4ef39e0fb7 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2904f477f563d12c8ec545df4573740 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af2904f477f563d12c8ec545df4573740">ValueChangedEvent_Invoke</a> (string newVal, string oldVal)</td></tr>
+<tr class="memdesc:af2904f477f563d12c8ec545df4573740 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполяняет действия события ValueChangedEvent  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af2904f477f563d12c8ec545df4573740">Подробнее...</a><br /></td></tr>
+<tr class="separator:af2904f477f563d12c8ec545df4573740 inherit pub_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable.html">Kesco.Lib.BaseExtention.ICloneable&lt; Document &gt;</a></td></tr>
+<tr class="memitem:a44a9be474bf96d3f71ec222631546e76 inherit pub_methods_interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">new T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable.html#a44a9be474bf96d3f71ec222631546e76">Clone</a> ()</td></tr>
+<tr class="memdesc:a44a9be474bf96d3f71ec222631546e76 inherit pub_methods_interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создает новый объект, являющийся копией текущего экземпляра.  <a href="interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable.html#a44a9be474bf96d3f71ec222631546e76">Подробнее...</a><br /></td></tr>
+<tr class="separator:a44a9be474bf96d3f71ec222631546e76 inherit pub_methods_interface_kesco_1_1_lib_1_1_base_extention_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a7ab17a2020bdf2b0586ff0bebbc805d3"><td class="memItemLeft" align="right" valign="top">static DataTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a7ab17a2020bdf2b0586ff0bebbc805d3">LoadSequelDocs</a> (string _type, string _field, string docId)</td></tr>
+<tr class="memdesc:a7ab17a2020bdf2b0586ff0bebbc805d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загрузить вытекающие документы  <a href="#a7ab17a2020bdf2b0586ff0bebbc805d3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7ab17a2020bdf2b0586ff0bebbc805d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc1bf9840f04bb6eeb985279a000305"><td class="memItemLeft" align="right" valign="top">static D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a6dc1bf9840f04bb6eeb985279a000305">CreateConcrete&lt; D &gt;</a> (<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a0da2fdd25168ed93b4e85b37e9cf0d34">Type</a> type, string id=&quot;&quot;)</td></tr>
+<tr class="memdesc:a6dc1bf9840f04bb6eeb985279a000305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обобщенный метод создания класса на основе его типа  <a href="#a6dc1bf9840f04bb6eeb985279a000305">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6dc1bf9840f04bb6eeb985279a000305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee724bd5d8bcd8411f7c4d76968b5a4e"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aee724bd5d8bcd8411f7c4d76968b5a4e">GetFullDocumentName</a> (<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> doc)</td></tr>
+<tr class="memdesc:aee724bd5d8bcd8411f7c4d76968b5a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение составного имени документа  <a href="#aee724bd5d8bcd8411f7c4d76968b5a4e">Подробнее...</a><br /></td></tr>
+<tr class="separator:aee724bd5d8bcd8411f7c4d76968b5a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b2f3ded73ac8b9b7a41d15c6efb332"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a61b2f3ded73ac8b9b7a41d15c6efb332">GetDocumentsList</a> (string query)</td></tr>
+<tr class="memdesc:a61b2f3ded73ac8b9b7a41d15c6efb332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение списка документов из таблицы данных  <a href="#a61b2f3ded73ac8b9b7a41d15c6efb332">Подробнее...</a><br /></td></tr>
+<tr class="separator:a61b2f3ded73ac8b9b7a41d15c6efb332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b294f623a6616e0f6b7625075590958"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a2b294f623a6616e0f6b7625075590958">SimilarCount</a> (int id, int type, string number, DateTime date, string persons)</td></tr>
+<tr class="memdesc:a2b294f623a6616e0f6b7625075590958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение количества похожих документов  <a href="#a2b294f623a6616e0f6b7625075590958">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2b294f623a6616e0f6b7625075590958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bda83b74a42b684582de6c82ac606b8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a3bda83b74a42b684582de6c82ac606b8">CheckForChanged</a> (int id, ref DateTime dt, out bool hasFinishSign, out bool hasSign, out int usr)</td></tr>
+<tr class="memdesc:a3bda83b74a42b684582de6c82ac606b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка на изменение документа  <a href="#a3bda83b74a42b684582de6c82ac606b8">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3bda83b74a42b684582de6c82ac606b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:abd8d46e7f69b4463e9968f6ff118f5f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#abd8d46e7f69b4463e9968f6ff118f5f1">NumberBind</a> = new <a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a>()</td></tr>
+<tr class="memdesc:abd8d46e7f69b4463e9968f6ff118f5f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Документ основание  <a href="#abd8d46e7f69b4463e9968f6ff118f5f1">Подробнее...</a><br /></td></tr>
+<tr class="separator:abd8d46e7f69b4463e9968f6ff118f5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab933dd94164cf7fa97cc36a28706d3a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ab933dd94164cf7fa97cc36a28706d3a6">DescriptionBinder</a> = new <a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a>()</td></tr>
+<tr class="memdesc:ab933dd94164cf7fa97cc36a28706d3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Байдинг поля "Description"  <a href="#ab933dd94164cf7fa97cc36a28706d3a6">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab933dd94164cf7fa97cc36a28706d3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Свойства</h2></td></tr>
+<tr class="memitem:a90d94b369ed3673bcc63c2404b5a2418"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a90d94b369ed3673bcc63c2404b5a2418">DocId</a><code> [get]</code></td></tr>
+<tr class="memdesc:a90d94b369ed3673bcc63c2404b5a2418"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID. Поле КодДокумента  <a href="#a90d94b369ed3673bcc63c2404b5a2418">Подробнее...</a><br /></td></tr>
+<tr class="separator:a90d94b369ed3673bcc63c2404b5a2418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3cd15b99df2015f5d238390d0266244"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aa3cd15b99df2015f5d238390d0266244">IsNew</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa3cd15b99df2015f5d238390d0266244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак нового документа  <a href="#aa3cd15b99df2015f5d238390d0266244">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa3cd15b99df2015f5d238390d0266244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f5614eb23b095db4370adb910e7e1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ab8f5614eb23b095db4370adb910e7e1e">TypeID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab8f5614eb23b095db4370adb910e7e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код типа документа  <a href="#ab8f5614eb23b095db4370adb910e7e1e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab8f5614eb23b095db4370adb910e7e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0da2fdd25168ed93b4e85b37e9cf0d34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_docs.html#ab2068d8a3c8293f4be757c3971334da6">DocTypeEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a0da2fdd25168ed93b4e85b37e9cf0d34">Type</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0da2fdd25168ed93b4e85b37e9cf0d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип документа Enum  <a href="#a0da2fdd25168ed93b4e85b37e9cf0d34">Подробнее...</a><br /></td></tr>
+<tr class="separator:a0da2fdd25168ed93b4e85b37e9cf0d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5eca56208e7a6b794b716561aec3244"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ac5eca56208e7a6b794b716561aec3244">DocumentName</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac5eca56208e7a6b794b716561aec3244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Название документа  <a href="#ac5eca56208e7a6b794b716561aec3244">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac5eca56208e7a6b794b716561aec3244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037138088f1f2e89c03d767e7dbc9f58"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a037138088f1f2e89c03d767e7dbc9f58">Number</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a037138088f1f2e89c03d767e7dbc9f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Номер документа  <a href="#a037138088f1f2e89c03d767e7dbc9f58">Подробнее...</a><br /></td></tr>
+<tr class="separator:a037138088f1f2e89c03d767e7dbc9f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70c62c2b0e041dd59ffe464d44fff5a"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aa70c62c2b0e041dd59ffe464d44fff5a">Date</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa70c62c2b0e041dd59ffe464d44fff5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дата документа  <a href="#aa70c62c2b0e041dd59ffe464d44fff5a">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa70c62c2b0e041dd59ffe464d44fff5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2636fe2e2f45e366d66c731ef7845367"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a2636fe2e2f45e366d66c731ef7845367">Description</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2636fe2e2f45e366d66c731ef7845367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Описание  <a href="#a2636fe2e2f45e366d66c731ef7845367">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2636fe2e2f45e366d66c731ef7845367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1479f066cbf19c727baa58a7406a43d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a1479f066cbf19c727baa58a7406a43d7">ImageCode</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1479f066cbf19c727baa58a7406a43d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код изображения документа основного  <a href="#a1479f066cbf19c727baa58a7406a43d7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1479f066cbf19c727baa58a7406a43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b14086778bc071912ceb150e928d643"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a8b14086778bc071912ceb150e928d643">NumberInt</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8b14086778bc071912ceb150e928d643"><td class="mdescLeft">&#160;</td><td class="mdescRight">НомерInt  <a href="#a8b14086778bc071912ceb150e928d643">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8b14086778bc071912ceb150e928d643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb9ec7cdc7e8c693c817ce813157e227"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#acb9ec7cdc7e8c693c817ce813157e227">NumberRL</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acb9ec7cdc7e8c693c817ce813157e227"><td class="mdescLeft">&#160;</td><td class="mdescRight">НомерДокументаRL  <a href="#acb9ec7cdc7e8c693c817ce813157e227">Подробнее...</a><br /></td></tr>
+<tr class="separator:acb9ec7cdc7e8c693c817ce813157e227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8920b698dec4661efa9437bfb338c19"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ac8920b698dec4661efa9437bfb338c19">NumberRLReverse</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac8920b698dec4661efa9437bfb338c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">НомерДокументаRLReverse  <a href="#ac8920b698dec4661efa9437bfb338c19">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac8920b698dec4661efa9437bfb338c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b5fe30201871fddb5a70bc8661c1a3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a87b5fe30201871fddb5a70bc8661c1a3">Protected</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a87b5fe30201871fddb5a70bc8661c1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Защищен  <a href="#a87b5fe30201871fddb5a70bc8661c1a3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a87b5fe30201871fddb5a70bc8661c1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2faf7520695c5ad910f9eb85f61473"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a1d2faf7520695c5ad910f9eb85f61473">ChangePersonID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1d2faf7520695c5ad910f9eb85f61473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Изменил  <a href="#a1d2faf7520695c5ad910f9eb85f61473">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1d2faf7520695c5ad910f9eb85f61473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26a284db47317fa29822aaa910bfe798"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a26a284db47317fa29822aaa910bfe798">ChangeDate</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a26a284db47317fa29822aaa910bfe798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дата изменения  <a href="#a26a284db47317fa29822aaa910bfe798">Подробнее...</a><br /></td></tr>
+<tr class="separator:a26a284db47317fa29822aaa910bfe798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d550477bb48eb95174190f40f5e8fb"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a47d550477bb48eb95174190f40f5e8fb">Language</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a47d550477bb48eb95174190f40f5e8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип документа Рус  <a href="#a47d550477bb48eb95174190f40f5e8fb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a47d550477bb48eb95174190f40f5e8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60da0e5cce9938cfb9b0275e4d26a838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document_data.html">DocumentData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a60da0e5cce9938cfb9b0275e4d26a838">DocumentData</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a60da0e5cce9938cfb9b0275e4d26a838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сущность "Документы данные"  <a href="#a60da0e5cce9938cfb9b0275e4d26a838">Подробнее...</a><br /></td></tr>
+<tr class="separator:a60da0e5cce9938cfb9b0275e4d26a838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed8dd26590339121760d31c6a78d544"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a3ed8dd26590339121760d31c6a78d544">DataUnavailable</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3ed8dd26590339121760d31c6a78d544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность "Документы данные"  <a href="#a3ed8dd26590339121760d31c6a78d544">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3ed8dd26590339121760d31c6a78d544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d8d9b45148f16fe52d9ed14fcb6129"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a67d8d9b45148f16fe52d9ed14fcb6129">NumberIsDigital</a><code> [get]</code></td></tr>
+<tr class="memdesc:a67d8d9b45148f16fe52d9ed14fcb6129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Состоит ли номер документа полностью из цифр  <a href="#a67d8d9b45148f16fe52d9ed14fcb6129">Подробнее...</a><br /></td></tr>
+<tr class="separator:a67d8d9b45148f16fe52d9ed14fcb6129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33a5d7a5b88bd6f843ffae7aad69dff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ab33a5d7a5b88bd6f843ffae7aad69dff">IsNumberGenerationAvailable</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab33a5d7a5b88bd6f843ffae7aad69dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность генерации номера документа  <a href="#ab33a5d7a5b88bd6f843ffae7aad69dff">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab33a5d7a5b88bd6f843ffae7aad69dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1da1afa883a1a65cc32b08e15d438f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a2c1da1afa883a1a65cc32b08e15d438f">GenerateNumber</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2c1da1afa883a1a65cc32b08e15d438f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность генерации номера документа  <a href="#a2c1da1afa883a1a65cc32b08e15d438f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2c1da1afa883a1a65cc32b08e15d438f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3d4bd08ce2478a34610761c8c7adf7"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_sign.html">DocSign</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a9c3d4bd08ce2478a34610761c8c7adf7">DocSigns</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9c3d4bd08ce2478a34610761c8c7adf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция всех подписей документа  <a href="#a9c3d4bd08ce2478a34610761c8c7adf7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9c3d4bd08ce2478a34610761c8c7adf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf658b1acb39462a5ebe5b5c494adea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#acdf658b1acb39462a5ebe5b5c494adea">Signed</a><code> [get]</code></td></tr>
+<tr class="memdesc:acdf658b1acb39462a5ebe5b5c494adea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Документ подписан, хотябы один раз  <a href="#acdf658b1acb39462a5ebe5b5c494adea">Подробнее...</a><br /></td></tr>
+<tr class="separator:acdf658b1acb39462a5ebe5b5c494adea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f208911265baaa3ef0d057c813934e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a10f208911265baaa3ef0d057c813934e">Finished</a><code> [get]</code></td></tr>
+<tr class="memdesc:a10f208911265baaa3ef0d057c813934e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Последняя подпись завершено  <a href="#a10f208911265baaa3ef0d057c813934e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a10f208911265baaa3ef0d057c813934e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9562e6dcc3d6a33157e055ad4176d7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_type.html">DocType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#ac9562e6dcc3d6a33157e055ad4176d7d">DocType</a><code> [get]</code></td></tr>
+<tr class="separator:ac9562e6dcc3d6a33157e055ad4176d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57452f474d8b721f94a045c3d7ea2d4f"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_field.html">DocField</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a57452f474d8b721f94a045c3d7ea2d4f">Fields</a><code> [get]</code></td></tr>
+<tr class="memdesc:a57452f474d8b721f94a045c3d7ea2d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Поля документа с ключем по ID  <a href="#a57452f474d8b721f94a045c3d7ea2d4f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a57452f474d8b721f94a045c3d7ea2d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3b4b469c66a98b72b6134e572167f3"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_link.html">DocLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#abc3b4b469c66a98b72b6134e572167f3">BaseDocs</a><code> [get]</code></td></tr>
+<tr class="memdesc:abc3b4b469c66a98b72b6134e572167f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Базовые документы  <a href="#abc3b4b469c66a98b72b6134e572167f3">Подробнее...</a><br /></td></tr>
+<tr class="separator:abc3b4b469c66a98b72b6134e572167f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e96b68025323d3ed412036341ce3f2"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a0da2fdd25168ed93b4e85b37e9cf0d34">Type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a30e96b68025323d3ed412036341ce3f2">DocumentInheritClasses</a><code> [get]</code></td></tr>
+<tr class="memdesc:a30e96b68025323d3ed412036341ce3f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить всех наследников класса <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html" title="Класс сущности &quot;Документ&quot; ">Document</a>  <a href="#a30e96b68025323d3ed412036341ce3f2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a30e96b68025323d3ed412036341ce3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e82a0b4f34eba07f74efe5520f29322"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a2e82a0b4f34eba07f74efe5520f29322">CurrencyScale</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2e82a0b4f34eba07f74efe5520f29322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Точность вывода валют. Кэшируется как свойство документа (для предотвращения доп запросов по ресурсу).  <a href="#a2e82a0b4f34eba07f74efe5520f29322">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2e82a0b4f34eba07f74efe5520f29322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d030501b6b00b6f9efbf661690c86dc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_resources_1_1_currency.html">Resources.Currency</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a6d030501b6b00b6f9efbf661690c86dc">Currency</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6d030501b6b00b6f9efbf661690c86dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Валюта  <a href="#a6d030501b6b00b6f9efbf661690c86dc">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6d030501b6b00b6f9efbf661690c86dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a431f33f544c9d7f8813981a75e29e843"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a431f33f544c9d7f8813981a75e29e843">FullDocName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a431f33f544c9d7f8813981a75e29e843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Составное имя документа  <a href="#a431f33f544c9d7f8813981a75e29e843">Подробнее...</a><br /></td></tr>
+<tr class="separator:a431f33f544c9d7f8813981a75e29e843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e940e002371cdeb01570a06112ed21"><td class="memItemLeft" align="right" valign="top">sealed override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a42e940e002371cdeb01570a06112ed21">CN</a><code> [get]</code></td></tr>
+<tr class="memdesc:a42e940e002371cdeb01570a06112ed21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Строка подключения к БД.  <a href="#a42e940e002371cdeb01570a06112ed21">Подробнее...</a><br /></td></tr>
+<tr class="separator:a42e940e002371cdeb01570a06112ed21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab4e639951cb7c84fbf768a2898b77e4"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#aab4e639951cb7c84fbf768a2898b77e4">ConnString</a><code> [get]</code></td></tr>
+<tr class="memdesc:aab4e639951cb7c84fbf768a2898b77e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Статическое поле для получения строки подключения документа  <a href="#aab4e639951cb7c84fbf768a2898b77e4">Подробнее...</a><br /></td></tr>
+<tr class="separator:aab4e639951cb7c84fbf768a2898b77e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('properties_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Свойства унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:aa29286b090ec7be0dc967c073514d29a inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Unavailable</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa29286b090ec7be0dc967c073514d29a inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность сущности. Удалось по ключу создать экземпляр объекта. false = ok  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa29286b090ec7be0dc967c073514d29a inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d166c745c27f42d9c96e1bc7f621ebb inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a4d166c745c27f42d9c96e1bc7f621ebb">RequiredRefreshInfo</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4d166c745c27f42d9c96e1bc7f621ebb inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Необходимо заново получить данные для закэшированных свойств объекта  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a4d166c745c27f42d9c96e1bc7f621ebb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4d166c745c27f42d9c96e1bc7f621ebb inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5395d4e7d9753f78dbfb281d3a80786 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac5395d4e7d9753f78dbfb281d3a80786">Available</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac5395d4e7d9753f78dbfb281d3a80786 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность сущности. Удалось по ключу создать экземпляр объекта.  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac5395d4e7d9753f78dbfb281d3a80786">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac5395d4e7d9753f78dbfb281d3a80786 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a76df4523b9913e6c91f736174e8bd inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a66a76df4523b9913e6c91f736174e8bd">CN</a><code> [get]</code></td></tr>
+<tr class="memdesc:a66a76df4523b9913e6c91f736174e8bd inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Строка подключения к БД. Обязательно к переопределению для классов подключающихся к БД  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a66a76df4523b9913e6c91f736174e8bd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a66a76df4523b9913e6c91f736174e8bd inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab166d4768d2953e6646d13bd320c0b inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Id</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:adab166d4768d2953e6646d13bd320c0b inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код объекта  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Подробнее...</a><br /></td></tr>
+<tr class="separator:adab166d4768d2953e6646d13bd320c0b inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383c4b9da28d1b2fad3cc1eafcd7dd89 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a383c4b9da28d1b2fad3cc1eafcd7dd89">Name</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a383c4b9da28d1b2fad3cc1eafcd7dd89 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Имя объекта  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a383c4b9da28d1b2fad3cc1eafcd7dd89">Подробнее...</a><br /></td></tr>
+<tr class="separator:a383c4b9da28d1b2fad3cc1eafcd7dd89 inherit properties_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:a622ac5255416c0dc6e62998089c46112 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a622ac5255416c0dc6e62998089c46112">FillData</a> (DataTable dt)</td></tr>
+<tr class="memdesc:a622ac5255416c0dc6e62998089c46112 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод заполнения таблицы с данными сущности  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a622ac5255416c0dc6e62998089c46112">Подробнее...</a><br /></td></tr>
+<tr class="separator:a622ac5255416c0dc6e62998089c46112 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70c2b95c253aec72c709fc4d896d05e inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ad70c2b95c253aec72c709fc4d896d05e">Entity</a> ()</td></tr>
+<tr class="memdesc:ad70c2b95c253aec72c709fc4d896d05e inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор базовой сущности  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ad70c2b95c253aec72c709fc4d896d05e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad70c2b95c253aec72c709fc4d896d05e inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17196659d5305852536b06a896e8657 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac17196659d5305852536b06a896e8657">Entity</a> (string id)</td></tr>
+<tr class="memdesc:ac17196659d5305852536b06a896e8657 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор базовой сущности с параметрами  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac17196659d5305852536b06a896e8657">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac17196659d5305852536b06a896e8657 inherit pro_methods_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('events_class_kesco_1_1_lib_1_1_entities_1_1_entity')"><img src="closed.png" alt="-"/>&#160;События унаследованные от <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Kesco.Lib.Entities.Entity</a></td></tr>
+<tr class="memitem:af304c276e111a99483ade098b6cb5fac inherit events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memItemLeft" align="right" valign="top">ValueChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">ValueChangedEvent</a></td></tr>
+<tr class="memdesc:af304c276e111a99483ade098b6cb5fac inherit events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие изменения значения  <a href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">Подробнее...</a><br /></td></tr>
+<tr class="separator:af304c276e111a99483ade098b6cb5fac inherit events_class_kesco_1_1_lib_1_1_entities_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс сущности "Документ" </p>
+<p>Примеры использования и юнит тесты: Kesco.App.UnitTests.DalcTests.DocumentsTest </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="ab1ffdc3447fa70f929747f58ce1f476e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ffdc3447fa70f929747f58ce1f476e">&#9670;&nbsp;</a></span>Document() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Entities.Documents.Document.Document </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>extendedLoad</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Инициализация объекта Документ по ID </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID документа</td></tr>
+    <tr><td class="paramname">extendedLoad</td><td>Расширенная загрузка данных - подгружать данные из ДокументыДанные в класс <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document_data.html" title="Класс сущности &quot;Документы данные&quot; ">DocumentData</a> Поумолчанию - true, если дополнительные данные не нужны выставляем false, тогда дополнительное обращение к таблице ДокументыДанные не происходит</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae58a9c4952b31b9ea88ddd5461859bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae58a9c4952b31b9ea88ddd5461859bd8">&#9670;&nbsp;</a></span>Document() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Entities.Documents.Document.Document </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Инициализация объекта Документ </p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a8489e4aac5386cd06cf0131e545d1653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8489e4aac5386cd06cf0131e545d1653">&#9670;&nbsp;</a></span>AddBaseDoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.AddBaseDoc </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>baseDocId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Добавить базовый документ </p>
+
+</div>
+</div>
+<a id="a3bda83b74a42b684582de6c82ac606b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bda83b74a42b684582de6c82ac606b8">&#9670;&nbsp;</a></span>CheckForChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Kesco.Lib.Entities.Documents.Document.CheckForChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref DateTime&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out bool&#160;</td>
+          <td class="paramname"><em>hasFinishSign</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out bool&#160;</td>
+          <td class="paramname"><em>hasSign</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int&#160;</td>
+          <td class="paramname"><em>usr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Проверка на изменение документа </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hasFinishSign</td><td></td></tr>
+    <tr><td class="paramname">hasSign</td><td></td></tr>
+    <tr><td class="paramname">id</td><td></td></tr>
+    <tr><td class="paramname">dt</td><td></td></tr>
+    <tr><td class="paramname">usr</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">DetailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af7d8f03ebc7fecc74f9eb993fa1f018c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d8f03ebc7fecc74f9eb993fa1f018c">&#9670;&nbsp;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a> Kesco.Lib.Entities.Documents.Document.Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Создает новый объект, являющийся копией текущего экземпляра. </p>
+
+<p>Переопределяется в <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_m_t_r_1_1_m_t_r_claim.html#a2550bcd295dee1ac002b7a822e3bf5a4">Kesco.Lib.Entities.Documents.EF.MTR.MTRClaim</a>.</p>
+
+</div>
+</div>
+<a id="ad28c79ef9be64654b85d441b561e40f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28c79ef9be64654b85d441b561e40f4">&#9670;&nbsp;</a></span>CompareToChanges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Kesco.Lib.Entities.Documents.Document.CompareToChanges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&#160;</td>
+          <td class="paramname"><em>original</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сравнивает первоначальное состояние документа(original) и текущую версию </p>
+<dl class="section return"><dt>Возвращает</dt><dd>true - документ отличается, false - документ не изменялся </dd></dl>
+
+</div>
+</div>
+<a id="afaf30d22cffc5ddb214473fe6617b93e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf30d22cffc5ddb214473fe6617b93e">&#9670;&nbsp;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.Create </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt;&#160;</td>
+          <td class="paramname"><em>cmds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод создания сущности документ(insert) </p>
+
+</div>
+</div>
+<a id="a6dc1bf9840f04bb6eeb985279a000305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dc1bf9840f04bb6eeb985279a000305">&#9670;&nbsp;</a></span>CreateConcrete&lt; D &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static D Kesco.Lib.Entities.Documents.Document.CreateConcrete&lt; D &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a0da2fdd25168ed93b4e85b37e9cf0d34">Type</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>id</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Обобщенный метод создания класса на основе его типа </p>
+<div class="typeconstraint">
+<dl><dt><b>Согласование типов</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>D</em></td><td>&#160;:</td><td valign="top"><em>Document</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a648cffacf9a94602dfbef486528d76d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648cffacf9a94602dfbef486528d76d5">&#9670;&nbsp;</a></span>DocSignsClear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.DocSignsClear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Обнуление подписи документа и присвоение новой ссылки </p>
+
+</div>
+</div>
+<a id="ad7844568b638f286ee57b2266b3505b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7844568b638f286ee57b2266b3505b1">&#9670;&nbsp;</a></span>FillData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.FillData </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод загрузки и заполнения данных сущности "Документ" </p>
+
+</div>
+</div>
+<a id="aa7fe1c7cf92738d78bf08262035fc6bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7fe1c7cf92738d78bf08262035fc6bc">&#9670;&nbsp;</a></span>GenerateDocumentNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.GenerateDocumentNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Сгенирировать номер документа </p>
+
+</div>
+</div>
+<a id="a4f4d4c5c71be318c0eb6d432684835c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4d4c5c71be318c0eb6d432684835c8">&#9670;&nbsp;</a></span>GetBaseDoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.GetBaseDoc </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить документ основание </p>
+
+</div>
+</div>
+<a id="a92f76451bbd9a2a23a9eb04bd6627fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f76451bbd9a2a23a9eb04bd6627fc5">&#9670;&nbsp;</a></span>GetBaseDocs() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&gt; Kesco.Lib.Entities.Documents.Document.GetBaseDocs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить документы основания </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fieldId</td><td>Id поля</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a022dc1111de156f6d29defbae2e57af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022dc1111de156f6d29defbae2e57af2">&#9670;&nbsp;</a></span>GetBaseDocs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; Kesco.Lib.Entities.Documents.Document.GetBaseDocs </td>
+          <td>(</td>
+          <td class="paramtype">int?&#160;</td>
+          <td class="paramname"><em>fieldId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить коллекцию документов </p>
+
+</div>
+</div>
+<a id="a20c57227398c2f17ce23ea598b4d27dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20c57227398c2f17ce23ea598b4d27dd">&#9670;&nbsp;</a></span>GetBaseDocsAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&gt; Kesco.Lib.Entities.Documents.Document.GetBaseDocsAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить все базовые документы </p>
+<dl class="section return"><dt>Возвращает</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad0104fd254081a8dc8ee0488ac95ef8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0104fd254081a8dc8ee0488ac95ef8e">&#9670;&nbsp;</a></span>GetDocField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_field.html">DocField</a> Kesco.Lib.Entities.Documents.Document.GetDocField </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получает поле документа по ключу(таблица ПоляДокументов) </p>
+
+</div>
+</div>
+<a id="a9370481d133b699fee1bf34ba5e5d21d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9370481d133b699fee1bf34ba5e5d21d">&#9670;&nbsp;</a></span>GetDocLinksItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_kesco_1_1_lib_1_1_entities_1_1_item.html">Item</a>&gt; Kesco.Lib.Entities.Documents.Document.GetDocLinksItems </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить связи документа для контрола select </p>
+
+</div>
+</div>
+<a id="a9657bb30b67fcf359e214d7c140f6497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9657bb30b67fcf359e214d7c140f6497">&#9670;&nbsp;</a></span>GetDocSigners() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataTable Kesco.Lib.Entities.Documents.Document.GetDocSigners </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить подписантов </p>
+
+</div>
+</div>
+<a id="a566b13759580120ae73811ace5c2da1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566b13759580120ae73811ace5c2da1a">&#9670;&nbsp;</a></span>GetDocSigners() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataTable Kesco.Lib.Entities.Documents.Document.GetDocSigners </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>PersonIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить подписантов </p>
+<p>summary&gt; ТипДокумента /summary&gt; </p>
+
+</div>
+</div>
+<a id="a61b2f3ded73ac8b9b7a41d15c6efb332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b2f3ded73ac8b9b7a41d15c6efb332">&#9670;&nbsp;</a></span>GetDocumentsList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&gt; Kesco.Lib.Entities.Documents.Document.GetDocumentsList </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>query</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Получение списка документов из таблицы данных </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">query</td><td>Запрос на множество строк <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html" title="Класс сущности &quot;Документ&quot; ">Document</a></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee724bd5d8bcd8411f7c4d76968b5a4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee724bd5d8bcd8411f7c4d76968b5a4e">&#9670;&nbsp;</a></span>GetFullDocumentName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string Kesco.Lib.Entities.Documents.Document.GetFullDocumentName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&#160;</td>
+          <td class="paramname"><em>doc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Получение составного имени документа </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">doc</td><td>Документ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Имя документа</dd></dl>
+
+</div>
+</div>
+<a id="ad0325e993d0864fbedfc3e6e18873369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0325e993d0864fbedfc3e6e18873369">&#9670;&nbsp;</a></span>GetPersonIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.GetPersonIndex </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>person</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить индекс лица </p>
+
+</div>
+</div>
+<a id="ad01cf17d9392187f513e5b7eb23c97b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad01cf17d9392187f513e5b7eb23c97b2">&#9670;&nbsp;</a></span>GetSequelDocs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a>&gt; Kesco.Lib.Entities.Documents.Document.GetSequelDocs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить все вытекающие документы </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fieldId</td><td>вызов без параметра получаем все вытекающие</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4c3e2756eb449ed5a8707485f36862bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3e2756eb449ed5a8707485f36862bf">&#9670;&nbsp;</a></span>GetSequelItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_kesco_1_1_lib_1_1_entities_1_1_item.html">Item</a>&gt; Kesco.Lib.Entities.Documents.Document.GetSequelItems </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить вытекающие связи документа для контрола select </p>
+
+</div>
+</div>
+<a id="a6b2693325a5e2e58bb91d530ff46bb67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b2693325a5e2e58bb91d530ff46bb67">&#9670;&nbsp;</a></span>GetSignsFromDb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.GetSignsFromDb </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Обновить и заново считать подписи документа </p>
+
+</div>
+</div>
+<a id="a616afac9496232a8d62db06fdec18b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616afac9496232a8d62db06fdec18b9b">&#9670;&nbsp;</a></span>Is1SExported()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.Is1SExported </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Признак экспорта в 1С </p>
+
+</div>
+</div>
+<a id="a8fc01f8e5d949d2785d40989ef9aa86e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc01f8e5d949d2785d40989ef9aa86e">&#9670;&nbsp;</a></span>IsNoBProject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.IsNoBProject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Документ не по проектам холдинга Определяет по количеству лиц по коду документа </p>
+<p>Тяжелый запрос, проверяется </p>
+
+</div>
+</div>
+<a id="a35c9381a20dffef238dc4f2d77390cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c9381a20dffef238dc4f2d77390cff">&#9670;&nbsp;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sealed override void Kesco.Lib.Entities.Documents.Document.Load </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод загрузки данных сущности "Документ" </p>
+
+<p>Переопределяет метод предка <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a03943afe95acb2c6eaabe63c06983ae7">Kesco.Lib.Entities.Entity</a>.</p>
+
+</div>
+</div>
+<a id="aebeadc51b665708fdea0a5a9b62e6874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebeadc51b665708fdea0a5a9b62e6874">&#9670;&nbsp;</a></span>LoadDocument()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.LoadDocument </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>extendedLoad</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Загрузить документ </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID документа</td></tr>
+    <tr><td class="paramname">extendedLoad</td><td>Расширенная загрузка данных - подгружать данные из ДокументыДанные в класс <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document_data.html" title="Класс сущности &quot;Документы данные&quot; ">DocumentData</a> Поумолчанию - true, если дополнительные данные не нужны выставляем false, тогда дополнительное обращение к таблице ДокументыДанные не происходит</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7ab17a2020bdf2b0586ff0bebbc805d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab17a2020bdf2b0586ff0bebbc805d3">&#9670;&nbsp;</a></span>LoadSequelDocs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DataTable Kesco.Lib.Entities.Documents.Document.LoadSequelDocs </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>docId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Загрузить вытекающие документы </p>
+
+</div>
+</div>
+<a id="ae2bacb0341aa9ba3e4022cb31db34f1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2bacb0341aa9ba3e4022cb31db34f1c">&#9670;&nbsp;</a></span>RemoveAllBaseDocs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.RemoveAllBaseDocs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удалить все базовые документы по полю </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fieldId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee1b093fcad81c15cb5279ab60f049de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee1b093fcad81c15cb5279ab60f049de">&#9670;&nbsp;</a></span>RemoveBaseDoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.RemoveBaseDoc </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>docId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удалить базовый документ </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">docId</td><td></td></tr>
+    <tr><td class="paramname">fieldId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a582417ff4cf0b1005893dc59576d6f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582417ff4cf0b1005893dc59576d6f0e">&#9670;&nbsp;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Entities.Documents.Document.Save </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>evalLoad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt;&#160;</td>
+          <td class="paramname"><em>cmds</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сохраняем текущий документ, если новый то Insert если существующий то Update </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">evalLoad</td><td>Выполнить повторную загрузку</td></tr>
+    <tr><td class="paramname">cmds</td><td>Объект sql-команд для анализа запроса</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяет метод предка <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a8c87000cea9b65e6274cf1c5c46bdfa3">Kesco.Lib.Entities.Entity</a>.</p>
+
+<p>Переопределяется в <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_m_t_r_1_1_m_t_r_claim.html#a21cbf01dbee1c992c8b2401599ac05ba">Kesco.Lib.Entities.Documents.EF.MTR.MTRClaim</a>.</p>
+
+</div>
+</div>
+<a id="a9f42240de1af06f75531b7341f4d0df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f42240de1af06f75531b7341f4d0df4">&#9670;&nbsp;</a></span>SetBaseDoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.SetBaseDoc </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fieldId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>baseDocId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить или изменить документ основание </p>
+
+</div>
+</div>
+<a id="a2b294f623a6616e0f6b7625075590958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b294f623a6616e0f6b7625075590958">&#9670;&nbsp;</a></span>SimilarCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int Kesco.Lib.Entities.Documents.Document.SimilarCount </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>persons</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Получение количества похожих документов </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td></td></tr>
+    <tr><td class="paramname">type</td><td></td></tr>
+    <tr><td class="paramname">number</td><td></td></tr>
+    <tr><td class="paramname">date</td><td></td></tr>
+    <tr><td class="paramname">persons</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4cd38154f09ef7ff8d775211f4840890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cd38154f09ef7ff8d775211f4840890">&#9670;&nbsp;</a></span>UpdateData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.Document.UpdateData </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt;&#160;</td>
+          <td class="paramname"><em>cmds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод создания сущности документ(update) </p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="ab933dd94164cf7fa97cc36a28706d3a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab933dd94164cf7fa97cc36a28706d3a6">&#9670;&nbsp;</a></span>DescriptionBinder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a> Kesco.Lib.Entities.Documents.Document.DescriptionBinder = new <a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Байдинг поля "Description" </p>
+
+</div>
+</div>
+<a id="abd8d46e7f69b4463e9968f6ff118f5f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd8d46e7f69b4463e9968f6ff118f5f1">&#9670;&nbsp;</a></span>NumberBind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a> Kesco.Lib.Entities.Documents.Document.NumberBind = new <a class="el" href="class_kesco_1_1_lib_1_1_base_extention_1_1_bind_models_1_1_binder_value.html">BinderValue</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Документ основание </p>
+
+</div>
+</div>
+<h2 class="groupheader">Полный список свойств</h2>
+<a id="abc3b4b469c66a98b72b6134e572167f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc3b4b469c66a98b72b6134e572167f3">&#9670;&nbsp;</a></span>BaseDocs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_link.html">DocLink</a>&gt; Kesco.Lib.Entities.Documents.Document.BaseDocs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Базовые документы </p>
+
+</div>
+</div>
+<a id="a26a284db47317fa29822aaa910bfe798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a284db47317fa29822aaa910bfe798">&#9670;&nbsp;</a></span>ChangeDate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime Kesco.Lib.Entities.Documents.Document.ChangeDate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Дата изменения </p>
+
+</div>
+</div>
+<a id="a1d2faf7520695c5ad910f9eb85f61473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2faf7520695c5ad910f9eb85f61473">&#9670;&nbsp;</a></span>ChangePersonID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.ChangePersonID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Изменил </p>
+
+</div>
+</div>
+<a id="a42e940e002371cdeb01570a06112ed21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e940e002371cdeb01570a06112ed21">&#9670;&nbsp;</a></span>CN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sealed override string Kesco.Lib.Entities.Documents.Document.CN</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Строка подключения к БД. </p>
+
+</div>
+</div>
+<a id="aab4e639951cb7c84fbf768a2898b77e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab4e639951cb7c84fbf768a2898b77e4">&#9670;&nbsp;</a></span>ConnString</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.ConnString</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Статическое поле для получения строки подключения документа </p>
+
+</div>
+</div>
+<a id="a6d030501b6b00b6f9efbf661690c86dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d030501b6b00b6f9efbf661690c86dc">&#9670;&nbsp;</a></span>Currency</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_resources_1_1_currency.html">Resources.Currency</a> Kesco.Lib.Entities.Documents.Document.Currency</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Валюта </p>
+
+</div>
+</div>
+<a id="a2e82a0b4f34eba07f74efe5520f29322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e82a0b4f34eba07f74efe5520f29322">&#9670;&nbsp;</a></span>CurrencyScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.CurrencyScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Точность вывода валют. Кэшируется как свойство документа (для предотвращения доп запросов по ресурсу). </p>
+
+</div>
+</div>
+<a id="a3ed8dd26590339121760d31c6a78d544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed8dd26590339121760d31c6a78d544">&#9670;&nbsp;</a></span>DataUnavailable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.DataUnavailable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доступность "Документы данные" </p>
+<p>Недоступность</p>
+
+</div>
+</div>
+<a id="aa70c62c2b0e041dd59ffe464d44fff5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70c62c2b0e041dd59ffe464d44fff5a">&#9670;&nbsp;</a></span>Date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime Kesco.Lib.Entities.Documents.Document.Date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Дата документа </p>
+
+</div>
+</div>
+<a id="a2636fe2e2f45e366d66c731ef7845367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2636fe2e2f45e366d66c731ef7845367">&#9670;&nbsp;</a></span>Description</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.Description</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Описание </p>
+
+</div>
+</div>
+<a id="a90d94b369ed3673bcc63c2404b5a2418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d94b369ed3673bcc63c2404b5a2418">&#9670;&nbsp;</a></span>DocId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.DocId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ID. Поле КодДокумента </p>
+<p>Типизированный псевданим для ID </p>
+
+</div>
+</div>
+<a id="a9c3d4bd08ce2478a34610761c8c7adf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c3d4bd08ce2478a34610761c8c7adf7">&#9670;&nbsp;</a></span>DocSigns</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_sign.html">DocSign</a>&gt; Kesco.Lib.Entities.Documents.Document.DocSigns</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Коллекция всех подписей документа </p>
+
+</div>
+</div>
+<a id="ac9562e6dcc3d6a33157e055ad4176d7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9562e6dcc3d6a33157e055ad4176d7d">&#9670;&nbsp;</a></span>DocType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_type.html">DocType</a> Kesco.Lib.Entities.Documents.Document.DocType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Инициализатор</b><div class="fragment"><div class="line"></div><div class="line">SELECT TOP 1    Text50_1, Text50_2, Text50_3, Text50_4, Text50_11, Text50_12,</div><div class="line">                Text100_1, Text100_2, Text100_3, Text100_4,Text100_5,Text100_6,</div><div class="line">                КодЛица3, КодЛица4</div><div class="line">FROM vwДокументыДокументыДанные (nolock)</div><div class="line">WHERE {0} AND КодТипаДокумента={1} AND КодДокумента IS NOT NULL</div><div class="line">ORDER BY Изменено DESC</div><div class="line"><span class="stringliteral">&quot;</span></div></div><!-- fragment -->
+</div>
+</div>
+<a id="a60da0e5cce9938cfb9b0275e4d26a838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60da0e5cce9938cfb9b0275e4d26a838">&#9670;&nbsp;</a></span>DocumentData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document_data.html">DocumentData</a> Kesco.Lib.Entities.Documents.Document.DocumentData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сущность "Документы данные" </p>
+
+</div>
+</div>
+<a id="a30e96b68025323d3ed412036341ce3f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e96b68025323d3ed412036341ce3f2">&#9670;&nbsp;</a></span>DocumentInheritClasses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a0da2fdd25168ed93b4e85b37e9cf0d34">Type</a>&gt; Kesco.Lib.Entities.Documents.Document.DocumentInheritClasses</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Инициализатор</b><div class="fragment"><div class="line"></div><div class="line">SELECT D._КодДокумента КодДокумента, D.ДатаДокумента, D.КодТипаДокумента, D.КодРесурса1,ISNULL(D.Money1,0) Money1</div><div class="line">FROM vwСвязиДокументов S (nolock)</div><div class="line">            INNER JOIN vwДокументыДокументыДанные D (nolock) ON S.КодДокументаВытекающего=D.КодДокумента</div><div class="line">WHERE КодДокументаОснования={0} {1} {2}<span class="stringliteral">&quot;</span></div></div><!-- fragment -->
+<p>Получить всех наследников класса <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html" title="Класс сущности &quot;Документ&quot; ">Document</a> </p>
+
+</div>
+</div>
+<a id="ac5eca56208e7a6b794b716561aec3244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5eca56208e7a6b794b716561aec3244">&#9670;&nbsp;</a></span>DocumentName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.DocumentName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Название документа </p>
+
+</div>
+</div>
+<a id="a57452f474d8b721f94a045c3d7ea2d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57452f474d8b721f94a045c3d7ea2d4f">&#9670;&nbsp;</a></span>Fields</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_field.html">DocField</a>&gt; Kesco.Lib.Entities.Documents.Document.Fields</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Поля документа с ключем по ID </p>
+
+</div>
+</div>
+<a id="a10f208911265baaa3ef0d057c813934e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f208911265baaa3ef0d057c813934e">&#9670;&nbsp;</a></span>Finished</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.Finished</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Последняя подпись завершено </p>
+
+</div>
+</div>
+<a id="a431f33f544c9d7f8813981a75e29e843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a431f33f544c9d7f8813981a75e29e843">&#9670;&nbsp;</a></span>FullDocName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.FullDocName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Составное имя документа </p>
+
+</div>
+</div>
+<a id="a2c1da1afa883a1a65cc32b08e15d438f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c1da1afa883a1a65cc32b08e15d438f">&#9670;&nbsp;</a></span>GenerateNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.GenerateNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доступность генерации номера документа </p>
+
+</div>
+</div>
+<a id="a1479f066cbf19c727baa58a7406a43d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1479f066cbf19c727baa58a7406a43d7">&#9670;&nbsp;</a></span>ImageCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.ImageCode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Код изображения документа основного </p>
+
+</div>
+</div>
+<a id="aa3cd15b99df2015f5d238390d0266244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3cd15b99df2015f5d238390d0266244">&#9670;&nbsp;</a></span>IsNew</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.IsNew</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Признак нового документа </p>
+
+</div>
+</div>
+<a id="ab33a5d7a5b88bd6f843ffae7aad69dff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab33a5d7a5b88bd6f843ffae7aad69dff">&#9670;&nbsp;</a></span>IsNumberGenerationAvailable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.IsNumberGenerationAvailable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доступность генерации номера документа </p>
+
+</div>
+</div>
+<a id="a47d550477bb48eb95174190f40f5e8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d550477bb48eb95174190f40f5e8fb">&#9670;&nbsp;</a></span>Language</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.Language</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Тип документа Рус </p>
+<p>Тип документа Eng </p>
+<p>Язык документа </p>
+
+</div>
+</div>
+<a id="a037138088f1f2e89c03d767e7dbc9f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a037138088f1f2e89c03d767e7dbc9f58">&#9670;&nbsp;</a></span>Number</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.Number</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Номер документа </p>
+
+</div>
+</div>
+<a id="a8b14086778bc071912ceb150e928d643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b14086778bc071912ceb150e928d643">&#9670;&nbsp;</a></span>NumberInt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.NumberInt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>НомерInt </p>
+
+</div>
+</div>
+<a id="a67d8d9b45148f16fe52d9ed14fcb6129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d8d9b45148f16fe52d9ed14fcb6129">&#9670;&nbsp;</a></span>NumberIsDigital</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.NumberIsDigital</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Состоит ли номер документа полностью из цифр </p>
+
+</div>
+</div>
+<a id="acb9ec7cdc7e8c693c817ce813157e227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb9ec7cdc7e8c693c817ce813157e227">&#9670;&nbsp;</a></span>NumberRL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.NumberRL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>НомерДокументаRL </p>
+
+</div>
+</div>
+<a id="ac8920b698dec4661efa9437bfb338c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8920b698dec4661efa9437bfb338c19">&#9670;&nbsp;</a></span>NumberRLReverse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Documents.Document.NumberRLReverse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>НомерДокументаRLReverse </p>
+
+</div>
+</div>
+<a id="a87b5fe30201871fddb5a70bc8661c1a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b5fe30201871fddb5a70bc8661c1a3">&#9670;&nbsp;</a></span>Protected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte Kesco.Lib.Entities.Documents.Document.Protected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Защищен </p>
+
+</div>
+</div>
+<a id="acdf658b1acb39462a5ebe5b5c494adea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdf658b1acb39462a5ebe5b5c494adea">&#9670;&nbsp;</a></span>Signed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Documents.Document.Signed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Документ подписан, хотябы один раз </p>
+
+</div>
+</div>
+<a id="a0da2fdd25168ed93b4e85b37e9cf0d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0da2fdd25168ed93b4e85b37e9cf0d34">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_docs.html#ab2068d8a3c8293f4be757c3971334da6">DocTypeEnum</a> Kesco.Lib.Entities.Documents.Document.Type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Тип документа Enum </p>
+<p>Название применяется для рефлексии, не менять</p>
+
+</div>
+</div>
+<a id="ab8f5614eb23b095db4370adb910e7e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f5614eb23b095db4370adb910e7e1e">&#9670;&nbsp;</a></span>TypeID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Kesco.Lib.Entities.Documents.Document.TypeID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Код типа документа </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Source/WEB_V4/Kesco.Lib.Entities/Documents/<a class="el" href="_document_8cs.html">Document.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib_1_1_entities.html">Entities</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib_1_1_entities_1_1_documents.html">Documents</a></li><li class="navelem"><a class="el" href="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html">Document</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

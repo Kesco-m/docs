@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Класс Kesco.Lib.Web.Controls.V4.Common.EntityPage</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="../../df/d82/namespace_kesco_1_1_lib_1_1_web_1_1_controls.html">Controls</a></li><li class="navelem"><a class="el" href="../../d3/df8/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4.html">V4</a></li><li class="navelem"><a class="el" href="../../d7/da9/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common.html">Common</a></li><li class="navelem"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html">EntityPage</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
+<a href="#pro-attribs">Защищенные данные</a> &#124;
+<a href="#properties">Свойства</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Kesco.Lib.Web.Controls.V4.Common.EntityPage</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Базовый класс для стриниц сущностей Все страницы, работающие с функционалом <a class="el" href="../../d3/df8/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4.html">V4</a> и сущностями(Entities) наследуют от него. Является абстрактным, т.к. содерщит свойства, которые обязан переопределить на странице  
+ <a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#details">Подробнее...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Граф наследования:Kesco.Lib.Web.Controls.V4.Common.EntityPage:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.png" usemap="#Kesco.Lib.Web.Controls.V4.Common.EntityPage_map" alt=""/>
+  <map id="Kesco.Lib.Web.Controls.V4.Common.EntityPage_map" name="Kesco.Lib.Web.Controls.V4.Common.EntityPage_map">
+<area href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html" title="Базовый класс станиц V4. Все страницы, работающие с функционалом V4 наследуют от него. Является абстрактным, т.к. содерщит свойства, которые обязан переопределить на странице " alt="Kesco.Lib.Web.Controls.V4.Common.Page" shape="rect" coords="0,56,365,80"/>
+<area href="../../d4/de1/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_document_page_1_1_doc_page.html" title="Базовый класс для стриниц документов Все страницы, работающие с документами наследуют от него..." alt="Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage" shape="rect" coords="0,168,365,192"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:aad188ef07eda9fca78fb51f3d963eaaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#aad188ef07eda9fca78fb51f3d963eaaf">V4Redirect</a> (string path, bool withQueryParams=true)</td></tr>
+<tr class="memdesc:aad188ef07eda9fca78fb51f3d963eaaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Переадресация страницы на указанную  <a href="#aad188ef07eda9fca78fb51f3d963eaaf">Подробнее...</a><br /></td></tr>
+<tr class="separator:aad188ef07eda9fca78fb51f3d963eaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e57013320667e7df2c28660c23daa7"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ad3e57013320667e7df2c28660c23daa7">V4Dispose</a> (bool redirect=false)</td></tr>
+<tr class="memdesc:ad3e57013320667e7df2c28660c23daa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Освобождение ресурсов занятых страницей. Блокирует объект Application на время операции  <a href="#ad3e57013320667e7df2c28660c23daa7">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad3e57013320667e7df2c28660c23daa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6334363e67b329d6fba3faf9af5bed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#aa6334363e67b329d6fba3faf9af5bed9">AddMenuButton</a> (params <a class="el" href="../../d4/d87/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_button.html">Button</a>[] buttons)</td></tr>
+<tr class="memdesc:aa6334363e67b329d6fba3faf9af5bed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавление кнопок в меню  <a href="#aa6334363e67b329d6fba3faf9af5bed9">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa6334363e67b329d6fba3faf9af5bed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d24cc368c9aafe4fb7d65083f4fcb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#aa1d24cc368c9aafe4fb7d65083f4fcb6">ClearMenuButtons</a> ()</td></tr>
+<tr class="memdesc:aa1d24cc368c9aafe4fb7d65083f4fcb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очистить коллекцию кнопок  <a href="#aa1d24cc368c9aafe4fb7d65083f4fcb6">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa1d24cc368c9aafe4fb7d65083f4fcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34fcaaca5f3e57d79496d09299265740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a34fcaaca5f3e57d79496d09299265740">RenderButtons</a> (StringWriter w)</td></tr>
+<tr class="memdesc:a34fcaaca5f3e57d79496d09299265740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сформировать кнопки меню  <a href="#a34fcaaca5f3e57d79496d09299265740">Подробнее...</a><br /></td></tr>
+<tr class="separator:a34fcaaca5f3e57d79496d09299265740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5bfdb7eca2980613fdbe2a3be83293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#aac5bfdb7eca2980613fdbe2a3be83293">RefreshMenuButtons</a> ()</td></tr>
+<tr class="memdesc:aac5bfdb7eca2980613fdbe2a3be83293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновить кнопки меню  <a href="#aac5bfdb7eca2980613fdbe2a3be83293">Подробнее...</a><br /></td></tr>
+<tr class="separator:aac5bfdb7eca2980613fdbe2a3be83293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14684b7d4cfa5b89a8efe3c847acc420"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a14684b7d4cfa5b89a8efe3c847acc420">GetHtmlDateTimeLabel</a> (DateTime dateTime, string formatDateTime=null, string attributes=null)</td></tr>
+<tr class="memdesc:a14684b7d4cfa5b89a8efe3c847acc420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает разметку контрола label для отображения локальной даты  <a href="#a14684b7d4cfa5b89a8efe3c847acc420">Подробнее...</a><br /></td></tr>
+<tr class="separator:a14684b7d4cfa5b89a8efe3c847acc420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1f12265429dd28625b02d9b27bf53a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#adb1f12265429dd28625b02d9b27bf53a">GetHtmlDateTimeLabel</a> (DateTime dateTime, bool withoutTime, string attributes=null)</td></tr>
+<tr class="memdesc:adb1f12265429dd28625b02d9b27bf53a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает разметку контрола label для отображения локальной даты  <a href="#adb1f12265429dd28625b02d9b27bf53a">Подробнее...</a><br /></td></tr>
+<tr class="separator:adb1f12265429dd28625b02d9b27bf53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page')"><img src="../../closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html">Kesco.Lib.Web.Controls.V4.Common.Page</a></td></tr>
+<tr class="memitem:add5e4b0e1c3af205f2d9623379810567 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#add5e4b0e1c3af205f2d9623379810567">RenderHtmlBlock</a> (HtmlTextWriter w)</td></tr>
+<tr class="memdesc:add5e4b0e1c3af205f2d9623379810567 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Делегат рендеринга части страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#add5e4b0e1c3af205f2d9623379810567">Подробнее...</a><br /></td></tr>
+<tr class="separator:add5e4b0e1c3af205f2d9623379810567 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3519a1e4a0db38cab8ab37e96fe634f9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3519a1e4a0db38cab8ab37e96fe634f9">RenderHtmlBlockWithParam</a> (TextWriter w, object param)</td></tr>
+<tr class="memdesc:a3519a1e4a0db38cab8ab37e96fe634f9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Делегат рендеринга части страницы с параметром  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3519a1e4a0db38cab8ab37e96fe634f9">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3519a1e4a0db38cab8ab37e96fe634f9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7057462e7c9f385b7dcef3d49715b9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#acf7057462e7c9f385b7dcef3d49715b9">Flush</a> ()</td></tr>
+<tr class="memdesc:acf7057462e7c9f385b7dcef3d49715b9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отправка клиенту скрипта с изменениями контролов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#acf7057462e7c9f385b7dcef3d49715b9">Подробнее...</a><br /></td></tr>
+<tr class="separator:acf7057462e7c9f385b7dcef3d49715b9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a111ade2c12bfed08b9991d6e6e402 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad3a111ade2c12bfed08b9991d6e6e402">Close</a> ()</td></tr>
+<tr class="memdesc:ad3a111ade2c12bfed08b9991d6e6e402 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">обработка закрытия страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad3a111ade2c12bfed08b9991d6e6e402">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad3a111ade2c12bfed08b9991d6e6e402 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09cbbd28c4a5e741c36b198a0f1304a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab09cbbd28c4a5e741c36b198a0f1304a">ShowMessageOnPage</a> (string htmlMessage)</td></tr>
+<tr class="separator:ab09cbbd28c4a5e741c36b198a0f1304a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43c054c295b39f684aa3d7266fcfb6f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab43c054c295b39f684aa3d7266fcfb6f">RegisterScript</a> (string key, string script)</td></tr>
+<tr class="memdesc:ab43c054c295b39f684aa3d7266fcfb6f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Регистрация скриптов на странице  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab43c054c295b39f684aa3d7266fcfb6f">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab43c054c295b39f684aa3d7266fcfb6f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97997f5641ce9f88dfd0728ec4234261 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a97997f5641ce9f88dfd0728ec4234261">RegisterCss</a> (string url)</td></tr>
+<tr class="memdesc:a97997f5641ce9f88dfd0728ec4234261 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Регистрация CSS  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a97997f5641ce9f88dfd0728ec4234261">Подробнее...</a><br /></td></tr>
+<tr class="separator:a97997f5641ce9f88dfd0728ec4234261 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21aa0dd29c6b31807b8e50119f545b8d inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a21aa0dd29c6b31807b8e50119f545b8d">OnBeforeClose</a> ()</td></tr>
+<tr class="memdesc:a21aa0dd29c6b31807b8e50119f545b8d inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик события перед закрытием страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a21aa0dd29c6b31807b8e50119f545b8d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a21aa0dd29c6b31807b8e50119f545b8d inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5661ea04683df063162df7e70f8d58af inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5661ea04683df063162df7e70f8d58af">ProcessRequest</a> ()</td></tr>
+<tr class="memdesc:a5661ea04683df063162df7e70f8d58af inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик запроса к странице  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5661ea04683df063162df7e70f8d58af">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5661ea04683df063162df7e70f8d58af inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a298f7568595f1ffed29cc84693726b33 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a298f7568595f1ffed29cc84693726b33">V4Validation</a> ()</td></tr>
+<tr class="memdesc:a298f7568595f1ffed29cc84693726b33 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Базовая проверка заполненности обязательных полей на форме  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a298f7568595f1ffed29cc84693726b33">Подробнее...</a><br /></td></tr>
+<tr class="separator:a298f7568595f1ffed29cc84693726b33 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81deb272fb074484699521a6e74159bb inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a81deb272fb074484699521a6e74159bb">V4Navigate</a> (string url)</td></tr>
+<tr class="memdesc:a81deb272fb074484699521a6e74159bb inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Перейти на URL  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a81deb272fb074484699521a6e74159bb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a81deb272fb074484699521a6e74159bb inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2958fcc49d8613e52a39196ee56fb0b inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#af2958fcc49d8613e52a39196ee56fb0b">V4SetFocus</a> (string contolId)</td></tr>
+<tr class="memdesc:af2958fcc49d8613e52a39196ee56fb0b inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить фокус на контрол по его ID  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#af2958fcc49d8613e52a39196ee56fb0b">Подробнее...</a><br /></td></tr>
+<tr class="separator:af2958fcc49d8613e52a39196ee56fb0b inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a512fc2edf076f2348f390cbc625976ab inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a512fc2edf076f2348f390cbc625976ab">V4NtfValidation</a> ()</td></tr>
+<tr class="memdesc:a512fc2edf076f2348f390cbc625976ab inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка на наличие нотифиций в статусе ошибка у полей на форме  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a512fc2edf076f2348f390cbc625976ab">Подробнее...</a><br /></td></tr>
+<tr class="separator:a512fc2edf076f2348f390cbc625976ab inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92bfcac136ae394a2c08f081032c606a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a92bfcac136ae394a2c08f081032c606a">RenderNtf</a> (TextWriter w, List&lt; string &gt; ntf)</td></tr>
+<tr class="memdesc:a92bfcac136ae394a2c08f081032c606a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рендеринг надписей  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a92bfcac136ae394a2c08f081032c606a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a92bfcac136ae394a2c08f081032c606a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa79cef34e9ac99e476fd1532bf70ef01 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aa79cef34e9ac99e476fd1532bf70ef01">RenderNtf</a> (TextWriter w, List&lt; string &gt; ntf, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> status)</td></tr>
+<tr class="memdesc:aa79cef34e9ac99e476fd1532bf70ef01 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рендеринг надписей  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aa79cef34e9ac99e476fd1532bf70ef01">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa79cef34e9ac99e476fd1532bf70ef01 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86756eafa7c0155d99c65d46f107eec8 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a86756eafa7c0155d99c65d46f107eec8">RenderNtf</a> (TextWriter w, List&lt; string &gt; ntf, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> status, string divId, string className, bool dashSpace)</td></tr>
+<tr class="memdesc:a86756eafa7c0155d99c65d46f107eec8 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рендеринг надписей  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a86756eafa7c0155d99c65d46f107eec8">Подробнее...</a><br /></td></tr>
+<tr class="separator:a86756eafa7c0155d99c65d46f107eec8 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34fd5f61feefc280e9a99eabf35a598c inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a34fd5f61feefc280e9a99eabf35a598c">RefreshNtf</a> ()</td></tr>
+<tr class="memdesc:a34fd5f61feefc280e9a99eabf35a598c inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновить нотификацию у всех контролов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a34fd5f61feefc280e9a99eabf35a598c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a34fd5f61feefc280e9a99eabf35a598c inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f4df7529869491e66346bc64e34df6 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab9f4df7529869491e66346bc64e34df6">RefreshAllFieldBind</a> ()</td></tr>
+<tr class="separator:ab9f4df7529869491e66346bc64e34df6 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7db31640190e8669282317a8b8fc97 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abf7db31640190e8669282317a8b8fc97">GetFilterText</a> ()</td></tr>
+<tr class="memdesc:abf7db31640190e8669282317a8b8fc97 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение выбранных условий поиска в текстовом виде  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abf7db31640190e8669282317a8b8fc97">Подробнее...</a><br /></td></tr>
+<tr class="separator:abf7db31640190e8669282317a8b8fc97 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea05d17708ffbb2ed21d7b2dc954223 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a8ea05d17708ffbb2ed21d7b2dc954223">V4ValidationBeforeExit</a> ()</td></tr>
+<tr class="memdesc:a8ea05d17708ffbb2ed21d7b2dc954223 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка запоненности обязательных поле перед закрытием страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a8ea05d17708ffbb2ed21d7b2dc954223">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8ea05d17708ffbb2ed21d7b2dc954223 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78883ae1ddf904b2ccb52b29e0ad11ad inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a78883ae1ddf904b2ccb52b29e0ad11ad">RefreshHtmlBlock</a> (string idElement, <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3519a1e4a0db38cab8ab37e96fe634f9">RenderHtmlBlockWithParam</a> renderHtmlBlockWithParam, object param)</td></tr>
+<tr class="memdesc:a78883ae1ddf904b2ccb52b29e0ad11ad inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновление части страницы с параметром  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a78883ae1ddf904b2ccb52b29e0ad11ad">Подробнее...</a><br /></td></tr>
+<tr class="separator:a78883ae1ddf904b2ccb52b29e0ad11ad inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b07142ab0e6be5a9e06a4d5f0952e3 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a69b07142ab0e6be5a9e06a4d5f0952e3">RefreshHtmlBlock</a> (string idElement, <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#add5e4b0e1c3af205f2d9623379810567">RenderHtmlBlock</a> renderHtmlBlock)</td></tr>
+<tr class="memdesc:a69b07142ab0e6be5a9e06a4d5f0952e3 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновление части страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a69b07142ab0e6be5a9e06a4d5f0952e3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a69b07142ab0e6be5a9e06a4d5f0952e3 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054bbd980d5712feb4d461a6afdbd953 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a054bbd980d5712feb4d461a6afdbd953">Refresh</a> (string idControl)</td></tr>
+<tr class="memdesc:a054bbd980d5712feb4d461a6afdbd953 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Клиентский скрипт обновления контрола  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a054bbd980d5712feb4d461a6afdbd953">Подробнее...</a><br /></td></tr>
+<tr class="separator:a054bbd980d5712feb4d461a6afdbd953 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4929ffe59e4668e2abf35a80d1162ae4 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a4929ffe59e4668e2abf35a80d1162ae4">ShowMessage</a> (string message, string title=&quot;&quot;)</td></tr>
+<tr class="memdesc:a4929ffe59e4668e2abf35a80d1162ae4 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна сообщения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a4929ffe59e4668e2abf35a80d1162ae4">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4929ffe59e4668e2abf35a80d1162ae4 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8da31bb39841338ea2750bf0f18b2f5 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ae8da31bb39841338ea2750bf0f18b2f5">ShowMessage</a> (string message, <a class="el" href="../../d0/da2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_v4_control.html">V4Control</a> ctrlFocus, string title=&quot;&quot;)</td></tr>
+<tr class="memdesc:ae8da31bb39841338ea2750bf0f18b2f5 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна сообщения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ae8da31bb39841338ea2750bf0f18b2f5">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae8da31bb39841338ea2750bf0f18b2f5 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978f774c10bd084e0e1d4eb8a98aec0a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a978f774c10bd084e0e1d4eb8a98aec0a">ShowMessage</a> (string message, string title, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a60f1870561a97d6ae1e7fb18e89dde73">MessageStatus</a> status=MessageStatus.Information, string ctrlIdFocus=&quot;&quot;)</td></tr>
+<tr class="memdesc:a978f774c10bd084e0e1d4eb8a98aec0a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна сообщения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a978f774c10bd084e0e1d4eb8a98aec0a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a978f774c10bd084e0e1d4eb8a98aec0a inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224ab909257e4d1dad6dd18a7c70e359 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a224ab909257e4d1dad6dd18a7c70e359">ShowMessage</a> (string message, string title, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a60f1870561a97d6ae1e7fb18e89dde73">MessageStatus</a> status, string ctrlIdFocus, int? width, int? height)</td></tr>
+<tr class="memdesc:a224ab909257e4d1dad6dd18a7c70e359 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна сообщения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a224ab909257e4d1dad6dd18a7c70e359">Подробнее...</a><br /></td></tr>
+<tr class="separator:a224ab909257e4d1dad6dd18a7c70e359 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28da1783880e4ce8149db1dfe46d1dd inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aa28da1783880e4ce8149db1dfe46d1dd">ShowConfirmDeleteGetJS</a> (string callbackYes, string advMessage=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa28da1783880e4ce8149db1dfe46d1dd inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Формирование клиентского скрипта для вызова диалога подтверждения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aa28da1783880e4ce8149db1dfe46d1dd">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa28da1783880e4ce8149db1dfe46d1dd inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f24dcc1090a835e9321e7a41956b70 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad2f24dcc1090a835e9321e7a41956b70">ShowConfirm</a> (string message, string callbackYes, int? width)</td></tr>
+<tr class="memdesc:ad2f24dcc1090a835e9321e7a41956b70 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна подтверждения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad2f24dcc1090a835e9321e7a41956b70">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad2f24dcc1090a835e9321e7a41956b70 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf8faaaecc4d0041148f93d2b13f26ba inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#acf8faaaecc4d0041148f93d2b13f26ba">ShowConfirm</a> (string message, string title, string captionYes, string captionNo, string callbackYes, string ctrlIdFocus, int? width)</td></tr>
+<tr class="memdesc:acf8faaaecc4d0041148f93d2b13f26ba inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна подтверждения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#acf8faaaecc4d0041148f93d2b13f26ba">Подробнее...</a><br /></td></tr>
+<tr class="separator:acf8faaaecc4d0041148f93d2b13f26ba inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9215ca5a158c2a4b44b631b8518b3696 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a9215ca5a158c2a4b44b631b8518b3696">ShowConfirm</a> (string message, string title, string captionYes, string captionNo, string callbackYes, string ctrlIdFocus, int? widthYes, int? widthNo, int? width, int? height)</td></tr>
+<tr class="memdesc:a9215ca5a158c2a4b44b631b8518b3696 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод диалогового окна подтверждения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a9215ca5a158c2a4b44b631b8518b3696">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9215ca5a158c2a4b44b631b8518b3696 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ad83c7b4e9b47792a6a26b4185e962 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#af7ad83c7b4e9b47792a6a26b4185e962">BindEntity</a> (object obj, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a97d45822b331150a9f2d6b6dc54ebb73">BindingDirection</a> direction)</td></tr>
+<tr class="memdesc:af7ad83c7b4e9b47792a6a26b4185e962 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Связывание контролов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#af7ad83c7b4e9b47792a6a26b4185e962">Подробнее...</a><br /></td></tr>
+<tr class="separator:af7ad83c7b4e9b47792a6a26b4185e962 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da32b41f6e8e6d71ab30dd4f75b1328 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a6da32b41f6e8e6d71ab30dd4f75b1328">Display</a> (string idControl)</td></tr>
+<tr class="memdesc:a6da32b41f6e8e6d71ab30dd4f75b1328 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить скрипт: Показать элемент  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a6da32b41f6e8e6d71ab30dd4f75b1328">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6da32b41f6e8e6d71ab30dd4f75b1328 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5194c6259455f095b618fb4598ba0fd1 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5194c6259455f095b618fb4598ba0fd1">Hide</a> (string idControl)</td></tr>
+<tr class="memdesc:a5194c6259455f095b618fb4598ba0fd1 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить скрипт: Скрыть элемент  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5194c6259455f095b618fb4598ba0fd1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5194c6259455f095b618fb4598ba0fd1 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd38b5bb60c4cda54dd4cabacdfb68f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1dd38b5bb60c4cda54dd4cabacdfb68f">Display</a> (string idControl, string displayType)</td></tr>
+<tr class="memdesc:a1dd38b5bb60c4cda54dd4cabacdfb68f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить скрипт: Показать элемент  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1dd38b5bb60c4cda54dd4cabacdfb68f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1dd38b5bb60c4cda54dd4cabacdfb68f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa6ecc4fa8c024437cbc4c9c5006fef inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a0fa6ecc4fa8c024437cbc4c9c5006fef">Display</a> (string idControl, bool isVisible)</td></tr>
+<tr class="memdesc:a0fa6ecc4fa8c024437cbc4c9c5006fef inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить скрипт: Показать элемент  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a0fa6ecc4fa8c024437cbc4c9c5006fef">Подробнее...</a><br /></td></tr>
+<tr class="separator:a0fa6ecc4fa8c024437cbc4c9c5006fef inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da95611bda4888fb775a466af8e7b68 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5da95611bda4888fb775a466af8e7b68">RenderNumber</a> (TextWriter w, string number, int scale)</td></tr>
+<tr class="memdesc:a5da95611bda4888fb775a466af8e7b68 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка числа  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5da95611bda4888fb775a466af8e7b68">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5da95611bda4888fb775a466af8e7b68 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae87aeec8677dc6195e2457b86060864 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aae87aeec8677dc6195e2457b86060864">RenderNumber</a> (TextWriter w, string number, int scale, string groupSeparator)</td></tr>
+<tr class="memdesc:aae87aeec8677dc6195e2457b86060864 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка числа  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aae87aeec8677dc6195e2457b86060864">Подробнее...</a><br /></td></tr>
+<tr class="separator:aae87aeec8677dc6195e2457b86060864 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a580a18a9f89b2725b4e23853c75e6 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a54a580a18a9f89b2725b4e23853c75e6">RenderNumber</a> (TextWriter w, string number, int minScale, int maxScale, string groupSeparator)</td></tr>
+<tr class="memdesc:a54a580a18a9f89b2725b4e23853c75e6 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка числа  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a54a580a18a9f89b2725b4e23853c75e6">Подробнее...</a><br /></td></tr>
+<tr class="separator:a54a580a18a9f89b2725b4e23853c75e6 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add942673d1daf7aab1c2c920686c0723 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#add942673d1daf7aab1c2c920686c0723">RenderLinkResource</a> (TextWriter w, string idRes, string tabIndex=&quot;&quot;)</td></tr>
+<tr class="memdesc:add942673d1daf7aab1c2c920686c0723 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовать ссылку на ресурс  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#add942673d1daf7aab1c2c920686c0723">Подробнее...</a><br /></td></tr>
+<tr class="separator:add942673d1daf7aab1c2c920686c0723 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1886f61cc65c428cd936974248a5ab inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3a1886f61cc65c428cd936974248a5ab">RenderLinkLocation</a> (TextWriter w, string idLoc, string tabIndex=&quot;&quot;)</td></tr>
+<tr class="memdesc:a3a1886f61cc65c428cd936974248a5ab inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовать ссылку на расположение  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3a1886f61cc65c428cd936974248a5ab">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3a1886f61cc65c428cd936974248a5ab inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5458e94d72e18011681f5c1117434c5 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad5458e94d72e18011681f5c1117434c5">RenderLinkEquipment</a> (TextWriter w, string id, string className, string title)</td></tr>
+<tr class="memdesc:ad5458e94d72e18011681f5c1117434c5 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовать ссылку на оборудование  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad5458e94d72e18011681f5c1117434c5">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad5458e94d72e18011681f5c1117434c5 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde83a629c56fb5d9ff058ec24d247e9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#acde83a629c56fb5d9ff058ec24d247e9">RenderLinkDocument</a> (TextWriter w, int docId, bool openImage=false, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> ntf=NtfStatus.Empty)</td></tr>
+<tr class="memdesc:acde83a629c56fb5d9ff058ec24d247e9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовать ссылку на документ  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#acde83a629c56fb5d9ff058ec24d247e9">Подробнее...</a><br /></td></tr>
+<tr class="separator:acde83a629c56fb5d9ff058ec24d247e9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbf34a8ce64b439f7ebde611107c4cf inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5bbf34a8ce64b439f7ebde611107c4cf">RenderLinkEnd</a> (TextWriter w)</td></tr>
+<tr class="memdesc:a5bbf34a8ce64b439f7ebde611107c4cf inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовать закрытие тега ссылки  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a5bbf34a8ce64b439f7ebde611107c4cf">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5bbf34a8ce64b439f7ebde611107c4cf inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3eb7b5829a6c000325d0bc8050a2bf8 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab3eb7b5829a6c000325d0bc8050a2bf8">RestoreCursor</a> ()</td></tr>
+<tr class="memdesc:ab3eb7b5829a6c000325d0bc8050a2bf8 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Восстановление курсора по-умолчанию после асинхронного вызова  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab3eb7b5829a6c000325d0bc8050a2bf8">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab3eb7b5829a6c000325d0bc8050a2bf8 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6dee9a22dc20b6efba5544dc08b6f3 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a9e6dee9a22dc20b6efba5544dc08b6f3">DialogResult</a> (string dialogResult)</td></tr>
+<tr class="memdesc:a9e6dee9a22dc20b6efba5544dc08b6f3 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод принимает результат из модальных окон  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a9e6dee9a22dc20b6efba5544dc08b6f3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9e6dee9a22dc20b6efba5544dc08b6f3 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60174b68b09614df760e248f7bf9c53 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab60174b68b09614df760e248f7bf9c53">RenderLinkEmployee</a> (TextWriter w, string htmlId, string emplId, string emplName, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> ntf)</td></tr>
+<tr class="memdesc:ab60174b68b09614df760e248f7bf9c53 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отсисовка ссылки на сотрудника  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab60174b68b09614df760e248f7bf9c53">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab60174b68b09614df760e248f7bf9c53 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67633320b6e19fe71c6182ca81fbbf9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad67633320b6e19fe71c6182ca81fbbf9">RenderLinkEmployee</a> (TextWriter w, string htmlId, <a class="el" href="../../df/d0c/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html">Employee</a> empl, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> ntf)</td></tr>
+<tr class="memdesc:ad67633320b6e19fe71c6182ca81fbbf9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отсисовка ссылки на сотрудника  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad67633320b6e19fe71c6182ca81fbbf9">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad67633320b6e19fe71c6182ca81fbbf9 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b0cad4d9914dc002ada9e1fb7d9612 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a99b0cad4d9914dc002ada9e1fb7d9612">RenderLinkPerson</a> (TextWriter w, string htmlId, string personId, string personName, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> ntf=NtfStatus.Empty)</td></tr>
+<tr class="memdesc:a99b0cad4d9914dc002ada9e1fb7d9612 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отсисовка ссылки на лицо  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a99b0cad4d9914dc002ada9e1fb7d9612">Подробнее...</a><br /></td></tr>
+<tr class="separator:a99b0cad4d9914dc002ada9e1fb7d9612 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6cba900398ebc82cdda65389b799abe inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad6cba900398ebc82cdda65389b799abe">RenderLinkCaller</a> (TextWriter w, string id, string value, string text, string url, string urlParams, string urlTarget, string tabIndex, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a666cc69498716bf92b87706e002bf7d7">CallerTypeEnum</a> callerType)</td></tr>
+<tr class="memdesc:ad6cba900398ebc82cdda65389b799abe inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки со звонилкой  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad6cba900398ebc82cdda65389b799abe">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad6cba900398ebc82cdda65389b799abe inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823edd501c209c4dc05478f78263bace inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a823edd501c209c4dc05478f78263bace">RenderLinkCaller</a> (TextWriter w, string value, string text, string url, string urlParams, string urlTarget, string tabIndex, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a666cc69498716bf92b87706e002bf7d7">CallerTypeEnum</a> callerType)</td></tr>
+<tr class="memdesc:a823edd501c209c4dc05478f78263bace inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки со звонилкой  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a823edd501c209c4dc05478f78263bace">Подробнее...</a><br /></td></tr>
+<tr class="separator:a823edd501c209c4dc05478f78263bace inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed4830c2c9bd253ff30464f50bd1f2c inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a0ed4830c2c9bd253ff30464f50bd1f2c">RenderLinkCaller</a> (TextWriter w, string htmlId, string value, string text, string url, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> ntf, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a666cc69498716bf92b87706e002bf7d7">CallerTypeEnum</a> callerType)</td></tr>
+<tr class="memdesc:a0ed4830c2c9bd253ff30464f50bd1f2c inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки со звонилкой  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a0ed4830c2c9bd253ff30464f50bd1f2c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a0ed4830c2c9bd253ff30464f50bd1f2c inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22af827a27c36f78636009066b29982b inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a22af827a27c36f78636009066b29982b">RenderLinkCaller</a> (TextWriter w, string id, string value, string text, string onClick, string tabIndex, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a666cc69498716bf92b87706e002bf7d7">CallerTypeEnum</a> callerType)</td></tr>
+<tr class="memdesc:a22af827a27c36f78636009066b29982b inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки со звонилкой  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a22af827a27c36f78636009066b29982b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a22af827a27c36f78636009066b29982b inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34f906bcb83036f425b8bab13da2ef7 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab34f906bcb83036f425b8bab13da2ef7">RenderLinkCaller</a> (TextWriter w, string value, string text, string onClick, string tabIndex, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a666cc69498716bf92b87706e002bf7d7">CallerTypeEnum</a> callerType)</td></tr>
+<tr class="memdesc:ab34f906bcb83036f425b8bab13da2ef7 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки со звонилкой  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ab34f906bcb83036f425b8bab13da2ef7">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab34f906bcb83036f425b8bab13da2ef7 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eead2910bb74ddd237610347f8efb2e inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a0eead2910bb74ddd237610347f8efb2e">RenderLink</a> (TextWriter w, string text, string url, string urlParams, string urlTarget, string tabIndex)</td></tr>
+<tr class="memdesc:a0eead2910bb74ddd237610347f8efb2e inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a0eead2910bb74ddd237610347f8efb2e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a0eead2910bb74ddd237610347f8efb2e inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad908b0f37b23e9d44fe695e1a38258ff inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad908b0f37b23e9d44fe695e1a38258ff">RenderLink</a> (TextWriter w, string text, string url, string tabIndex)</td></tr>
+<tr class="memdesc:ad908b0f37b23e9d44fe695e1a38258ff inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad908b0f37b23e9d44fe695e1a38258ff">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad908b0f37b23e9d44fe695e1a38258ff inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8683a55bbfe5d5be691623283a17233f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a8683a55bbfe5d5be691623283a17233f">RenderLink</a> (TextWriter w, string id, string value, string text, string onClick, string url, string urlParams, string urlTarget, string tabIndex, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a2696cfc01fa62a5ae6336e57222fab50">NtfStatus</a> ntf=NtfStatus.Empty, <a class="el" href="../../dc/dba/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls.html#a666cc69498716bf92b87706e002bf7d7">CallerTypeEnum</a> callerType=CallerTypeEnum.Empty)</td></tr>
+<tr class="memdesc:a8683a55bbfe5d5be691623283a17233f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка в поток гиперссылки  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a8683a55bbfe5d5be691623283a17233f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8683a55bbfe5d5be691623283a17233f inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f0f128040f97281366729d0223b6e81 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a6f0f128040f97281366729d0223b6e81">TranslateCtrlEvent</a> (NameValueCollection Params)</td></tr>
+<tr class="separator:a6f0f128040f97281366729d0223b6e81 inherit pub_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:a2ca7720fe946afdb4a734ad2a6df8334"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a2ca7720fe946afdb4a734ad2a6df8334">EntityPage</a> ()</td></tr>
+<tr class="memdesc:a2ca7720fe946afdb4a734ad2a6df8334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор  <a href="#a2ca7720fe946afdb4a734ad2a6df8334">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2ca7720fe946afdb4a734ad2a6df8334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af116058e93cc0923ebecf6bf2a663a45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#af116058e93cc0923ebecf6bf2a663a45">RenderCometControl</a> (StringWriter w)</td></tr>
+<tr class="memdesc:af116058e93cc0923ebecf6bf2a663a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка контрола для совместной работы  <a href="#af116058e93cc0923ebecf6bf2a663a45">Подробнее...</a><br /></td></tr>
+<tr class="separator:af116058e93cc0923ebecf6bf2a663a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page')"><img src="../../closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html">Kesco.Lib.Web.Controls.V4.Common.Page</a></td></tr>
+<tr class="memitem:a610ace5337aa1ba921b3f1e1f68b44b3 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a610ace5337aa1ba921b3f1e1f68b44b3">Page</a> (bool isSilverlight=true, bool isComet=true)</td></tr>
+<tr class="memdesc:a610ace5337aa1ba921b3f1e1f68b44b3 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a610ace5337aa1ba921b3f1e1f68b44b3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a610ace5337aa1ba921b3f1e1f68b44b3 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5defd3065d396afa142e5b7c195d92 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ada5defd3065d396afa142e5b7c195d92">Render</a> (HtmlTextWriter writer)</td></tr>
+<tr class="memdesc:ada5defd3065d396afa142e5b7c195d92 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отрисовка страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ada5defd3065d396afa142e5b7c195d92">Подробнее...</a><br /></td></tr>
+<tr class="separator:ada5defd3065d396afa142e5b7c195d92 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693eafe0eb49a9ffb5e5df8e38686514 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a693eafe0eb49a9ffb5e5df8e38686514">OnInit</a> (EventArgs e)</td></tr>
+<tr class="memdesc:a693eafe0eb49a9ffb5e5df8e38686514 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик события инициализации страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a693eafe0eb49a9ffb5e5df8e38686514">Подробнее...</a><br /></td></tr>
+<tr class="separator:a693eafe0eb49a9ffb5e5df8e38686514 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf426b2dc0d53084b985ea36cb30d6d2 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abf426b2dc0d53084b985ea36cb30d6d2">OnLoad</a> (EventArgs e)</td></tr>
+<tr class="memdesc:abf426b2dc0d53084b985ea36cb30d6d2 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик события загрузки страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abf426b2dc0d53084b985ea36cb30d6d2">Подробнее...</a><br /></td></tr>
+<tr class="separator:abf426b2dc0d53084b985ea36cb30d6d2 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1a9438e5f4292520097f68fa90024b inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1c1a9438e5f4292520097f68fa90024b">ProcessCommand</a> (string cmd, NameValueCollection param)</td></tr>
+<tr class="memdesc:a1c1a9438e5f4292520097f68fa90024b inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Процедура обработки клиентских запросов, вызывается с клиента либо синхронно, либо асинхронно  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1c1a9438e5f4292520097f68fa90024b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1c1a9438e5f4292520097f68fa90024b inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac49221284953fc93694851b11abebaa3 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">XmlDocument&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ac49221284953fc93694851b11abebaa3">BuildXml</a> ()</td></tr>
+<tr class="memdesc:ac49221284953fc93694851b11abebaa3 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Построитель XML-документа страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ac49221284953fc93694851b11abebaa3">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac49221284953fc93694851b11abebaa3 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631ecf77728b6a97c60c32cc0d50ce05 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a631ecf77728b6a97c60c32cc0d50ce05">ResxResourceSet</a> ()</td></tr>
+<tr class="memdesc:a631ecf77728b6a97c60c32cc0d50ce05 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Виртуальная процедура получения значений из ресурсного файла, в зависимости от нужд приложения  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a631ecf77728b6a97c60c32cc0d50ce05">Подробнее...</a><br /></td></tr>
+<tr class="separator:a631ecf77728b6a97c60c32cc0d50ce05 inherit pro_methods_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:ab19204d90e8629a6e4cbcee9aba076b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/db2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet.html">Comet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">_cometUsers</a></td></tr>
+<tr class="memdesc:ab19204d90e8629a6e4cbcee9aba076b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Элемент управления для контроля совместной работы над сущностью  <a href="#ab19204d90e8629a6e4cbcee9aba076b2">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab19204d90e8629a6e4cbcee9aba076b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Свойства</h2></td></tr>
+<tr class="memitem:ab25e7562116b510c52cc923d4a3c91c8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab25e7562116b510c52cc923d4a3c91c8">EntityId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab25e7562116b510c52cc923d4a3c91c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Id сущности (если нужно int значение используй ItemId)  <a href="#ab25e7562116b510c52cc923d4a3c91c8">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab25e7562116b510c52cc923d4a3c91c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td colspan="2" onclick="javascript:toggleInherit('properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page')"><img src="../../closed.png" alt="-"/>&#160;Свойства унаследованные от <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html">Kesco.Lib.Web.Controls.V4.Common.Page</a></td></tr>
+<tr class="memitem:a279abf64a476bea57fbf21f32e524c3a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a279abf64a476bea57fbf21f32e524c3a">V4IsPostBack</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a279abf64a476bea57fbf21f32e524c3a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак постбека  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a279abf64a476bea57fbf21f32e524c3a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a279abf64a476bea57fbf21f32e524c3a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df3d20f4ba43ecff59491253a511e59 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a2df3d20f4ba43ecff59491253a511e59">ReturnId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2df3d20f4ba43ecff59491253a511e59 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID вызвавшего источника, берется из строки адреса  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a2df3d20f4ba43ecff59491253a511e59">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2df3d20f4ba43ecff59491253a511e59 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b0e35e426410dff7741c54dbe48bb2a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a9b0e35e426410dff7741c54dbe48bb2a">ClId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a9b0e35e426410dff7741c54dbe48bb2a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID клиента  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a9b0e35e426410dff7741c54dbe48bb2a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9b0e35e426410dff7741c54dbe48bb2a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf08507da56065da35ffb81fb1bf8387 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">ItemId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:adf08507da56065da35ffb81fb1bf8387 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID сущности  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">Подробнее...</a><br /></td></tr>
+<tr class="separator:adf08507da56065da35ffb81fb1bf8387 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f85d75613458e6570c6b52e89b13731 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a4f85d75613458e6570c6b52e89b13731">TypeId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4f85d75613458e6570c6b52e89b13731 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID типа сущности  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a4f85d75613458e6570c6b52e89b13731">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4f85d75613458e6570c6b52e89b13731 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4043fb43d2bcd98458bfe78a0e43f425 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a4043fb43d2bcd98458bfe78a0e43f425">IsEditable</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4043fb43d2bcd98458bfe78a0e43f425 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак возможности редактирования сущности  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a4043fb43d2bcd98458bfe78a0e43f425">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4043fb43d2bcd98458bfe78a0e43f425 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364098a854c30bfc6f8c9459439f3948 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a364098a854c30bfc6f8c9459439f3948">IDPage</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a364098a854c30bfc6f8c9459439f3948 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID страницы (GUID)  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a364098a854c30bfc6f8c9459439f3948">Подробнее...</a><br /></td></tr>
+<tr class="separator:a364098a854c30bfc6f8c9459439f3948 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1e6de73aa82546ad7ae83b8c01e22c inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abc1e6de73aa82546ad7ae83b8c01e22c">LastUpdate</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abc1e6de73aa82546ad7ae83b8c01e22c inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дата и время последнего обращения к странице  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abc1e6de73aa82546ad7ae83b8c01e22c">Подробнее...</a><br /></td></tr>
+<tr class="separator:abc1e6de73aa82546ad7ae83b8c01e22c inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77615a8c706de742425da5e6279dc8d9 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a77615a8c706de742425da5e6279dc8d9">FocusControl</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a77615a8c706de742425da5e6279dc8d9 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID контрола на который необходимо установить фокус  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a77615a8c706de742425da5e6279dc8d9">Подробнее...</a><br /></td></tr>
+<tr class="separator:a77615a8c706de742425da5e6279dc8d9 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a040470c4a412cdc98ff9e1f5c9daf inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad4a040470c4a412cdc98ff9e1f5c9daf">ExternalCmd</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad4a040470c4a412cdc98ff9e1f5c9daf inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дополнительная клиентская команда (для выполнения нескольких команд в одном запросе)  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ad4a040470c4a412cdc98ff9e1f5c9daf">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad4a040470c4a412cdc98ff9e1f5c9daf inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abafaa63f563599302ee9d02b4a7eefc7 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abafaa63f563599302ee9d02b4a7eefc7">PostRequest</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abafaa63f563599302ee9d02b4a7eefc7 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак запроса типа POST  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abafaa63f563599302ee9d02b4a7eefc7">Подробнее...</a><br /></td></tr>
+<tr class="separator:abafaa63f563599302ee9d02b4a7eefc7 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bf6e8b2d6aba8a6a6dd28f38194b25c inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a7bf6e8b2d6aba8a6a6dd28f38194b25c">UserId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7bf6e8b2d6aba8a6a6dd28f38194b25c inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID пользователя  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a7bf6e8b2d6aba8a6a6dd28f38194b25c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7bf6e8b2d6aba8a6a6dd28f38194b25c inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0ed51b9685bde1a40eae308192adf5 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0c/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html">Employee</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abc0ed51b9685bde1a40eae308192adf5">CurrentUser</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abc0ed51b9685bde1a40eae308192adf5 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Пользователь  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abc0ed51b9685bde1a40eae308192adf5">Подробнее...</a><br /></td></tr>
+<tr class="separator:abc0ed51b9685bde1a40eae308192adf5 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac32c01244b56b3b935869e52629f8fd2 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ac32c01244b56b3b935869e52629f8fd2">IsRusLocal</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac32c01244b56b3b935869e52629f8fd2 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">русская локализация клиента  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ac32c01244b56b3b935869e52629f8fd2">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac32c01244b56b3b935869e52629f8fd2 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae50c36e124d973d6a73b45e85e18eba9 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ae50c36e124d973d6a73b45e85e18eba9">IsEngLocal</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae50c36e124d973d6a73b45e85e18eba9 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">английская локализация клиента  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#ae50c36e124d973d6a73b45e85e18eba9">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae50c36e124d973d6a73b45e85e18eba9 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3abfb3c8feba857bd53c32df90daa2 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1c3abfb3c8feba857bd53c32df90daa2">IsEstLocal</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1c3abfb3c8feba857bd53c32df90daa2 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">эстонская локализация клиента  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1c3abfb3c8feba857bd53c32df90daa2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1c3abfb3c8feba857bd53c32df90daa2 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d060895da88e78034dbdccc1b5ab2a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a95d060895da88e78034dbdccc1b5ab2a">IsComet</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a95d060895da88e78034dbdccc1b5ab2a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак работы лонгпулинга  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a95d060895da88e78034dbdccc1b5ab2a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a95d060895da88e78034dbdccc1b5ab2a inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda661a60c1b33d416e3121c181e73ce inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">new string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abda661a60c1b33d416e3121c181e73ce">Title</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abda661a60c1b33d416e3121c181e73ce inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тайтл страницы  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#abda661a60c1b33d416e3121c181e73ce">Подробнее...</a><br /></td></tr>
+<tr class="separator:abda661a60c1b33d416e3121c181e73ce inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034802786a6db02a968a75ee5219ee62 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a034802786a6db02a968a75ee5219ee62">Data</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a034802786a6db02a968a75ee5219ee62 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция данных  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a034802786a6db02a968a75ee5219ee62">Подробнее...</a><br /></td></tr>
+<tr class="separator:a034802786a6db02a968a75ee5219ee62 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a678a9cf05b1e4065c2ca1c9a327514a6 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a678a9cf05b1e4065c2ca1c9a327514a6">IsReadOnly</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a678a9cf05b1e4065c2ca1c9a327514a6 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установка/снятие для всех контролов на странице свойства "только чтение"  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a678a9cf05b1e4065c2ca1c9a327514a6">Подробнее...</a><br /></td></tr>
+<tr class="separator:a678a9cf05b1e4065c2ca1c9a327514a6 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0d0ffba99558b560337cf6cad065b5 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">override sealed bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aae0d0ffba99558b560337cf6cad065b5">EnableViewState</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aae0d0ffba99558b560337cf6cad065b5 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отключаем/Включаем ViewState (в текущей реализации ViewState отключен)  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aae0d0ffba99558b560337cf6cad065b5">Подробнее...</a><br /></td></tr>
+<tr class="separator:aae0d0ffba99558b560337cf6cad065b5 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8e52494653754d9018fb18874d3d65 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#afe8e52494653754d9018fb18874d3d65">JsScripts</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:afe8e52494653754d9018fb18874d3d65 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция скриптов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#afe8e52494653754d9018fb18874d3d65">Подробнее...</a><br /></td></tr>
+<tr class="separator:afe8e52494653754d9018fb18874d3d65 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82e03b5d176ee9a0fedf86a990a05b1 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#af82e03b5d176ee9a0fedf86a990a05b1">CssScripts</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:af82e03b5d176ee9a0fedf86a990a05b1 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция стилей  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#af82e03b5d176ee9a0fedf86a990a05b1">Подробнее...</a><br /></td></tr>
+<tr class="separator:af82e03b5d176ee9a0fedf86a990a05b1 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9931fb4908b6c1c6841781ca322d33f inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">HttpRequest&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aa9931fb4908b6c1c6841781ca322d33f">V4Request</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa9931fb4908b6c1c6841781ca322d33f inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запрос  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aa9931fb4908b6c1c6841781ca322d33f">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa9931fb4908b6c1c6841781ca322d33f inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546ae630aeb2b7a887d639ec776b6ebd inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">HttpResponse&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a546ae630aeb2b7a887d639ec776b6ebd">V4Response</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a546ae630aeb2b7a887d639ec776b6ebd inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ответ  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a546ae630aeb2b7a887d639ec776b6ebd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a546ae630aeb2b7a887d639ec776b6ebd inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86938416e455143dda1158a31c089be6 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a86938416e455143dda1158a31c089be6">HelpUrl</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a86938416e455143dda1158a31c089be6 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Абстрактное свойство, требующее обязательно переопределения на странице и устанавливающее ссылку на справку  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a86938416e455143dda1158a31c089be6">Подробнее...</a><br /></td></tr>
+<tr class="separator:a86938416e455143dda1158a31c089be6 inherit properties_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a58ee197e1da7ad6b6bd01e0cf9b75a6b"><td class="memItemLeft" align="right" valign="top">readonly List&lt; <a class="el" href="../../d4/d87/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_button.html">Button</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">_menuButtons</a></td></tr>
+<tr class="memdesc:a58ee197e1da7ad6b6bd01e0cf9b75a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция кнопок меню  <a href="#a58ee197e1da7ad6b6bd01e0cf9b75a6b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a58ee197e1da7ad6b6bd01e0cf9b75a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page')"><img src="../../closed.png" alt="-"/>&#160;Поля данных унаследованные от <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html">Kesco.Lib.Web.Controls.V4.Common.Page</a></td></tr>
+<tr class="memitem:a2564d3c727fb8d2c3afca654c0ddbb4e inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">NameValueCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a2564d3c727fb8d2c3afca654c0ddbb4e">El</a> = new NameValueCollection()</td></tr>
+<tr class="memdesc:a2564d3c727fb8d2c3afca654c0ddbb4e inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция атрибутов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a2564d3c727fb8d2c3afca654c0ddbb4e">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2564d3c727fb8d2c3afca654c0ddbb4e inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e27b615c22d47ff58e76fa7034c1068 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">NameValueCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3e27b615c22d47ff58e76fa7034c1068">ElXML</a> = new NameValueCollection()</td></tr>
+<tr class="memdesc:a3e27b615c22d47ff58e76fa7034c1068 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция XML атрибутов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a3e27b615c22d47ff58e76fa7034c1068">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3e27b615c22d47ff58e76fa7034c1068 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fbef3467f75652cc38b0aba1a22959 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">NameValueCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a16fbef3467f75652cc38b0aba1a22959">HTMLBlock</a> = new NameValueCollection()</td></tr>
+<tr class="memdesc:a16fbef3467f75652cc38b0aba1a22959 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Коллекция HTML блоков, используется для подготовки скрипта и обновления на клиенте.  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a16fbef3467f75652cc38b0aba1a22959">Подробнее...</a><br /></td></tr>
+<tr class="separator:a16fbef3467f75652cc38b0aba1a22959 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc7eb58e8bbd6f3c821287e6aee0db4 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">TextWriter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aedc7eb58e8bbd6f3c821287e6aee0db4">JS</a> = new StringWriter()</td></tr>
+<tr class="memdesc:aedc7eb58e8bbd6f3c821287e6aee0db4 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запись скриптов клиенту  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aedc7eb58e8bbd6f3c821287e6aee0db4">Подробнее...</a><br /></td></tr>
+<tr class="separator:aedc7eb58e8bbd6f3c821287e6aee0db4 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc991485cef5aae8f7de66e28158821 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">ArrayList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aefc991485cef5aae8f7de66e28158821">Listeners</a> = new ArrayList()</td></tr>
+<tr class="memdesc:aefc991485cef5aae8f7de66e28158821 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Массив "слушателей", используется для пейджинга грида  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aefc991485cef5aae8f7de66e28158821">Подробнее...</a><br /></td></tr>
+<tr class="separator:aefc991485cef5aae8f7de66e28158821 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca1d92d76465014c22370ba27045c45 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d09/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_event_manager.html">PageEventManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#afca1d92d76465014c22370ba27045c45">PageEventManager</a> = <a class="el" href="../../d2/d09/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_event_manager.html#a88db4c92cb30a619d1cdea2c4455f53e">PageEventManager.GetInstatnce</a>()</td></tr>
+<tr class="memdesc:afca1d92d76465014c22370ba27045c45 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение единственного экземпляра <a class="el" href="../../d2/d09/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_event_manager.html" title="Класс управление событиями на странице ">PageEventManager</a>  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#afca1d92d76465014c22370ba27045c45">Подробнее...</a><br /></td></tr>
+<tr class="separator:afca1d92d76465014c22370ba27045c45 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebee7418547ac03a8bd2f6b5ea5c08a0 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top">ResourceManager&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aebee7418547ac03a8bd2f6b5ea5c08a0">Resx</a> = Resources.Resx</td></tr>
+<tr class="memdesc:aebee7418547ac03a8bd2f6b5ea5c08a0 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Локализация  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aebee7418547ac03a8bd2f6b5ea5c08a0">Подробнее...</a><br /></td></tr>
+<tr class="separator:aebee7418547ac03a8bd2f6b5ea5c08a0 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35157a95d9a61bc66273593a14cc9276 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5f/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict.html">V4ControlsDict</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a35157a95d9a61bc66273593a14cc9276">V4Controls</a> = new <a class="el" href="../../d9/d5f/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict.html">V4ControlsDict</a>()</td></tr>
+<tr class="memdesc:a35157a95d9a61bc66273593a14cc9276 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="mdescLeft">&#160;</td><td class="mdescRight">Словарь контролов  <a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a35157a95d9a61bc66273593a14cc9276">Подробнее...</a><br /></td></tr>
+<tr class="separator:a35157a95d9a61bc66273593a14cc9276 inherit pub_attribs_class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый класс для стриниц сущностей Все страницы, работающие с функционалом <a class="el" href="../../d3/df8/namespace_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4.html">V4</a> и сущностями(Entities) наследуют от него. Является абстрактным, т.к. содерщит свойства, которые обязан переопределить на странице </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00016">16</a></p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a2ca7720fe946afdb4a734ad2a6df8334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca7720fe946afdb4a734ad2a6df8334">&#9670;&nbsp;</a></span>EntityPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Web.Controls.V4.Common.EntityPage.EntityPage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Конструктор </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00031">31</a></p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">_menuButtons</a> = <span class="keyword">new</span> List&lt;Button&gt;();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_a58ee197e1da7ad6b6bd01e0cf9b75a6b"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">Kesco.Lib.Web.Controls.V4.Common.EntityPage._menuButtons</a></div><div class="ttdeci">readonly List&lt; Button &gt; _menuButtons</div><div class="ttdoc">Коллекция кнопок меню </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00021">EntityPage.cs:21</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="aa6334363e67b329d6fba3faf9af5bed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6334363e67b329d6fba3faf9af5bed9">&#9670;&nbsp;</a></span>AddMenuButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Web.Controls.V4.Common.EntityPage.AddMenuButton </td>
+          <td>(</td>
+          <td class="paramtype">params <a class="el" href="../../d4/d87/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_button.html">Button</a> []&#160;</td>
+          <td class="paramname"><em>buttons</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Добавление кнопок в меню </p>
+<p>В качестве параметра может получать: одиночный объект, объекты через запятую, массив объектов <a class="el" href="../../d4/d87/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_button.html" title="Контрол Button (Кнопка) ">Button</a> </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buttons</td><td>объект контрола button</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00092">92</a></p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">_menuButtons</a>.AddRange(buttons);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_a58ee197e1da7ad6b6bd01e0cf9b75a6b"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">Kesco.Lib.Web.Controls.V4.Common.EntityPage._menuButtons</a></div><div class="ttdeci">readonly List&lt; Button &gt; _menuButtons</div><div class="ttdoc">Коллекция кнопок меню </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00021">EntityPage.cs:21</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa1d24cc368c9aafe4fb7d65083f4fcb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d24cc368c9aafe4fb7d65083f4fcb6">&#9670;&nbsp;</a></span>ClearMenuButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Web.Controls.V4.Common.EntityPage.ClearMenuButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Очистить коллекцию кнопок </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00100">100</a></p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">_menuButtons</a>.Clear();</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_a58ee197e1da7ad6b6bd01e0cf9b75a6b"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">Kesco.Lib.Web.Controls.V4.Common.EntityPage._menuButtons</a></div><div class="ttdeci">readonly List&lt; Button &gt; _menuButtons</div><div class="ttdoc">Коллекция кнопок меню </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00021">EntityPage.cs:21</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a14684b7d4cfa5b89a8efe3c847acc420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14684b7d4cfa5b89a8efe3c847acc420">&#9670;&nbsp;</a></span>GetHtmlDateTimeLabel() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Web.Controls.V4.Common.EntityPage.GetHtmlDateTimeLabel </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>dateTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>formatDateTime</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>attributes</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает разметку контрола label для отображения локальной даты </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dateTime</td><td>Дата и время для отображения</td></tr>
+    <tr><td class="paramname">formatDateTime</td><td>Формат отображения даты</td></tr>
+    <tr><td class="paramname">attributes</td><td>Атрибуты для отображаемого label</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00158">158</a></p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            var formatedDateTime = dateTime.ToString(<span class="stringliteral">&quot;yyyy-MM-dd HH:mm:ss&quot;</span>);</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <span class="keywordflow">return</span> String.Format(<span class="stringliteral">&quot;&lt;label class=localDT {0} {2}&gt;{1}&lt;/label&gt;&quot;</span>,</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                !String.IsNullOrEmpty(formatDateTime) ? String.Format(<span class="stringliteral">&quot;dtformat=&#39;{0}&#39;&quot;</span>, formatDateTime) : <span class="stringliteral">&quot;&quot;</span>,</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                formatedDateTime, !String.IsNullOrEmpty(attributes) ? attributes : <span class="stringliteral">&quot;&quot;</span>);</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="adb1f12265429dd28625b02d9b27bf53a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb1f12265429dd28625b02d9b27bf53a">&#9670;&nbsp;</a></span>GetHtmlDateTimeLabel() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Web.Controls.V4.Common.EntityPage.GetHtmlDateTimeLabel </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>dateTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withoutTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>attributes</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает разметку контрола label для отображения локальной даты </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dateTime</td><td>Дата и время для отображения</td></tr>
+    <tr><td class="paramname">withoutTime</td><td>Отображать дату с/без даты</td></tr>
+    <tr><td class="paramname">attributes</td><td>Атрибуты для отображаемого label</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00172">172</a></p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        {</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            var formatedDateTime = dateTime.ToString(<span class="stringliteral">&quot;yyyy-MM-dd HH:mm:ss&quot;</span>);</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            <span class="keywordflow">return</span> String.Format(<span class="stringliteral">&quot;&lt;label class=localDT {0} {2}&gt;{1}&lt;/label&gt;&quot;</span>, withoutTime ? <span class="stringliteral">&quot;dtformat=dd.mm.yyyy&quot;</span> : <span class="stringliteral">&quot;&quot;</span>,</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                formatedDateTime, !String.IsNullOrEmpty(attributes) ? attributes : <span class="stringliteral">&quot;&quot;</span>);</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="aac5bfdb7eca2980613fdbe2a3be83293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5bfdb7eca2980613fdbe2a3be83293">&#9670;&nbsp;</a></span>RefreshMenuButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Web.Controls.V4.Common.EntityPage.RefreshMenuButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Обновить кнопки меню </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00143">143</a></p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        {</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keyword">using</span> (var w = <span class="keyword">new</span> StringWriter())</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            {</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a34fcaaca5f3e57d79496d09299265740">RenderButtons</a>(w);</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                <a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aedc7eb58e8bbd6f3c821287e6aee0db4">JS</a>.Write(<span class="stringliteral">&quot;gi(&#39;pageHeader&#39;).innerHTML={0};&quot;</span>, HttpUtility.JavaScriptStringEncode(w.ToString(), <span class="keyword">true</span>));</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            }</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_aedc7eb58e8bbd6f3c821287e6aee0db4"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aedc7eb58e8bbd6f3c821287e6aee0db4">Kesco.Lib.Web.Controls.V4.Common.Page.JS</a></div><div class="ttdeci">TextWriter JS</div><div class="ttdoc">Запись скриптов клиенту </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00105">Page.cs:105</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_a34fcaaca5f3e57d79496d09299265740"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a34fcaaca5f3e57d79496d09299265740">Kesco.Lib.Web.Controls.V4.Common.EntityPage.RenderButtons</a></div><div class="ttdeci">void RenderButtons(StringWriter w)</div><div class="ttdoc">Сформировать кнопки меню </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00108">EntityPage.cs:108</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a34fcaaca5f3e57d79496d09299265740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34fcaaca5f3e57d79496d09299265740">&#9670;&nbsp;</a></span>RenderButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Web.Controls.V4.Common.EntityPage.RenderButtons </td>
+          <td>(</td>
+          <td class="paramtype">StringWriter&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сформировать кнопки меню </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00108">108</a></p>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">_menuButtons</a>.Count &gt; 0)</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            {</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                w.Write(<span class="stringliteral">&quot;&lt;div id=\&quot;pageHeader\&quot; class=\&quot;ui-widget-header ui-corner-all\&quot; style=\&quot;z-index:9999\&quot;&gt;&quot;</span>);</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <span class="keywordflow">foreach</span> (var b <span class="keywordflow">in</span> <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">_menuButtons</a>)</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                    <a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a35157a95d9a61bc66273593a14cc9276">V4Controls</a>.<a class="code" href="../../d9/d5f/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict.html#ab88aa56d9fdaf403a326f4320c60a904">Add</a>(b);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                    b.RenderControl(w);</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                    b.PropertyChanged.Clear();</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                }</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;               <span class="comment">// if (false) // пока эта функция никому ну нужна, генирирует </span></div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                   </div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">ItemId</a> &gt; 0) <span class="comment">// блокируем на вермя показа</span></div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                    <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#af116058e93cc0923ebecf6bf2a663a45">RenderCometControl</a>(w);</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                </div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">if</span> (!<span class="keywordtype">string</span>.IsNullOrEmpty(<a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a86938416e455143dda1158a31c089be6">HelpUrl</a>))</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                {</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                    <span class="comment">// в v4контроле криво отображается</span></div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                    w.Write(</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                        <span class="stringliteral">&quot;&lt;div id=&#39;btnHelp&#39; title=&#39;{0}&#39; onclick=\&quot;v4_openHelp(&#39;&lt;%= IDPage %&gt;&#39;);\&quot; style=&#39;float: right; margin-right: 11px;  display:table-cell; vertical-align: middle;  text-align: center; width: 25px; height: 20px;&#39;&gt;&lt;/div&gt;&quot;</span>,</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                        <a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aebee7418547ac03a8bd2f6b5ea5c08a0">Resx</a>.GetString(<span class="stringliteral">&quot;Title_Help&quot;</span>));</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    w.Write(<span class="stringliteral">&quot;&lt;script&gt;$(&#39;#{0}&#39;).button({{icons: {{primary: {1}}}}});&lt;/script&gt;&quot;</span>, <span class="stringliteral">&quot;btnHelp&quot;</span>, <a class="code" href="../../d5/dda/class_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls_1_1_button_icons_enum.html">ButtonIconsEnum</a>.<a class="code" href="../../d5/dda/class_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls_1_1_button_icons_enum.html#abe6050da7b3f480fbd9fbdc918b06222">Help</a>);</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                }</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                </div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                w.WriteLine(<span class="stringliteral">@&quot;&lt;/div&gt;&quot;</span>);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            }</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_adf08507da56065da35ffb81fb1bf8387"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">Kesco.Lib.Web.Controls.V4.Common.Page.ItemId</a></div><div class="ttdeci">int ItemId</div><div class="ttdoc">ID сущности </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00195">Page.cs:195</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_a58ee197e1da7ad6b6bd01e0cf9b75a6b"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#a58ee197e1da7ad6b6bd01e0cf9b75a6b">Kesco.Lib.Web.Controls.V4.Common.EntityPage._menuButtons</a></div><div class="ttdeci">readonly List&lt; Button &gt; _menuButtons</div><div class="ttdoc">Коллекция кнопок меню </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00021">EntityPage.cs:21</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_a86938416e455143dda1158a31c089be6"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a86938416e455143dda1158a31c089be6">Kesco.Lib.Web.Controls.V4.Common.Page.HelpUrl</a></div><div class="ttdeci">abstract string HelpUrl</div><div class="ttdoc">Абстрактное свойство, требующее обязательно переопределения на странице и устанавливающее ссылку на с...</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00354">Page.cs:354</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_a35157a95d9a61bc66273593a14cc9276"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a35157a95d9a61bc66273593a14cc9276">Kesco.Lib.Web.Controls.V4.Common.Page.V4Controls</a></div><div class="ttdeci">V4ControlsDict V4Controls</div><div class="ttdoc">Словарь контролов </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00125">Page.cs:125</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_af116058e93cc0923ebecf6bf2a663a45"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#af116058e93cc0923ebecf6bf2a663a45">Kesco.Lib.Web.Controls.V4.Common.EntityPage.RenderCometControl</a></div><div class="ttdeci">void RenderCometControl(StringWriter w)</div><div class="ttdoc">Отрисовка контрола для совместной работы </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00070">EntityPage.cs:70</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_aebee7418547ac03a8bd2f6b5ea5c08a0"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#aebee7418547ac03a8bd2f6b5ea5c08a0">Kesco.Lib.Web.Controls.V4.Common.Page.Resx</a></div><div class="ttdeci">ResourceManager Resx</div><div class="ttdoc">Локализация </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00120">Page.cs:120</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls_1_1_button_icons_enum_html_abe6050da7b3f480fbd9fbdc918b06222"><div class="ttname"><a href="../../d5/dda/class_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls_1_1_button_icons_enum.html#abe6050da7b3f480fbd9fbdc918b06222">Kesco.Lib.BaseExtention.Enums.Controls.ButtonIconsEnum.Help</a></div><div class="ttdeci">const string Help</div><div class="ttdoc">Иконка для кнопки Справка </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/_controls_8cs_source.html#l00045">Controls.cs:45</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict_html_ab88aa56d9fdaf403a326f4320c60a904"><div class="ttname"><a href="../../d9/d5f/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict.html#ab88aa56d9fdaf403a326f4320c60a904">Kesco.Lib.Web.Controls.V4.Common.V4ControlsDict.Add</a></div><div class="ttdeci">void Add(V4Control value)</div><div class="ttdoc">Метод добавления нового контрола в словарь </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00037">Page.cs:37</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls_1_1_button_icons_enum_html"><div class="ttname"><a href="../../d5/dda/class_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_controls_1_1_button_icons_enum.html">Kesco.Lib.BaseExtention.Enums.Controls.ButtonIconsEnum</a></div><div class="ttdoc">Переченинь иконок для стандартных кнопок </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/_controls_8cs_source.html#l00006">Controls.cs:6</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af116058e93cc0923ebecf6bf2a663a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af116058e93cc0923ebecf6bf2a663a45">&#9670;&nbsp;</a></span>RenderCometControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Web.Controls.V4.Common.EntityPage.RenderCometControl </td>
+          <td>(</td>
+          <td class="paramtype">StringWriter&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Отрисовка контрола для совместной работы </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00070">70</a></p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">_cometUsers</a> = <span class="keyword">new</span> Comet(<span class="keyword">this</span>)</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                ID = <span class="stringliteral">&quot;v4_cometUsersList&quot;</span>,</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                HtmlID = <span class="stringliteral">&quot;v4_cometUsersList&quot;</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            };</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a35157a95d9a61bc66273593a14cc9276">V4Controls</a>.<a class="code" href="../../d9/d5f/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict.html#ab88aa56d9fdaf403a326f4320c60a904">Add</a>(<a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">_cometUsers</a>);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">_cometUsers</a>.<a class="code" href="../../d6/db2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet.html#aa2068e3ee09afd4fb5a42656de26f325">RenderControl</a>(w);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_a35157a95d9a61bc66273593a14cc9276"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a35157a95d9a61bc66273593a14cc9276">Kesco.Lib.Web.Controls.V4.Common.Page.V4Controls</a></div><div class="ttdeci">V4ControlsDict V4Controls</div><div class="ttdoc">Словарь контролов </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00125">Page.cs:125</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet_html_aa2068e3ee09afd4fb5a42656de26f325"><div class="ttname"><a href="../../d6/db2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet.html#aa2068e3ee09afd4fb5a42656de26f325">Kesco.Lib.Web.Controls.V4.Comet.RenderControl</a></div><div class="ttdeci">override void RenderControl(TextWriter w)</div><div class="ttdoc">Отрисовка контрола </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/_comet_8cs_source.html#l00125">Comet.cs:125</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict_html_ab88aa56d9fdaf403a326f4320c60a904"><div class="ttname"><a href="../../d9/d5f/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_v4_controls_dict.html#ab88aa56d9fdaf403a326f4320c60a904">Kesco.Lib.Web.Controls.V4.Common.V4ControlsDict.Add</a></div><div class="ttdeci">void Add(V4Control value)</div><div class="ttdoc">Метод добавления нового контрола в словарь </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00037">Page.cs:37</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_ab19204d90e8629a6e4cbcee9aba076b2"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">Kesco.Lib.Web.Controls.V4.Common.EntityPage._cometUsers</a></div><div class="ttdeci">Comet _cometUsers</div><div class="ttdoc">Элемент управления для контроля совместной работы над сущностью </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00026">EntityPage.cs:26</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad3e57013320667e7df2c28660c23daa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e57013320667e7df2c28660c23daa7">&#9670;&nbsp;</a></span>V4Dispose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Web.Controls.V4.Common.EntityPage.V4Dispose </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>redirect</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Освобождение ресурсов занятых страницей. Блокирует объект Application на время операции </p>
+
+<p>Переопределяет метод предка <a class="el" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#a1ba8f981b73d46cf08852a3db4730f96">Kesco.Lib.Web.Controls.V4.Common.Page</a>.</p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00059">59</a></p>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">_cometUsers</a> != null)</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">_cometUsers</a>.<a class="code" href="../../d6/db2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet.html#a5828437bd5946013ed2362ed1fb1bec2">DisposeComet</a>();</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            base.V4Dispose(redirect);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet_html_a5828437bd5946013ed2362ed1fb1bec2"><div class="ttname"><a href="../../d6/db2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet.html#a5828437bd5946013ed2362ed1fb1bec2">Kesco.Lib.Web.Controls.V4.Comet.DisposeComet</a></div><div class="ttdeci">void DisposeComet()</div><div class="ttdoc">Отписываемся от событий </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/_comet_8cs_source.html#l00290">Comet.cs:290</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_ab19204d90e8629a6e4cbcee9aba076b2"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ab19204d90e8629a6e4cbcee9aba076b2">Kesco.Lib.Web.Controls.V4.Common.EntityPage._cometUsers</a></div><div class="ttdeci">Comet _cometUsers</div><div class="ttdoc">Элемент управления для контроля совместной работы над сущностью </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00026">EntityPage.cs:26</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aad188ef07eda9fca78fb51f3d963eaaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad188ef07eda9fca78fb51f3d963eaaf">&#9670;&nbsp;</a></span>V4Redirect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Web.Controls.V4.Common.EntityPage.V4Redirect </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withQueryParams</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переадресация страницы на указанную </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Путь для переадресации</td></tr>
+    <tr><td class="paramname">withQueryParams</td><td>Добавлять к пути параметры текущей страницы</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00050">50</a></p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ad3e57013320667e7df2c28660c23daa7">V4Dispose</a>(<span class="keyword">true</span>);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            Response.Redirect(path + (withQueryParams ? Request.Url.Query : <span class="stringliteral">&quot;&quot;</span>), <span class="keyword">false</span>);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page_html_ad3e57013320667e7df2c28660c23daa7"><div class="ttname"><a href="../../d7/d27/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_entity_page.html#ad3e57013320667e7df2c28660c23daa7">Kesco.Lib.Web.Controls.V4.Common.EntityPage.V4Dispose</a></div><div class="ttdeci">override void V4Dispose(bool redirect=false)</div><div class="ttdoc">Освобождение ресурсов занятых страницей. Блокирует объект Application на время операции ...</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d89/_entity_page_8cs_source.html#l00059">EntityPage.cs:59</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Поля</h2>
+<a id="ab19204d90e8629a6e4cbcee9aba076b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19204d90e8629a6e4cbcee9aba076b2">&#9670;&nbsp;</a></span>_cometUsers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/db2/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_comet.html">Comet</a> Kesco.Lib.Web.Controls.V4.Common.EntityPage._cometUsers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Элемент управления для контроля совместной работы над сущностью </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00026">26</a></p>
+
+</div>
+</div>
+<a id="a58ee197e1da7ad6b6bd01e0cf9b75a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ee197e1da7ad6b6bd01e0cf9b75a6b">&#9670;&nbsp;</a></span>_menuButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="../../d4/d87/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_button.html">Button</a>&gt; Kesco.Lib.Web.Controls.V4.Common.EntityPage._menuButtons</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Коллекция кнопок меню </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00021">21</a></p>
+
+</div>
+</div>
+<h2 class="groupheader">Полный список свойств</h2>
+<a id="ab25e7562116b510c52cc923d4a3c91c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab25e7562116b510c52cc923d4a3c91c8">&#9670;&nbsp;</a></span>EntityId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Web.Controls.V4.Common.EntityPage.EntityId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Id сущности (если нужно int значение используй ItemId) </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a> строка <a class="el" href="../../db/d89/_entity_page_8cs_source.html#l00040">40</a></p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> <a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">ItemId</a>.ToString(); }</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keyword">set</span> { <a class="code" href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">ItemId</a> = value.ToInt(); }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page_html_adf08507da56065da35ffb81fb1bf8387"><div class="ttname"><a href="../../d3/d9d/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_common_1_1_page.html#adf08507da56065da35ffb81fb1bf8387">Kesco.Lib.Web.Controls.V4.Common.Page.ItemId</a></div><div class="ttdeci">int ItemId</div><div class="ttdoc">ID сущности </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d82/_page_8cs_source.html#l00195">Page.cs:195</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Source/WEB_V4/Kesco.Lib.Web.Controls.V4/Common/<a class="el" href="../../db/d89/_entity_page_8cs_source.html">EntityPage.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:42. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

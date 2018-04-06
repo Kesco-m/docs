@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Исходный файл Source/WEB_V4/Kesco.Lib.Web.DBSelect.V4/DSO/DSOSqlQuery.cs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_4781ae3b1ec0850db8bd10105eacd4d3.html">WEB_V4</a></li><li class="navelem"><a class="el" href="../../dir_5156e4ab66ff643f8f82d853db254f5c.html">Kesco.Lib.Web.DBSelect.V4</a></li><li class="navelem"><a class="el" href="../../dir_e67854ebee26606c541f99540150f2d6.html">DSO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">DSOSqlQuery.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../db/db3/_d_s_o_sql_query_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.<a class="code" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a>.<a class="code" href="../../da/dd9/namespace_kesco_1_1_lib_1_1_entities.html">Entities</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.Lib.Web.DBSelect.V4.DSO</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;{</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html">    7</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html">DSOSqlQuery</a> : <a class="code" href="../../d3/dd0/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_common.html">DSOCommon</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        [<a class="code" href="../../d9/d5d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_filter_option.html">FilterOption</a>(<span class="stringliteral">&quot;Условие&quot;</span>)]</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#acd409ae5d022a71475a9b8ca38aed5b6">   13</a></span>&#160;        <span class="keyword">public</span> FOpt.SqlQuery.FOptName <a class="code" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#acd409ae5d022a71475a9b8ca38aed5b6">Name</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        [<a class="code" href="../../d9/d5d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_filter_option.html">FilterOption</a>(<span class="stringliteral">&quot;КодУсловия&quot;</span>)]</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#a76de4a9b65646fabf0a75a4f8082fa9f">   19</a></span>&#160;        <span class="keyword">public</span> FOpt.SqlQuery.FOptIDs <a class="code" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#a76de4a9b65646fabf0a75a4f8082fa9f">QueryId</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        [<a class="code" href="../../d9/d5d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_filter_option.html">FilterOption</a>(<span class="stringliteral">&quot;ТипУсловия&quot;</span>, <span class="keyword">true</span>)]</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#a9593f8a80ba5ad300d60d3de80bc2de3">   25</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> QueryType {<span class="keyword">get</span>; <span class="keyword">set</span>;}</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#ae46c42ce844cef305780ead07d155f39">   30</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#ae46c42ce844cef305780ead07d155f39">DSOSqlQuery</a>()</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            KeyField = <span class="stringliteral">&quot;КодУсловия&quot;</span>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            NameField = <span class="stringliteral">&quot;Условие&quot;</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            QueryId = <span class="keyword">new</span> FOpt.SqlQuery.FOptIDs();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            Name = <span class="keyword">new</span> FOpt.SqlQuery.FOptName();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">string</span> SQLBatch</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#a70c42c260772b17eb2d6809703b77a14">   42</a></span>&#160;        {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> <a class="code" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries.html">SQLQueries</a>.<a class="code" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries.html#ab3ad1fae1b7ab1376218068864db021e">SELECT_ДополнительныеФильтрыПриложений</a>; }</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">string</span> SQLOrderBy</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#a75e5375649d394beafc9c33cc395ed51">   50</a></span>&#160;        {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> NameField; }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query_html_a76de4a9b65646fabf0a75a4f8082fa9f"><div class="ttname"><a href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#a76de4a9b65646fabf0a75a4f8082fa9f">Kesco.Lib.Web.DBSelect.V4.DSO.DSOSqlQuery.QueryId</a></div><div class="ttdeci">FOpt.SqlQuery.FOptIDs QueryId</div><div class="ttdoc">Опция фильтра по ID </div><div class="ttdef"><b>Definition:</b> <a href="../../db/db3/_d_s_o_sql_query_8cs_source.html#l00019">DSOSqlQuery.cs:19</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_filter_option_html"><div class="ttname"><a href="../../d9/d5d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_filter_option.html">Kesco.Lib.Web.DBSelect.V4.DSO.FilterOption</a></div><div class="ttdoc">Аттрибут опций фильтрации, указывающий построителю какие свойства использовать для фильтрации ...</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d7e/_d_s_o_common_8cs_source.html#l00008">DSOCommon.cs:8</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query_html_ae46c42ce844cef305780ead07d155f39"><div class="ttname"><a href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#ae46c42ce844cef305780ead07d155f39">Kesco.Lib.Web.DBSelect.V4.DSO.DSOSqlQuery.DSOSqlQuery</a></div><div class="ttdeci">DSOSqlQuery()</div><div class="ttdoc">Конструктор класса </div><div class="ttdef"><b>Definition:</b> <a href="../../db/db3/_d_s_o_sql_query_8cs_source.html#l00030">DSOSqlQuery.cs:30</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query_html_acd409ae5d022a71475a9b8ca38aed5b6"><div class="ttname"><a href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html#acd409ae5d022a71475a9b8ca38aed5b6">Kesco.Lib.Web.DBSelect.V4.DSO.DSOSqlQuery.Name</a></div><div class="ttdeci">FOpt.SqlQuery.FOptName Name</div><div class="ttdoc">Опция фильтра по имени </div><div class="ttdef"><b>Definition:</b> <a href="../../db/db3/_d_s_o_sql_query_8cs_source.html#l00013">DSOSqlQuery.cs:13</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query_html"><div class="ttname"><a href="../../d9/d9d/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_sql_query.html">Kesco.Lib.Web.DBSelect.V4.DSO.DSOSqlQuery</a></div><div class="ttdoc">Источник данных для контрола выбора подзапроса SQL </div><div class="ttdef"><b>Definition:</b> <a href="../../db/db3/_d_s_o_sql_query_8cs_source.html#l00007">DSOSqlQuery.cs:7</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_common_html"><div class="ttname"><a href="../../d3/dd0/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_common.html">Kesco.Lib.Web.DBSelect.V4.DSO.DSOCommon</a></div><div class="ttdoc">Базовый класс источника данных для Select </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d7e/_d_s_o_common_8cs_source.html#l00053">DSOCommon.cs:53</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_html"><div class="ttname"><a href="../../dd/d63/namespace_kesco_1_1_lib.html">Kesco.Lib</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_html"><div class="ttname"><a href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries.html">Kesco.Lib.Entities.SQLQueries</a></div><div class="ttdoc">SQLзапросы </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d28/_kesco_8_lib_8_entities_2_s_q_l_queries_8cs_source.html#l00006">SQLQueries.cs:6</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_html_ab3ad1fae1b7ab1376218068864db021e"><div class="ttname"><a href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries.html#ab3ad1fae1b7ab1376218068864db021e">Kesco.Lib.Entities.SQLQueries.SELECT_ДополнительныеФильтрыПриложений</a></div><div class="ttdeci">const string SELECT_ДополнительныеФильтрыПриложений</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d28/_kesco_8_lib_8_entities_2_s_q_l_queries_8cs_source.html#l01899">SQLQueries.cs:1899</a></div></div>
+<div class="ttc" id="namespace_kesco_html"><div class="ttname"><a href="../../d2/d2a/namespace_kesco.html">Kesco</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_entities_html"><div class="ttname"><a href="../../da/dd9/namespace_kesco_1_1_lib_1_1_entities.html">Kesco.Lib.Entities</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:36. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

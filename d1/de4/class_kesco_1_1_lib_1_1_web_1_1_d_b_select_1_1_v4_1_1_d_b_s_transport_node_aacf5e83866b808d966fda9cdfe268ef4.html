@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Web.DBSelect.V4.DBSTransportNode.FillSelect</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../dc/d00/namespace_kesco_1_1_lib_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="../../dd/d85/namespace_kesco_1_1_lib_1_1_web_1_1_d_b_select.html">DBSelect</a></li><li class="navelem"><a class="el" href="../../dd/d4c/namespace_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4.html">V4</a></li><li class="navelem"><a class="el" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node.html">DBSTransportNode</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_adc6317c504965ae6da96eb9be213884f.html#adc6317c504965ae6da96eb9be213884f">DBSTransportNode</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_aacf5e83866b808d966fda9cdfe268ef4.html#aacf5e83866b808d966fda9cdfe268ef4">FillSelect</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a7bf36f1febe2e67ecee4a9a48795bd2b.html#a7bf36f1febe2e67ecee4a9a48795bd2b">Filter</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a5f39c7b035f1173eca4c189a331365f0.html#a5f39c7b035f1173eca4c189a331365f0">GetObjectById</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a355a72e971169ae28d10343ac6afcfde.html#a355a72e971169ae28d10343ac6afcfde">GetTransportNodes</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_aa6a05a4476c0605b33173a309eb6a237.html#aa6a05a4476c0605b33173a309eb6a237">TransportNodeNtf</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="aacf5e83866b808d966fda9cdfe268ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf5e83866b808d966fda9cdfe268ef4">&#9670;&nbsp;</a></span>FillSelect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override IEnumerable Kesco.Lib.Web.DBSelect.V4.DBSTransportNode.FillSelect </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>search</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Заполнение списка </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">search</td><td>Строка поиска</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Список</dd></dl>
+
+<p>Переопределяет метод предка <a class="el" href="../../d6/dbe/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_select_a170f40cfb242fa2afade72968c82c89d.html#a170f40cfb242fa2afade72968c82c89d">Kesco.Lib.Web.DBSelect.V4.DBSelect</a>.</p>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a355a72e971169ae28d10343ac6afcfde.html#a355a72e971169ae28d10343ac6afcfde">GetTransportNodes</a>(search, <a class="code" href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a7bf36f1febe2e67ecee4a9a48795bd2b.html#a7bf36f1febe2e67ecee4a9a48795bd2b">Filter</a>.<a class="code" href="../../db/db2/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_transport_node_abd0245752d22d29ad9a501b0edf9ea7b.html#abd0245752d22d29ad9a501b0edf9ea7b">TransportType</a>, <a class="code" href="../../d1/de5/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_ad9c4a27689227ce3592c33137635413a.html#ad9c4a27689227ce3592c33137635413a">MaxItemsInQuery</a>);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a355a72e971169ae28d10343ac6afcfde_html_a355a72e971169ae28d10343ac6afcfde"><div class="ttname"><a href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a355a72e971169ae28d10343ac6afcfde.html#a355a72e971169ae28d10343ac6afcfde">Kesco.Lib.Web.DBSelect.V4.DBSTransportNode.GetTransportNodes</a></div><div class="ttdeci">List&lt; Basis &gt; GetTransportNodes(string search, string type, int maxItemsInQuery)</div><div class="ttdoc">Список для выбора транспортных узлов </div><div class="ttdef"><b>Definition:</b> DBSTransportNode.cs:70</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_transport_node_abd0245752d22d29ad9a501b0edf9ea7b_html_abd0245752d22d29ad9a501b0edf9ea7b"><div class="ttname"><a href="../../db/db2/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_d_s_o_transport_node_abd0245752d22d29ad9a501b0edf9ea7b.html#abd0245752d22d29ad9a501b0edf9ea7b">Kesco.Lib.Web.DBSelect.V4.DSO.DSOTransportNode.TransportType</a></div><div class="ttdeci">string TransportType</div><div class="ttdoc">Ограничения по виду транспорта </div><div class="ttdef"><b>Definition:</b> DSOTransportNode.cs:11</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a7bf36f1febe2e67ecee4a9a48795bd2b_html_a7bf36f1febe2e67ecee4a9a48795bd2b"><div class="ttname"><a href="../../d1/de4/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_b_s_transport_node_a7bf36f1febe2e67ecee4a9a48795bd2b.html#a7bf36f1febe2e67ecee4a9a48795bd2b">Kesco.Lib.Web.DBSelect.V4.DBSTransportNode.Filter</a></div><div class="ttdeci">new DSOTransportNode Filter</div><div class="ttdoc">Фильтр </div><div class="ttdef"><b>Definition:</b> DBSTransportNode.cs:39</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_ad9c4a27689227ce3592c33137635413a_html_ad9c4a27689227ce3592c33137635413a"><div class="ttname"><a href="../../d1/de5/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_select_ad9c4a27689227ce3592c33137635413a.html#ad9c4a27689227ce3592c33137635413a">Kesco.Lib.Web.Controls.V4.Select.MaxItemsInQuery</a></div><div class="ttdeci">int MaxItemsInQuery</div><div class="ttdoc">Максимальное количество элементов в запросе </div><div class="ttdef"><b>Definition:</b> Select.cs:1546</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:17. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

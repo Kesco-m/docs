@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Entities.SQLQueries.SELECT_FN_ТекущийСотрудник</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../da/dd9/namespace_kesco_1_1_lib_1_1_entities.html">Entities</a></li><li class="navelem"><a class="el" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries.html">SQLQueries</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aec49ecdd2a924f21df29928491274042.html#aec49ecdd2a924f21df29928491274042">DELETE_ID_ДокументДанные</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ae9579b5b8d8e905a041ce6a3fc93a4e9.html#ae9579b5b8d8e905a041ce6a3fc93a4e9">DELETE_ID_ЗамещениеСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afd43082594f21b1ea6353782413cea6b.html#afd43082594f21b1ea6353782413cea6b">DELETE_ID_Контакт</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ade8c1db9de5867e8262860f8fc27db8d.html#ade8c1db9de5867e8262860f8fc27db8d">DELETE_ID_ПодписьДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aecd07eb3d561fc783758c9ce7f38b2d3.html#aecd07eb3d561fc783758c9ce7f38b2d3">DELETE_ID_ПозицияЗаявкиМТРСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a3a9197e2345483ca6f3bdff466e937fa.html#a3a9197e2345483ca6f3bdff466e937fa">DELETE_ID_СвязиДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8e17152d205c3953a9aa73f1eb3fe259.html#a8e17152d205c3953a9aa73f1eb3fe259">DELETE_ВсеСкладыИзОтчётаПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8cf15fd13348082a2a2e91f2880efd71.html#a8cf15fd13348082a2a2e91f2880efd71">DELETE_Замещения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a799fbfdae1330294b16bac09185c4c75.html#a799fbfdae1330294b16bac09185c4c75">DELETE_РолиСотрудников</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6ee63a2895e785c13f46aeabfadc8055.html#a6ee63a2895e785c13f46aeabfadc8055">DELETE_СвязиДокументов_ПоОснованию_ПоВытекающему_ПоПолю</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_acc3771ae7d20895060796eea65dc095d.html#acc3771ae7d20895060796eea65dc095d">DELETE_СкладИзОтчётовПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2268d21e88f1cc696667b1ed4099d328.html#a2268d21e88f1cc696667b1ed4099d328">DELETE_СкладыИзОтчётаПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7cc59fdfcc815af7cd32b0c031c8a8d7.html#a7cc59fdfcc815af7cd32b0c031c8a8d7">DELETE_Транзакции_ПоДокументуПодтверждения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a374ca2d1d8ca014537b493e39133c014.html#a374ca2d1d8ca014537b493e39133c014">INSERT_Замещения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af52b2cdb9f5fbd384ccb0c3917c6e554.html#af52b2cdb9f5fbd384ccb0c3917c6e554">INSERT_Контакт_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a88fa9c9361b12b2eae4fc9444a446bde.html#a88fa9c9361b12b2eae4fc9444a446bde">INSERT_Контакт_ПоСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aa08c90c5c6379bf159f89a7a0828adf0.html#aa08c90c5c6379bf159f89a7a0828adf0">INSERT_ПодписьДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a508560a71cfe6ec415e33426226e44cc.html#a508560a71cfe6ec415e33426226e44cc">INSERT_ПозицииЗаявокМТРСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af94f7fdff15e03f144304833b82ad96b.html#af94f7fdff15e03f144304833b82ad96b">INSERT_ПолеДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6a7997e2c2329a1c2ec091180d158289.html#a6a7997e2c2329a1c2ec091180d158289">INSERT_РабочееМестоСотруднику</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ae27d9b5c13fec6fb75a3a1f46a4daf9f.html#ae27d9b5c13fec6fb75a3a1f46a4daf9f">INSERT_РолиСотрудников</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9c29be9f87732415ff6c9dc2ce2f4fac.html#a9c29be9f87732415ff6c9dc2ce2f4fac">INSERT_РолиСотрудников_БизнесПроект</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aa1e8a9b20ef94cbb9f50a3e27ee28142.html#aa1e8a9b20ef94cbb9f50a3e27ee28142">INSERT_СкладОтчётыПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a61994924d84622ba3986299e2e18c6c0.html#a61994924d84622ba3986299e2e18c6c0">INSERT_ТипДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9332d04e0089dcd76614a9f384f377e2.html#a9332d04e0089dcd76614a9f384f377e2">MERGE_Замещения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a4f8999d0afdc0132be08b01311d96ac7.html#a4f8999d0afdc0132be08b01311d96ac7">MERGE_СкладОтчётыПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2d0b576e72f45f053e4f51ea399caf9c.html#a2d0b576e72f45f053e4f51ea399caf9c">MERGE_СкладыОтчётПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5b39e75be669b6d1c1d25d59dfe635bb.html#a5b39e75be669b6d1c1d25d59dfe635bb">SELECT_2356_CHECK_ДругиеУказанияНаСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2c607cdfe7218c220879125d58e45db5.html#a2c607cdfe7218c220879125d58e45db5">SELECT_2356_CHECK_СотрудникНаМестеГруппы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a26441310907b07c1c46ffeaa4c6293bd.html#a26441310907b07c1c46ffeaa4c6293bd">SELECT_2356_CHECK_УникальныйЛогинСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_acad1a4590eee639d90d3b15d47e25c83.html#acad1a4590eee639d90d3b15d47e25c83">SELECT_ADSI_ПоЛогину</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab7ce72bbcb454cc9591c8eedaefb0e99.html#ab7ce72bbcb454cc9591c8eedaefb0e99">SELECT_AdvancedGrants</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a059a4c8b5cbeea29f927b7163e9f286e.html#a059a4c8b5cbeea29f927b7163e9f286e">SELECT_CommonFolders</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af31612dbb5cacc40dd0466d544ec2565.html#af31612dbb5cacc40dd0466d544ec2565">SELECT_DomainNames</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad681fe3d245823440aa57324148ce6c1.html#ad681fe3d245823440aa57324148ce6c1">SELECT_FN_ReplaceRusLat</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a947a20ec376efabedbf31c02883089c1.html#a947a20ec376efabedbf31c02883089c1">SELECT_FN_Лица_ФормированиеКонтакта</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6e6edb1f26c1d891b90776d910eb79dd.html#a6e6edb1f26c1d891b90776d910eb79dd">SELECT_FN_ТекущийСотрудник</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9ad8aa89aa797a5c58a5c102e99ac7c7.html#a9ad8aa89aa797a5c58a5c102e99ac7c7">SELECT_ID_AdvancedGrant</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a27ea6952939a9da64a167c4a57d1801b.html#a27ea6952939a9da64a167c4a57d1801b">SELECT_ID_CommonFolder</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ade72db096b8a5727acaf7e565cfa4b35.html#ade72db096b8a5727acaf7e565cfa4b35">SELECT_ID_DOC_ПозицииУказанийИТПапки</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aae6c9e5a06203aa559191b45ade7aee9.html#aae6c9e5a06203aa559191b45ade7aee9">SELECT_ID_DOC_ПозицииУказанийИТРоли</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a79ce84203edac5eec23b12d96dad2019.html#a79ce84203edac5eec23b12d96dad2019">SELECT_ID_DomainName</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9edce60aa16062f4f546d032061d30a5.html#a9edce60aa16062f4f546d032061d30a5">SELECT_ID_Атрибут</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a959237e6a5ab5256c96c1ce6a3b51b00.html#a959237e6a5ab5256c96c1ce6a3b51b00">SELECT_ID_БазисПоставки</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7cf710cc2e748c803c87f49a79f475a7.html#a7cf710cc2e748c803c87f49a79f475a7">SELECT_ID_БизнесПроект</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a131a33c837a2e16e7466d713c8e13af6.html#a131a33c837a2e16e7466d713c8e13af6">SELECT_ID_ВидОтпуска</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab5e592ce9d28ea48179300c19c0550b8.html#ab5e592ce9d28ea48179300c19c0550b8">SELECT_ID_ДвижениеНаСкладе</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_acaea696622f2e0bd7621404c22c66207.html#acaea696622f2e0bd7621404c22c66207">SELECT_ID_ДоговорСотовойСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a0d6c70f134ae768e6b69b2889edde316.html#a0d6c70f134ae768e6b69b2889edde316">SELECT_ID_Документ</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8b3a4d219389ba96313744ee6d24f50f.html#a8b3a4d219389ba96313744ee6d24f50f">SELECT_ID_ДокументДанные</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac217d7ca3657ab2d55731ef9131f15c8.html#ac217d7ca3657ab2d55731ef9131f15c8">SELECT_ID_ДокументЭкспортированВ1С</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9f0954bc854645284946b1e65e45b324.html#a9f0954bc854645284946b1e65e45b324">SELECT_ID_Должность</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a447fc986a89f754e8bc0cc8bb9ad5483.html#a447fc986a89f754e8bc0cc8bb9ad5483">SELECT_ID_ЕдиницаИзмерения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad7f7bd441aa344c6d85ca2f49998c633.html#ad7f7bd441aa344c6d85ca2f49998c633">SELECT_ID_КарточкаФизЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5f6f83a21ed05b7d3d1567ffabf379d1.html#a5f6f83a21ed05b7d3d1567ffabf379d1">SELECT_ID_КарточкаЮрЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a0adb83e60daa7f3be10e4e141a5b81e8.html#a0adb83e60daa7f3be10e4e141a5b81e8">SELECT_ID_КарточкиФизЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aa741504bdc8e95891e55fa6c94554425.html#aa741504bdc8e95891e55fa6c94554425">SELECT_ID_КарточкиЮрЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a51906967e0bc71f678e05341a93a5700.html#a51906967e0bc71f678e05341a93a5700">SELECT_ID_Каталог</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab28e70fdb81445d0fedf779bae0650ff.html#ab28e70fdb81445d0fedf779bae0650ff">SELECT_ID_Контакт</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a30c8eb40a64d3e5ed5fc269e8759989f.html#a30c8eb40a64d3e5ed5fc269e8759989f">SELECT_ID_ЛицаДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af33bdb6ee1a09da6b85e892633bea386.html#af33bdb6ee1a09da6b85e892633bea386">SELECT_ID_Лицо</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad0c216e1dc8e3e6aa682c36b22e48fbe.html#ad0c216e1dc8e3e6aa682c36b22e48fbe">SELECT_ID_ЛицоЗаказчик</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2e45b1484edb1533b60106c5b2efe70c.html#a2e45b1484edb1533b60106c5b2efe70c">SELECT_ID_МестоХранения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad142a5c08ba6190de5966b2e8d9b8a3b.html#ad142a5c08ba6190de5966b2e8d9b8a3b">SELECT_ID_ОборудованиеСотрудников</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af31d58465dc58f0430656a7cd3d77e81.html#af31d58465dc58f0430656a7cd3d77e81">SELECT_ID_ОказаннаяУслуга</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9fb655b8bf0df2d3fb8b7c74451bf863.html#a9fb655b8bf0df2d3fb8b7c74451bf863">SELECT_ID_ОрганизационноПравоваяФорма</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a3735267d478480e0791f30a401fe4221.html#a3735267d478480e0791f30a401fe4221">SELECT_ID_ПодписьДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9f74b4fc3fd1ddaa6881ab24a45f7f5c.html#a9f74b4fc3fd1ddaa6881ab24a45f7f5c">SELECT_ID_ПозицияЗаявкиМТРСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac8e1b9136c0c48cf961872203049508a.html#ac8e1b9136c0c48cf961872203049508a">SELECT_ID_ПозицияПретензии</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a3f41775282c86e82c151b7530a6a707c.html#a3f41775282c86e82c151b7530a6a707c">SELECT_ID_ПозицияУказанийИТПапки</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7c20acafdfd3643b1a57974710406974.html#a7c20acafdfd3643b1a57974710406974">SELECT_ID_ПозицияУказанийИТРоли</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af09dc3d28ddc8598f1e6204aa3a5d10c.html#af09dc3d28ddc8598f1e6204aa3a5d10c">SELECT_ID_ПолеДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6db3e263373c531a419770ec4d3105eb.html#a6db3e263373c531a419770ec4d3105eb">SELECT_ID_Ресурс</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aac2c1c7d291563c781208200841a0183.html#aac2c1c7d291563c781208200841a0183">SELECT_ID_Роль</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9f7c732deedd00764cc3c25dac5e5d8d.html#a9f7c732deedd00764cc3c25dac5e5d8d">SELECT_ID_СвязиДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af13fa67a63f38e27dc63469aae710b24.html#af13fa67a63f38e27dc63469aae710b24">SELECT_ID_СвязиЛиц</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a26890c0f1bca5f451785c99e32b3e875.html#a26890c0f1bca5f451785c99e32b3e875">SELECT_ID_Склад</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ae77b128a7c35c635f050ff7029df641c.html#ae77b128a7c35c635f050ff7029df641c">SELECT_ID_Сотрудник</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7708aed83a5eb15cc5e10b4491582525.html#a7708aed83a5eb15cc5e10b4491582525">SELECT_ID_ТемаЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad4874808e932b07d990643be956f1721.html#ad4874808e932b07d990643be956f1721">SELECT_ID_ТемыЛиц_ПотомкиИПодчиненные</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aab5829befa931f748591857e7ff4b6ea.html#aab5829befa931f748591857e7ff4b6ea">SELECT_ID_Территории_Страна</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab1fe929093bd0c0ec6d7fe5deb0ca815.html#ab1fe929093bd0c0ec6d7fe5deb0ca815">SELECT_ID_Территории_ТелефонныеКоды</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af320a0c95e0ee624c7e5b2dd0ac9bd2c.html#af320a0c95e0ee624c7e5b2dd0ac9bd2c">SELECT_ID_Территории_ТелефонныйКодГорода</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a05ddf8e91957b24d9b4ab5b2acef6ddb.html#a05ddf8e91957b24d9b4ab5b2acef6ddb">SELECT_ID_ТипАтрибута</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2eea91581766381775244590ed97a865.html#a2eea91581766381775244590ed97a865">SELECT_ID_ТипДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab09a8a1a9fd6324c93cc58f98d924f7e.html#ab09a8a1a9fd6324c93cc58f98d924f7e">SELECT_ID_ТипКонтакта</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a0f04c95cb5c4f9fbb245c4328ca3b645.html#a0f04c95cb5c4f9fbb245c4328ca3b645">SELECT_ID_ТипЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a66be7615aec7291878977f45db1aa3de.html#a66be7615aec7291878977f45db1aa3de">SELECT_ID_ТипСклада</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a54504c72aa86183235e77b829d49b866.html#a54504c72aa86183235e77b829d49b866">SELECT_ID_ТипТранзакции</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_abfc27a6ce0ec982dfcdc9ab1f7286a98.html#abfc27a6ce0ec982dfcdc9ab1f7286a98">SELECT_ID_Транзакция</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a52d50d9edba48221cd1827d4220b22d3.html#a52d50d9edba48221cd1827d4220b22d3">SELECT_ID_ФорматАтрибута</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7bacbcca9ae0540a23df39ac211c7b78.html#a7bacbcca9ae0540a23df39ac211c7b78">SELECT_ID_ШаблонПечатнойФормы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5ec8dd484c016e8f5b2cef4df9dbb33f.html#a5ec8dd484c016e8f5b2cef4df9dbb33f">SELECT_ID_Язык</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac535cc35b70be5d072230ef45f00271c.html#ac535cc35b70be5d072230ef45f00271c">SELECT_IDs_ДополнительныеФильтрыПриложений</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a41b30b549cef5d536088c2f487be4c1e.html#a41b30b549cef5d536088c2f487be4c1e">SELECT_SID_ТекущийСотрудник</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a412cf3226262753a1427db7108fce3a0.html#a412cf3226262753a1427db7108fce3a0">SELECT_АдминистраторСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad146346762a7b6758d2755995dd90e52.html#ad146346762a7b6758d2755995dd90e52">SELECT_АтрибутыЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6353c62a5799f38ebe0ca09b5c5a4f65.html#a6353c62a5799f38ebe0ca09b5c5a4f65">SELECT_БизнесПроектыПоИмени</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aa4eb01ce4b525e47adde86892ca80947.html#aa4eb01ce4b525e47adde86892ca80947">SELECT_ВидыОтпуска</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_addeba3d6fc8dd5b17f55efbd0af0e299.html#addeba3d6fc8dd5b17f55efbd0af0e299">SELECT_ВсеВытекающие</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a25d9cb0a253d5e53d8a3d0e808e062b2.html#a25d9cb0a253d5e53d8a3d0e808e062b2">SELECT_ВсеОснования</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afb12ed5a758d1a608167d225b0d3436a.html#afb12ed5a758d1a608167d225b0d3436a">SELECT_ВсеСотрудники</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_acf0c3ea210c49775cb073c878f6f8a36.html#acf0c3ea210c49775cb073c878f6f8a36">SELECT_ДанныеРуководителяСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_adbaf0e5eaa4cc2d5ddb19a1b660a592b.html#adbaf0e5eaa4cc2d5ddb19a1b660a592b">SELECT_ДоговораПоКоторымБылаТарификация</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8085434b9673f6ba6f7b3dbbe0cae80e.html#a8085434b9673f6ba6f7b3dbbe0cae80e">SELECT_Документы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a1998e1309d4817f4c6c4eac318a39c43.html#a1998e1309d4817f4c6c4eac318a39c43">SELECT_Должности</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a52e5258c6a7258e9a17acbbfa9b86d4e.html#a52e5258c6a7258e9a17acbbfa9b86d4e">SELECT_ДолжностиСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab3ad1fae1b7ab1376218068864db021e.html#ab3ad1fae1b7ab1376218068864db021e">SELECT_ДополнительныеФильтрыПриложений</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aeae5f309986b66023f0dfc32724fb985.html#aeae5f309986b66023f0dfc32724fb985">SELECT_ДругиеСотрудникиНаРасположении</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a97e16d136429c54614dac1e4348462e0.html#a97e16d136429c54614dac1e4348462e0">SELECT_ЗамещенияПоДокументу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a3f46837381298517baf4b0f03e6bbc35.html#a3f46837381298517baf4b0f03e6bbc35">SELECT_ЗамещенияСотрудника_ПоЗамещаемому</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a656e3f00279e5be79fd2df6eb610a642.html#a656e3f00279e5be79fd2df6eb610a642">SELECT_ЗамещенияСотрудника_ПоЗамещающему</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a74fbb435a12b46b9f034510041ebadf3.html#a74fbb435a12b46b9f034510041ebadf3">SELECT_Каталоги</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a28d4d67ab45f465aae30c4d5ba9978aa.html#a28d4d67ab45f465aae30c4d5ba9978aa">SELECT_КодыТиповОтчётовПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac62596b735848fc03e434df2d2b0c1c9.html#ac62596b735848fc03e434df2d2b0c1c9">SELECT_Контакты_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7c301b820ddeaad8d18590dc828d82d7.html#a7c301b820ddeaad8d18590dc828d82d7">SELECT_Лица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2c8ab372a6e40caa5f09ef4c718e5554.html#a2c8ab372a6e40caa5f09ef4c718e5554">SELECT_ЛицаДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8ea334b8cb283918de9f32f82ad8a344.html#a8ea334b8cb283918de9f32f82ad8a344">SELECT_ЛицаДокументов_ПоДокументу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a0f02c9ae444c1a621b6ad7a627410770.html#a0f02c9ae444c1a621b6ad7a627410770">SELECT_ЛицаДокументов_ПоДокументу_ПоПоложению</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a4ac7cda8e2c7a6fb28996c1477f50eb3.html#a4ac7cda8e2c7a6fb28996c1477f50eb3">SELECT_ЛицаЗаказчики</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a374981b371f4ea8fa6e802be452f442e.html#a374981b371f4ea8fa6e802be452f442e">SELECT_ЛицоЗаказчикаСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a69d31b63d3fbf59732adcf5babfb78ed.html#a69d31b63d3fbf59732adcf5babfb78ed">SELECT_МестаХранения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9e6e0a4f1a2fc20c3a8a691e499b08af.html#a9e6e0a4f1a2fc20c3a8a691e499b08af">SELECT_МестоХранения_Подчиненные</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a88042bcdfbb70e5fa0638120a4a7c168.html#a88042bcdfbb70e5fa0638120a4a7c168">SELECT_НастройкиDocView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a1bfe9685d12bd1c593f07f905221e34f.html#a1bfe9685d12bd1c593f07f905221e34f">SELECT_НепосредственныйРуководитель</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_abe5633226470fad993ed2e8a66975be7.html#abe5633226470fad993ed2e8a66975be7">SELECT_ОбщихСотрудников</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab07db2d5715e44b06fe780018566d4e5.html#ab07db2d5715e44b06fe780018566d4e5">SELECT_ОргПравФормуПоИмени</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2f751e1799cabc8ab1a3e5b7208c671e.html#a2f751e1799cabc8ab1a3e5b7208c671e">SELECT_ОтвественныеСотрудники_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afcfc228556d86ce447d47a0ef66914cb.html#afcfc228556d86ce447d47a0ef66914cb">SELECT_ОтчётыПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a80fb3e58b95906a573a53b61607a73fd.html#a80fb3e58b95906a573a53b61607a73fd">SELECT_ПервыйРабочийДень</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a406352fd09b61119fc84df627c145ff2.html#a406352fd09b61119fc84df627c145ff2">SELECT_ПодписиДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5036c167c5b0c7a6cc8d5abad4904ecf.html#a5036c167c5b0c7a6cc8d5abad4904ecf">SELECT_ПодразделениеСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a26773a0ca90ce790134c924b9025582f.html#a26773a0ca90ce790134c924b9025582f">SELECT_Подразделения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a291bbf76bd0992ab17af06b4b3bca8bf.html#a291bbf76bd0992ab17af06b4b3bca8bf">SELECT_ПодразделенияЛиц</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a1e63d3a29c693731650eca41fd41ba8a.html#a1e63d3a29c693731650eca41fd41ba8a">SELECT_ПоляДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a63a430b46db5196a59de8fcfd651f400.html#a63a430b46db5196a59de8fcfd651f400">SELECT_ПоляДокументов_ТипДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a612cbf90d00c0d10ef6f24bbdc53f069.html#a612cbf90d00c0d10ef6f24bbdc53f069">SELECT_ПоследнийПроходСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aa448834ccf05462065c17383ec6ce448.html#aa448834ccf05462065c17383ec6ce448">SELECT_ПраваТипыЛицСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aea199c775b472221d276d627cf11f9bb.html#aea199c775b472221d276d627cf11f9bb">SELECT_Праздники</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a073977b731a4ecb137b37a86d45f8026.html#a073977b731a4ecb137b37a86d45f8026">SELECT_ПроверкаПодчиненияСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2198968440a4b0a6c1bfbe58177e8e07.html#a2198968440a4b0a6c1bfbe58177e8e07">SELECT_РабочиеМестаСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7089125335321908b6a4029b58977984.html#a7089125335321908b6a4029b58977984">SELECT_РасположениеВОфисе</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a772753e2f1e4425b8d648e1f3906d022.html#a772753e2f1e4425b8d648e1f3906d022">SELECT_РасположениеПоID</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afeeee708c9c611266485989dd7092f9a.html#afeeee708c9c611266485989dd7092f9a">SELECT_Расположения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a936a2c677a240c74dda18cbbd580336c.html#a936a2c677a240c74dda18cbbd580336c">SELECT_РасположенияПодчиненные</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6954886069560ef322b8fd8281dc9b38.html#a6954886069560ef322b8fd8281dc9b38">SELECT_Ресурс_Подчиненные</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af9bed7c1b01fd73e071879b4d2124af3.html#af9bed7c1b01fd73e071879b4d2124af3">SELECT_Ресурсы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6ab127ba20692ac1bee7c1e9544def3a.html#a6ab127ba20692ac1bee7c1e9544def3a">SELECT_Ресурсы_Валюты</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9042b36729225b38fce3e6f130cb530c.html#a9042b36729225b38fce3e6f130cb530c">SELECT_Роли</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aba11db08e7513c5f3aaf279b454ec0b4.html#aba11db08e7513c5f3aaf279b454ec0b4">SELECT_РолиПоиск</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a204c4901ecf67a13fd3d96c0e4346155.html#a204c4901ecf67a13fd3d96c0e4346155">SELECT_РолиСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afea961959d0c9a0713605fc64032ee4c.html#afea961959d0c9a0713605fc64032ee4c">SELECT_РолиСотрудника_КодСотрудника_КодРоли_КодЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a03e89901e7b1d20a8f81e88d7f703ea3.html#a03e89901e7b1d20a8f81e88d7f703ea3">SELECT_Руководитель</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a24e3492afe3ef8a40f254cf2e293b69e.html#a24e3492afe3ef8a40f254cf2e293b69e">SELECT_СвязиДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2a337a888289de10b11e94f3aafc8ff4.html#a2a337a888289de10b11e94f3aafc8ff4">SELECT_СвязиДокументов_ПоВытекающему</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a84cc0aad0f00d6b8d0f55834da9fd145.html#a84cc0aad0f00d6b8d0f55834da9fd145">SELECT_СвязиДокументов_ПоВытекающему_ПоПолю</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a000bad90510d6ef9f1c91839bfe5af1d.html#a000bad90510d6ef9f1c91839bfe5af1d">SELECT_СвязиДокументов_ПоОснованию</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a70c9476a906e06a9e3a6573e1e018456.html#a70c9476a906e06a9e3a6573e1e018456">SELECT_СвязиДокументов_ПоОснованию_ПоВытекающему</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a73a80b6e514c73a35157531a8dfc5946.html#a73a80b6e514c73a35157531a8dfc5946">SELECT_СвязиДокументов_ПоОснованию_ПоВытекающему_ПоПолю</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a230be12bde84fa45bec768734d66b6ce.html#a230be12bde84fa45bec768734d66b6ce">SELECT_СвязиЛиц</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a57e0aa81e32702590e694e0963fed185.html#a57e0aa81e32702590e694e0963fed185">SELECT_СвязиЛиц_МестаРаботы_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5b490a8dcc6e06b3b8c15216ed52c551.html#a5b490a8dcc6e06b3b8c15216ed52c551">SELECT_СвязиЛиц_МестаРаботы_Работники_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad8bc06e15b195fb0fc9d20379b085ca0.html#ad8bc06e15b195fb0fc9d20379b085ca0">SELECT_СвязиЛиц_ПоПотомку_ПоТипуСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a574f7c83c7cf32691527b6e11862ec4b.html#a574f7c83c7cf32691527b6e11862ec4b">SELECT_СвязиЛиц_ПоРодителю</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2d7238a2b80b8a20e3782b0743854e33.html#a2d7238a2b80b8a20e3782b0743854e33">SELECT_СвязиЛиц_ПоРодителю_ПоПотомку</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_abf4d710ba7463d79924503add3389c15.html#abf4d710ba7463d79924503add3389c15">SELECT_СвязиЛиц_ПоРодителю_ПоПотомку_ПоТипуСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af89838599c17e067c7c460c81094436f.html#af89838599c17e067c7c460c81094436f">SELECT_СвязиЛиц_ПоРодителю_ПоТипуСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aee54fc908d2fce9471a5df7ba31ff047.html#aee54fc908d2fce9471a5df7ba31ff047">SELECT_СвязиЛиц_ПоТипуСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a77ff5dbfb305fa740b7bd0f259abeaff.html#a77ff5dbfb305fa740b7bd0f259abeaff">SELECT_СвязиЛиц_Работники_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af9b0791b424759d68d1c29f027c70f37.html#af9b0791b424759d68d1c29f027c70f37">SELECT_СвязиТиповДокументов_Вытекающие</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2f4937d1b75c0ea897b9fc569408a4c6.html#a2f4937d1b75c0ea897b9fc569408a4c6">SELECT_СвязиТиповДокументов_ТипВытекающего</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad76282789829ad8104b56e7a158cb14e.html#ad76282789829ad8104b56e7a158cb14e">SELECT_СвязьЛиц_ПоПотомку</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aeeab124013e897febf4baf4a2d4f7287.html#aeeab124013e897febf4baf4a2d4f7287">SELECT_Склад</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9f72ac78f168e16a37c3bdea5751f1ef.html#a9f72ac78f168e16a37c3bdea5751f1ef">SELECT_СкладПараметры</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8812c0c2c750a7179dbe0aeb8af0ba57.html#a8812c0c2c750a7179dbe0aeb8af0ba57">SELECT_СкладыВОтчете</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a1b0a920abac685ca8b115c403c7434ac.html#a1b0a920abac685ca8b115c403c7434ac">SELECT_СовместнаяРаботаНаРабочемМесте</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a1491dcf0bd3b14c5e316951468ea2afa.html#a1491dcf0bd3b14c5e316951468ea2afa">SELECT_СообщенияПодписи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6dc4246638b436a1d424e9e627db9376.html#a6dc4246638b436a1d424e9e627db9376">SELECT_СотрудникиНаРабочемМесте</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad448536262c9dc1c39ec74cc5132598c.html#ad448536262c9dc1c39ec74cc5132598c">SELECT_СотрудниковНаПосменнойРаботе</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a70e5c9f46f6237c629a9aa59f8a4fdab.html#a70e5c9f46f6237c629a9aa59f8a4fdab">SELECT_ТекущиеЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7b4b1dfe842ce5bb5061f4042304b9ad.html#a7b4b1dfe842ce5bb5061f4042304b9ad">SELECT_ТелефонныеКоды</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6b5da57fa064d426774732bad0987ef5.html#a6b5da57fa064d426774732bad0987ef5">SELECT_ТемыЛиц</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afbd77cb25700e0378ec5d78ff3dfd7d2.html#afbd77cb25700e0378ec5d78ff3dfd7d2">SELECT_Территории_Страны</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a31303c6f37b96e47f834ddbdd75e348a.html#a31303c6f37b96e47f834ddbdd75e348a">SELECT_ТестМестоРаботыЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aeaebaa0d99b12623db7e618202c6305a.html#aeaebaa0d99b12623db7e618202c6305a">SELECT_ТестМестоРаботыСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a29660e223d747f73f2d1da7e59e83b39.html#a29660e223d747f73f2d1da7e59e83b39">SELECT_ТипОтчётаПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a010a7a281a64fb4458080aa83a4d83b2.html#a010a7a281a64fb4458080aa83a4d83b2">SELECT_ТипыАтрибутов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a149db855e1d9d4ee7d0e6ce8f42219d1.html#a149db855e1d9d4ee7d0e6ce8f42219d1">SELECT_ТипыДокументов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6b9acd548c52f8b434f7793db4b7e7e8.html#a6b9acd548c52f8b434f7793db4b7e7e8">SELECT_ТипыДокументов_ВсеРодители</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a1caa86f14c9ea9e69b24805c62cb8bd1.html#a1caa86f14c9ea9e69b24805c62cb8bd1">SELECT_ТипыДокументов_НепосредственныеПотомки</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aef1d49c59ed5337246eca52f3d991595.html#aef1d49c59ed5337246eca52f3d991595">SELECT_ТипыКонтактов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac61acd8a69a38df69b0e45f323093d9e.html#ac61acd8a69a38df69b0e45f323093d9e">SELECT_ТипыЛиц_Лицо</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a03e3f4ab15fa452ac72968a0928fd79c.html#a03e3f4ab15fa452ac72968a0928fd79c">SELECT_ТипыЛиц_Темы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a944fe42bba1f48d2d9e5ff7117171aed.html#a944fe42bba1f48d2d9e5ff7117171aed">SELECT_ТипыЛица</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_acd2ce30bc58d1e1d9a2c910fed698f77.html#acd2ce30bc58d1e1d9a2c910fed698f77">SELECT_ТипыСкладов</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_af357fbcdab7d8ff642d492da34a6edcc.html#af357fbcdab7d8ff642d492da34a6edcc">SELECT_ТипыТранзакций</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aca29f35bc858f4b726b39da144899e32.html#aca29f35bc858f4b726b39da144899e32">SELECT_Транзакции</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a698397a888a708e99802f284c7de8810.html#a698397a888a708e99802f284c7de8810">SELECT_Транзакции_ПоДокументуПодтверждения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5afce6cf1b55a9c57ab4ec8421216dfc.html#a5afce6cf1b55a9c57ab4ec8421216dfc">SELECT_ФорматаАтрибута_Территория_ТипЛица_ТипАтрибута</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9746d0be268071ec992404316991dde5.html#a9746d0be268071ec992404316991dde5">SELECT_ФорматаАтрибутаПоУмолчанию</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a0f5d74b9498feeb914d7801d1262107f.html#a0f5d74b9498feeb914d7801d1262107f">SELECT_ФотографииСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ae80db831be8446a9412568332bb2f58d.html#ae80db831be8446a9412568332bb2f58d">SELECT_ЧастиТелефонногоНомера</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad5ddf5a0537bfb738959933ec20955c1.html#ad5ddf5a0537bfb738959933ec20955c1">SELECT_ШаблоныПечатныхФорм</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a2bb414f77a25033824a7c02fdbab1ea7.html#a2bb414f77a25033824a7c02fdbab1ea7">SELECT_Языки</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7c8c110bcadbfeed5e415af72204a48e.html#a7c8c110bcadbfeed5e415af72204a48e">SP_MakeDocsLink</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad875ae7eae200322ec03302bc16a9703.html#ad875ae7eae200322ec03302bc16a9703">SP_ВыданноеПоУказаниюОборудование</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a4a36d806b0822ebbf30d9f32fee52447.html#a4a36d806b0822ebbf30d9f32fee52447">SP_ВыполнениеУказанийIT</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac398befc707663518a8048860ea30fd3.html#ac398befc707663518a8048860ea30fd3">SP_ДокументыДанные_InsUpd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aca94e90000ceb773f534e7ce223dc1f6.html#aca94e90000ceb773f534e7ce223dc1f6">SP_Лица_InsDel_ТипыЛиц</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8e3c044fcee6111ff79ffaf61592ad22.html#a8e3c044fcee6111ff79ffaf61592ad22">SP_Лица_InsUpd_Склады</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aef939134b76a72d86cba726b04a00592.html#aef939134b76a72d86cba726b04a00592">SP_Лица_InsUpdDel_СвязиЛиц</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a35b6828c515851c639b7e7517b02be12.html#a35b6828c515851c639b7e7517b02be12">SP_Лица_Upd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a26c6f1cb2339e8f0dd96ed7143cce714.html#a26c6f1cb2339e8f0dd96ed7143cce714">SP_Лица_Атрибут_Check</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a946fe9045eba1370cf6af9e8ba5fddda.html#a946fe9045eba1370cf6af9e8ba5fddda">SP_Лица_Атрибут_Del</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8f9714b79a3d63030d308a364b9d6f35.html#a8f9714b79a3d63030d308a364b9d6f35">SP_Лица_Атрибут_Ins</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a7fc5fb2bc2205fbfea35fad16d67f321.html#a7fc5fb2bc2205fbfea35fad16d67f321">SP_Лица_Атрибут_Upd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a45f13e1ab005e08c0e973f32a1eb9bca.html#a45f13e1ab005e08c0e973f32a1eb9bca">SP_Лица_Досье_Context_NEW</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afa1faec6557a5c13a23b3cf7bf13bc78.html#afa1faec6557a5c13a23b3cf7bf13bc78">SP_Лица_Досье_Меню</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9233abdcd8e3a74a5ceb43647c5fa43f.html#a9233abdcd8e3a74a5ceb43647c5fa43f">SP_Лица_Контакты</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a00b628e72423dba70ac4a399f593407f.html#a00b628e72423dba70ac4a399f593407f">SP_Лица_Поиск</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5f8f4e82e2a113391da0d2181127f5ab.html#a5f8f4e82e2a113391da0d2181127f5ab">SP_Лица_ФизическоеЛицо_Ins</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_abfc8100294e1e1f49489b8b9a63a207f.html#abfc8100294e1e1f49489b8b9a63a207f">SP_Лица_ФорматАтрибута_Ins</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a852c80859ec607e9948e03e8873a81b4.html#a852c80859ec607e9948e03e8873a81b4">SP_Лица_ФорматАтрибута_Upd</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9496f73834020b15841f99d1cbb334ef.html#a9496f73834020b15841f99d1cbb334ef">SP_Лица_ЮридическоеЛицо_Ins</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aa0f301bfb52e10910923b3ea8a2677a5.html#aa0f301bfb52e10910923b3ea8a2677a5">SP_ОбщиеПапкиСотрудника</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8f38b3c426fc367ea03a11b85cb5777e.html#a8f38b3c426fc367ea03a11b85cb5777e">SP_Склады_Поиск_NEW</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ab3fc829f755e80c5f5c33c6dce63f441.html#ab3fc829f755e80c5f5c33c6dce63f441">SP_СозданиеНомераДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aaaea090dda7331adf03521a10f4b66c0.html#aaaea090dda7331adf03521a10f4b66c0">SP_Сотрудники_Контакты</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a8dce2e047f954561acb736e7b6b6959a.html#a8dce2e047f954561acb736e7b6b6959a">SUBQUERY_ID_DOC_ПозицииУказанийИТРоли</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac685dd47a070584795ae6c911c2e4558.html#ac685dd47a070584795ae6c911c2e4558">SUBQUERY_ID_DOC_ПозицииУказанийИТТипы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5d951f2970b03b89219a3d2392022cee.html#a5d951f2970b03b89219a3d2392022cee">SUBQUERY_ID_ПозицииУказанийИТРоли</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a67ac49f2a7f7d3eea5b4426b46a1c6bc.html#a67ac49f2a7f7d3eea5b4426b46a1c6bc">SUBQUERY_ID_ПозицииУказанийИТТипы</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_aadad14e4820bb1d59ced358af0ac4e89.html#aadad14e4820bb1d59ced358af0ac4e89">UPDATE_ДокументЗамещения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a5730de59c0b436aa15a97682fb43b96e.html#a5730de59c0b436aa15a97682fb43b96e">UPDATE_Замещения</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ad587fd38d7cb85a8b1dfd71c552b6c2e.html#ad587fd38d7cb85a8b1dfd71c552b6c2e">UPDATE_Контакт_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a9e87c19cd7790f4d3fde1cf06912f733.html#a9e87c19cd7790f4d3fde1cf06912f733">UPDATE_Контакт_ПоСвязи</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a492f7dea15624b3db5e098aa3beb39da.html#a492f7dea15624b3db5e098aa3beb39da">UPDATE_НастройкиDocView</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a6424ac4de451ba4a388011d07c09177b.html#a6424ac4de451ba4a388011d07c09177b">UPDATE_ОтвественныеСотрудники_ПоЛицу</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_ac4c9e714e83fa8f13808cd60a38c1a04.html#ac4c9e714e83fa8f13808cd60a38c1a04">UPDATE_ПолеДокумента</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_afabd76af5d751bc4242a6687bfcf255f.html#afabd76af5d751bc4242a6687bfcf255f">UPDATE_СкладОтчётыПоСкладам</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../df/d91/class_kesco_1_1_lib_1_1_entities_1_1_s_q_l_queries_a685458af305859726923f994344013f5.html#a685458af305859726923f994344013f5">UPDATE_ТипДокумента</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a6e6edb1f26c1d891b90776d910eb79dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6edb1f26c1d891b90776d910eb79dd">&#9670;&nbsp;</a></span>SELECT_FN_ТекущийСотрудник</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Kesco.Lib.Entities.SQLQueries.SELECT_FN_ТекущийСотрудник = @&quot;SELECT КодСотрудника FROM fn_ТекущийСотрудник() X&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Строка запроса: Получить Список Текущих Сотрудников </p>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:08. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

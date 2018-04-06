@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.DALC.DBManager.GetData</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../d6/d9d/namespace_kesco_1_1_lib_1_1_d_a_l_c.html">DALC</a></li><li class="navelem"><a class="el" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager.html">DBManager</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a23f214172dbadb9ee790b25a115b5b03.html#a23f214172dbadb9ee790b25a115b5b03">ExecuteNonQuery</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_af8ff1b993269021b1ca4993e6f213bbd.html#af8ff1b993269021b1ca4993e6f213bbd">ExecuteNonQuery</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a9d2cc51d094f4c4957dc6e37255f6b89.html#a9d2cc51d094f4c4957dc6e37255f6b89">ExecuteNonQuery</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_acffe7575af179abce995110465f869ba.html#acffe7575af179abce995110465f869ba">ExecuteScalar</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_aeecf16f3fd3e38d17508fdea381e1f0c.html#aeecf16f3fd3e38d17508fdea381e1f0c">ExecuteScalar</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_af7bd05edf0282efa47ec30a128a37c6d.html#af7bd05edf0282efa47ec30a128a37c6d">FillQueryArgsCollection</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_aa11e3782b0718aa67362339b762327b3.html#aa11e3782b0718aa67362339b762327b3">GetData</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a0d33e3eefb971f788ecc136e39e42997.html#a0d33e3eefb971f788ecc136e39e42997">GetData</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_ae9dcf5318fe686530c406da8ffded536.html#ae9dcf5318fe686530c406da8ffded536">GetData</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a960c4f78dc6fd7f8757566f61e6e62bb.html#a960c4f78dc6fd7f8757566f61e6e62bb">GetDbType</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a410f04b325fb4a78d4e9d75658d6080c.html#a410f04b325fb4a78d4e9d75658d6080c">GetReaderValue</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a496b437d82f3077e10533d9fc2e8de41.html#a496b437d82f3077e10533d9fc2e8de41">GetStringValue</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_a920ac411dcc3c00f7216fe30d2a3251a.html#a920ac411dcc3c00f7216fe30d2a3251a">ParameterTypes</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="ae9dcf5318fe686530c406da8ffded536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9dcf5318fe686530c406da8ffded536">&#9670;&nbsp;</a></span>GetData() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DataTable Kesco.Lib.DALC.DBManager.GetData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CommandType&#160;</td>
+          <td class="paramname"><em>ctype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringCollection&#160;</td>
+          <td class="paramname"><em>localParams</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_sort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_defaultSort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, Type &gt;&#160;</td>
+          <td class="paramname"><em>columnList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, bool &gt;&#160;</td>
+          <td class="paramname"><em>groupByList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, decimal &gt;&#160;</td>
+          <td class="paramname"><em>sumList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref string&#160;</td>
+          <td class="paramname"><em>_pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref string&#160;</td>
+          <td class="paramname"><em>_itemsPerPage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref string&#160;</td>
+          <td class="paramname"><em>_pageCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string&#160;</td>
+          <td class="paramname"><em>_sRez</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполнение переданного sql </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sql</td><td>Текст запроса, который необходимо выполнить</td></tr>
+    <tr><td class="paramname">cn</td><td>Строка подключения</td></tr>
+    <tr><td class="paramname">ctype</td><td>Тип sql-команды</td></tr>
+    <tr><td class="paramname">args</td><td>Словарь с параметрами: Название параметра с @; значение параметра</td></tr>
+    <tr><td class="paramname">localParams</td><td>Дополнительные параметры фильтрации, ограничения которых накладываются без учета args</td></tr>
+    <tr><td class="paramname">_sort</td><td>Порядок сортировки заданный пользователем</td></tr>
+    <tr><td class="paramname">_defaultSort</td><td>Порядок сортировки по-умолчанию</td></tr>
+    <tr><td class="paramname">columnList</td><td>Словарь с названием и типом колонок, которые возвращает sql</td></tr>
+    <tr><td class="paramname">groupByList</td><td>Словарь c колонками, по которым возможна группировка. Значением записи в словаре является флаг о необходимости группировки по данному полю </td></tr>
+    <tr><td class="paramname">sumList</td><td>Словарь c колонками, по которым необходимо суммирование значений</td></tr>
+    <tr><td class="paramname">_pageNum</td><td>Номер текущей страницы на форме списка</td></tr>
+    <tr><td class="paramname">_itemsPerPage</td><td>Количество выводимых записей на страницу</td></tr>
+    <tr><td class="paramname">_pageCount</td><td>Общее количество страниц</td></tr>
+    <tr><td class="paramname">_sRez</td><td>Количество найденных записей</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает DataTable с результами запроса</dd></dl>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            var dt = <span class="keyword">new</span> DataTable(<span class="stringliteral">&quot;Data&quot;</span>);</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">            #region Обработка переданных локальных параметров фильтрации</span></div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <span class="keywordflow">if</span> (localParams != null &amp;&amp; localParams.Count &gt; 0)</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            {</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                var filter = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                <span class="keywordflow">for</span> (var i = 0; i &lt; localParams.Count; i++)</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                {</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                    <span class="keywordflow">if</span> (i &gt; 0) filter += <span class="stringliteral">&quot; AND &quot;</span>;</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    filter += localParams[i];</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                }</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                filter = <span class="stringliteral">@&quot; </span></div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="stringliteral">WHERE (&quot;</span> + filter + <span class="stringliteral">&quot;)&quot;</span>;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                sql = <span class="keywordtype">string</span>.Format(sql, filter);</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            }</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">if</span> ((localParams == null || localParams.Count == 0))</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                sql = <span class="keywordtype">string</span>.Format(sql, <span class="stringliteral">&quot;&quot;</span>);</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">            #endregion</span></div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor">            #region Оборачиваем запрос во внешний SELECT для добавления группировки </span></div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="keywordflow">if</span> (ctype.Equals(CommandType.Text) &amp;&amp; columnList != null)</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            {</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                <span class="keywordflow">if</span> (groupByList != null &amp;&amp; groupByList.FirstOrDefault(x =&gt; x.Value).Value)</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                {</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                    var groupField = from p in groupByList</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                        where p.Value</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                        select <span class="keyword">new</span> {Field = p.Key};</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                    var sGroup = <span class="stringliteral">@&quot;</span></div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="stringliteral">SELECT &quot;</span>;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                    <span class="keywordflow">foreach</span> (var f <span class="keywordflow">in</span> columnList)</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                    {</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                        <span class="keywordflow">if</span> (f.Key.Equals(groupByList.FirstOrDefault(x =&gt; x.Key == f.Key &amp;&amp; x.Value).Key))</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                            sGroup += <span class="stringliteral">&quot; &quot;</span> + f.Key + <span class="stringliteral">&quot;,&quot;</span>;</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                        <span class="keywordflow">else</span></div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                        {</div><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                            <span class="keywordflow">if</span> (f.Value.Equals(typeof (String)))</div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                sGroup += <span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot; &#39;&#39; {0},&quot;</span>, f.Key);</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (f.Value.Equals(typeof (Decimal)))</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                sGroup += <span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot; SUM({0}) {0},&quot;</span>, f.Key);</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                            <span class="keywordflow">else</span></div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                sGroup += <span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot; NULL {0},&quot;</span>, f.Key);</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                        }</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                    }</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                    sql = sGroup.Substring(0, sGroup.Length - 1) + <span class="keywordtype">string</span>.Format(<span class="stringliteral">@&quot; </span></div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="stringliteral">FROM </span></div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="stringliteral">({0}) TGroup </span></div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="stringliteral">GROUP BY &quot;</span>, sql);</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                    <span class="keywordflow">foreach</span> (var f <span class="keywordflow">in</span> groupField)</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                        sql += f.Field + <span class="stringliteral">&quot;,&quot;</span>;</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                    sql = sql.Substring(0, sql.Length - 1);</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                }</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            }</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor">            #endregion</span></div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor">            #region Добавляем сортировку</span></div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordflow">if</span> (ctype.Equals(CommandType.Text) &amp;&amp; (_sort.Length &gt; 0 || _defaultSort.Length &gt; 0))</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                sql += <span class="stringliteral">@&quot; </span></div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="stringliteral">ORDER BY &quot;</span> + (_sort.Length == 0 ? _defaultSort : _sort);</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor">            #endregion</span></div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            var da = <span class="keyword">new</span> SqlDataAdapter(sql, cn);</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            da.SelectCommand.CommandType = ctype;</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor">            #region Заполняем коллекцию переданными параметрами, обязательными для запроса</span></div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="keywordflow">if</span> (args != null)</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <a class="code" href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_af7bd05edf0282efa47ec30a128a37c6d.html#af7bd05edf0282efa47ec30a128a37c6d">FillQueryArgsCollection</a>(args, da.SelectCommand);</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">            #endregion</span></div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <span class="keywordflow">if</span> (_pageNum.Length == 0) _pageNum = <span class="stringliteral">&quot;1&quot;</span>;</div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span> (_itemsPerPage.Length == 0) _itemsPerPage = <span class="stringliteral">&quot;2&quot;</span>;</div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            var pageNum = <span class="keywordtype">int</span>.Parse(_pageNum);</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            var itemsPerPage = <span class="keywordtype">int</span>.Parse(_itemsPerPage);</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            var index = (pageNum - 1)*itemsPerPage;</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            SqlConnection conn = null;</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            SqlDataReader dr = null;</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            DataTable dtSchema = null;</div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            _sRez = <span class="stringliteral">&quot;0&quot;</span>;</div><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordflow">try</span></div><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            {</div><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                <span class="keywordflow">if</span> (pageNum &gt; 0)</div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                {</div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">                    #region Если требуется постраничная разбивка данных используем DataReader</span></div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                    conn = <span class="keyword">new</span> SqlConnection(cn);</div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                    da.SelectCommand.Connection = conn;</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                    conn.Open();</div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                    dr = da.SelectCommand.ExecuteReader(CommandBehavior.CloseConnection);</div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                    dtSchema = dr.GetSchemaTable();</div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                    <span class="keywordflow">if</span> (dtSchema != null)</div><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                    {</div><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                        <span class="keywordflow">foreach</span> (DataRow drow <span class="keywordflow">in</span> dtSchema.Rows)</div><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                        {</div><div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                            var columnName = <a class="code" href="../../de/db9/namespace_convert.html">Convert</a>.ToString(drow[<span class="stringliteral">&quot;ColumnName&quot;</span>]);</div><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                            var column = <span class="keyword">new</span> DataColumn(columnName, (Type) (drow[<span class="stringliteral">&quot;DataType&quot;</span>]));</div><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                            column.Unique = (bool) drow[<span class="stringliteral">&quot;IsUnique&quot;</span>];</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                            column.AllowDBNull = (bool) drow[<span class="stringliteral">&quot;AllowDBNull&quot;</span>];</div><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                            column.AutoIncrement = (bool) drow[<span class="stringliteral">&quot;IsAutoIncrement&quot;</span>];</div><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                            dt.Columns.Add(column);</div><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                        }</div><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                    }</div><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    var i = 0;</div><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                    var n = 0;</div><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    List&lt;string&gt; sumListCloneKeys = null;</div><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <span class="keywordflow">if</span> (sumList != null)</div><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    {</div><div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                        sumListCloneKeys = <span class="keyword">new</span> List&lt;string&gt;(sumList.Keys);</div><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                        <span class="keywordflow">for</span> (var j = 0; j &lt; sumListCloneKeys.Count; j++)</div><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                            sumList[sumListCloneKeys[j]] = 0;</div><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                    }</div><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                    <span class="keywordflow">while</span> (dr.Read())</div><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                    {</div><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                        <span class="keywordflow">if</span> (i &gt;= index &amp;&amp; n &lt; itemsPerPage)</div><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                        {</div><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                            var dataRow = dt.NewRow();</div><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                            <span class="keywordflow">for</span> (var j = 0; j &lt; dt.Columns.Count; j++)</div><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                            {</div><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                                dataRow[dt.Columns[j]] = dr[j];</div><div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                            }</div><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                            dt.Rows.Add(dataRow);</div><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                            n++;</div><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                        }</div><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor">                        #region Суммируем значения необходимых полей</span></div><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                        <span class="keywordflow">if</span> (sumList != null)</div><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                        {</div><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                            <span class="keywordflow">for</span> (var j = 0; j &lt; sumListCloneKeys.Count; j++)</div><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                                sumList[sumListCloneKeys[j]] +=</div><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                                    <a class="code" href="../../de/db9/namespace_convert.html">Convert</a>.ToDecimal(dr.GetValue(dr.GetOrdinal(sumListCloneKeys[j])));</div><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                        }</div><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div><div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">                        #endregion</span></div><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                        i++;</div><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                    }</div><div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                    _pageCount = ((int) Math.Ceiling(i/(<span class="keywordtype">double</span>) itemsPerPage)).ToString();</div><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                    _pageNum = (pageNum == 0) ? <span class="stringliteral">&quot;1&quot;</span> : pageNum.ToString();</div><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                    _itemsPerPage = itemsPerPage.ToString();</div><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                    _sRez = i.ToString();</div><div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">                    #endregion</span></div><div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                }</div><div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                <span class="keywordflow">else</span></div><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                    da.Fill(dt);</div><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            }</div><div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <span class="keywordflow">catch</span> (Exception ex)</div><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            {</div><div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                var dex = <span class="keyword">new</span> <a class="code" href="../../d1/dd6/class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html">DetailedException</a>(ex.Message, ex, da.SelectCommand);</div><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                <a class="code" href="../../d2/ddf/class_kesco_1_1_lib_1_1_log_1_1_logger.html">Logger</a>.<a class="code" href="../../d2/ddf/class_kesco_1_1_lib_1_1_log_1_1_logger_ad48fc1c75be1848baefbba8914e007ed.html#ad48fc1c75be1848baefbba8914e007ed">WriteEx</a>(dex);</div><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                <span class="keywordflow">throw</span> dex;</div><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            }</div><div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            <span class="keywordflow">finally</span></div><div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            {</div><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="keywordflow">if</span> (dr != null) dr.Close();</div><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                <span class="keywordflow">if</span> (conn != null &amp;&amp; conn.State != ConnectionState.Closed) conn.Close();</div><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            }</div><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;            <span class="keywordflow">return</span> dt;</div><div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_logger_ad48fc1c75be1848baefbba8914e007ed_html_ad48fc1c75be1848baefbba8914e007ed"><div class="ttname"><a href="../../d2/ddf/class_kesco_1_1_lib_1_1_log_1_1_logger_ad48fc1c75be1848baefbba8914e007ed.html#ad48fc1c75be1848baefbba8914e007ed">Kesco.Lib.Log.Logger.WriteEx</a></div><div class="ttdeci">static void WriteEx(Exception ex)</div><div class="ttdoc">�������� ���������� �� ���������� </div><div class="ttdef"><b>Definition:</b> Logger.cs:35</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_logger_html"><div class="ttname"><a href="../../d2/ddf/class_kesco_1_1_lib_1_1_log_1_1_logger.html">Kesco.Lib.Log.Logger</a></div><div class="ttdoc">����������� �����, ��������������� ������ � ������������� ������� LogModule </div><div class="ttdef"><b>Definition:</b> Logger.cs:8</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception_html"><div class="ttname"><a href="../../d1/dd6/class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html">Kesco.Lib.Log.DetailedException</a></div><div class="ttdoc">��������������� �������� ������ Exception. ������������ � ����������� �������� ��� ������������ ������� ����������, ���������� �������������� ���������� ����������...</div><div class="ttdef"><b>Definition:</b> DetailedException.cs:13</div></div>
+<div class="ttc" id="namespace_convert_html"><div class="ttname"><a href="../../de/db9/namespace_convert.html">Convert</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_af7bd05edf0282efa47ec30a128a37c6d_html_af7bd05edf0282efa47ec30a128a37c6d"><div class="ttname"><a href="../../dd/d84/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_manager_af7bd05edf0282efa47ec30a128a37c6d.html#af7bd05edf0282efa47ec30a128a37c6d">Kesco.Lib.DALC.DBManager.FillQueryArgsCollection</a></div><div class="ttdeci">static void FillQueryArgsCollection(Dictionary&lt; string, object &gt; args, SqlCommand cmd)</div><div class="ttdoc">Обработка и добавление в запрос параметров </div><div class="ttdef"><b>Definition:</b> DBManager.cs:87</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:08. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

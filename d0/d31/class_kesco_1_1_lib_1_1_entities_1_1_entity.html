@@ -1,0 +1,730 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Класс Kesco.Lib.Entities.Entity</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../da/dd9/namespace_kesco_1_1_lib_1_1_entities.html">Entities</a></li><li class="navelem"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html">Entity</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
+<a href="#properties">Свойства</a> &#124;
+<a href="#events">События</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Kesco.Lib.Entities.Entity</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Базовый класс сущности  
+ <a href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#details">Подробнее...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Граф наследования:Kesco.Lib.Entities.Entity:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.png" usemap="#Kesco.Lib.Entities.Entity_map" alt=""/>
+  <map id="Kesco.Lib.Entities.Entity_map" name="Kesco.Lib.Entities.Entity_map">
+<area href="../../d7/d7b/class_kesco_1_1_lib_1_1_entities_1_1_attributes_1_1_attribute_format_base.html" title="Класс сущности формат атрибута по умолчанию " alt="Kesco.Lib.Entities.Attributes.AttributeFormatBase" shape="rect" coords="360,56,710,80"/>
+<area href="../../d2/dfb/class_kesco_1_1_lib_1_1_entities_1_1_attributes_1_1_attribute_format_type.html" title="Класс сущности Тип формата атрибута " alt="Kesco.Lib.Entities.Attributes.AttributeFormatType" shape="rect" coords="360,112,710,136"/>
+<area href="../../db/d56/class_kesco_1_1_lib_1_1_entities_1_1_attributes_1_1_attribute_unicness.html" title="Класс сущности Уникальности атрибута лица " alt="Kesco.Lib.Entities.Attributes.AttributeUnicness" shape="rect" coords="360,168,710,192"/>
+<area href="../../d7/dc7/class_kesco_1_1_lib_1_1_entities_1_1_contacts_1_1_contact_type.html" title="Класс сущности Тип контакта " alt="Kesco.Lib.Entities.Contacts.ContactType" shape="rect" coords="360,224,710,248"/>
+<area href="../../d5/dc2/class_kesco_1_1_lib_1_1_entities_1_1_contacts_1_1_telephone_number.html" title="Класс сущности Телефонный номер " alt="Kesco.Lib.Entities.Contacts.TelephoneNumber" shape="rect" coords="360,280,710,304"/>
+<area href="../../d3/df2/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_advanced_grant.html" title="Класс сущности &quot;Дополнительные права для указаний&quot; " alt="Kesco.Lib.Entities.Corporate.AdvancedGrant" shape="rect" coords="360,336,710,360"/>
+<area href="../../d2/d2d/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_available_phone.html" title="Бизнес-объект - доступный телефон " alt="Kesco.Lib.Entities.Corporate.AvailablePhone" shape="rect" coords="360,392,710,416"/>
+<area href="../../dc/d7e/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_common_folder.html" title="Класс сущности &quot;Обшая папка&quot; " alt="Kesco.Lib.Entities.Corporate.CommonFolder" shape="rect" coords="360,448,710,472"/>
+<area href="../../da/d69/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_domain_name.html" title="Класс сущности Доменное имя " alt="Kesco.Lib.Entities.Corporate.DomainName" shape="rect" coords="360,504,710,528"/>
+<area href="../../df/d0c/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html" title="Пользователь (Сотрудник) " alt="Kesco.Lib.Entities.Corporate.Employee" shape="rect" coords="360,560,710,584"/>
+<area href="../../d3/d36/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_contact.html" title="Класс сущности контакты сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeeContact" shape="rect" coords="360,616,710,640"/>
+<area href="../../dd/d0f/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_co_worker.html" title="Класс сущности сотрудники замещающие сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeeCoWorker" shape="rect" coords="360,672,710,696"/>
+<area href="../../d3/d83/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_passage.html" title="Класс сущности проход сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeePassage" shape="rect" coords="360,728,710,752"/>
+<area href="../../d8/d09/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_person_type.html" title="Класс сущности ПраваТипыЛиц " alt="Kesco.Lib.Entities.Corporate.EmployeePersonType" shape="rect" coords="360,784,710,808"/>
+<area href="../../d7/de1/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_photo.html" title="Класс сущности фотография сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeePhoto" shape="rect" coords="360,840,710,864"/>
+<area href="../../d1/d01/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_position.html" title="Класс сущности должность сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeePosition" shape="rect" coords="360,896,710,920"/>
+<area href="../../d2/d7f/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_replacement.html" title="Класс сущности замещение сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeeReplacement" shape="rect" coords="360,952,710,976"/>
+<area href="../../d5/db8/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_role.html" title="Класс сущности роль сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeeRole" shape="rect" coords="360,1008,710,1032"/>
+<area href="../../d4/d1b/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_work_place.html" title="Класс сущности рабочее место сотрудника " alt="Kesco.Lib.Entities.Corporate.EmployeeWorkPlace" shape="rect" coords="360,1064,710,1088"/>
+<area href="../../df/d5e/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_language.html" title="Язык сотрудника " alt="Kesco.Lib.Entities.Corporate.Language" shape="rect" coords="360,1120,710,1144"/>
+<area href="../../d5/d22/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_person_customer.html" title="Класс сущности сотрудник заказчик " alt="Kesco.Lib.Entities.Corporate.PersonCustomer" shape="rect" coords="360,1176,710,1200"/>
+<area href="../../d6/d7b/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_position.html" title="Класс сущности Должность " alt="Kesco.Lib.Entities.Corporate.Position" shape="rect" coords="360,1232,710,1256"/>
+<area href="../../d6/dac/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_role.html" title="Класс сущности &quot;Роли&quot; " alt="Kesco.Lib.Entities.Corporate.Role" shape="rect" coords="360,1288,710,1312"/>
+<area href="../../d4/d5d/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_subdivision.html" title="Класс сущности Подразделение " alt="Kesco.Lib.Entities.Corporate.Subdivision" shape="rect" coords="360,1344,710,1368"/>
+<area href="../../d4/d48/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_vacation_type.html" title="Класс сущности &quot;Роли&quot; " alt="Kesco.Lib.Entities.Corporate.VacationType" shape="rect" coords="360,1400,710,1424"/>
+<area href="../../d1/de3/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_field.html" title="Класс сущности &quot;Поля документов&quot; " alt="Kesco.Lib.Entities.Documents.DocField" shape="rect" coords="360,1456,710,1480"/>
+<area href="../../d8/d8d/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_link.html" title="Класс сущности-связи &quot;СвязиДокументов&quot; " alt="Kesco.Lib.Entities.Documents.DocLink" shape="rect" coords="360,1512,710,1536"/>
+<area href="../../db/d65/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_persons.html" title="Сущность лица документов " alt="Kesco.Lib.Entities.Documents.DocPersons" shape="rect" coords="360,1568,710,1592"/>
+<area href="../../d8/d27/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_sign.html" title="Класс сущности ПодписиДокументов " alt="Kesco.Lib.Entities.Documents.DocSign" shape="rect" coords="360,1624,710,1648"/>
+<area href="../../d1/d34/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_type_link.html" title="Класс сущности &quot;СвязиТиповДокументов&quot; " alt="Kesco.Lib.Entities.Documents.DocTypeLink" shape="rect" coords="360,1680,710,1704"/>
+<area href="../../d3/d67/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html" title="Класс сущности &quot;Документ&quot; " alt="Kesco.Lib.Entities.Documents.Document" shape="rect" coords="360,1736,710,1760"/>
+<area href="../../de/d72/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document_data.html" title="Класс сущности &quot;Документы данные&quot; " alt="Kesco.Lib.Entities.Documents.DocumentData" shape="rect" coords="360,1792,710,1816"/>
+<area href="../../d9/d8e/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_document_position.html" title="Абстрактный класс позиции документа " alt="Kesco.Lib.Entities.Documents.EF.DocumentPosition&lt; T &gt;" shape="rect" coords="360,1848,710,1872"/>
+<area href="../../d0/d3e/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_m_t_r_1_1_mtr_child_doc.html" title="Класс для обеспечения функциональности MTRClaimDoc и получения вытекающих документов МТР ..." alt="Kesco.Lib.Entities.Documents.EF.MTR.MtrChildDoc" shape="rect" coords="360,1904,710,1928"/>
+<area href="../../dc/d87/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_claim_1_1_position.html" title="Позиции претензий из таблицы: ПозицииПретензий " alt="Kesco.Lib.Entities.Documents.EF.Trade.Claim.Position" shape="rect" coords="360,1960,710,1984"/>
+<area href="../../d4/d45/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_fact_usl.html" title="ОказанныеУслуги " alt="Kesco.Lib.Entities.Documents.EF.Trade.FactUsl" shape="rect" coords="360,2016,710,2040"/>
+<area href="../../d6/d4e/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_trade_1_1_sale.html" title="Движения на cкладах " alt="Kesco.Lib.Entities.Documents.EF.Trade.Sale" shape="rect" coords="360,2072,710,2096"/>
+<area href="../../dd/d73/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_template.html" title="Бизнес-объект - шаблон печатной формы " alt="Kesco.Lib.Entities.Documents.Template" shape="rect" coords="360,2128,710,2152"/>
+<area href="../../d8/dd9/class_kesco_1_1_lib_1_1_entities_1_1_ghost.html" title="Класс для простых сущностей " alt="Kesco.Lib.Entities.Ghost" shape="rect" coords="360,2184,710,2208"/>
+<area href="../../d5/d73/class_kesco_1_1_lib_1_1_entities_1_1_link_1_1_link.html" title="Класс сущности связь лиц " alt="Kesco.Lib.Entities.Link.Link" shape="rect" coords="360,2240,710,2264"/>
+<area href="../../d8/d59/class_kesco_1_1_lib_1_1_entities_1_1_location.html" title="Бизнес-объект - Расположения " alt="Kesco.Lib.Entities.Location" shape="rect" coords="360,2296,710,2320"/>
+<area href="../../d4/d45/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_attributes_1_1_attribute.html" title="Класс сущности атрибут " alt="Kesco.Lib.Entities.Persons.Attributes.Attribute" shape="rect" coords="360,2352,710,2376"/>
+<area href="../../da/dae/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_attributes_1_1_attribute_format.html" title="Класс сущности формат атрибута " alt="Kesco.Lib.Entities.Persons.Attributes.AttributeFormat" shape="rect" coords="360,2408,710,2432"/>
+<area href="../../d0/d32/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_business_project_1_1_business_project.html" title="Класс сущности Бизнес проект " alt="Kesco.Lib.Entities.Persons.BusinessProject.BusinessProject" shape="rect" coords="360,2464,710,2488"/>
+<area href="../../d8/d41/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_contacts_1_1_contact.html" title="Класс сущности Контакт " alt="Kesco.Lib.Entities.Persons.Contacts.Contact" shape="rect" coords="360,2520,710,2544"/>
+<area href="../../d0/dea/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_dossier_1_1_doisser_employee.html" title="Класс сущности досье сотрудника " alt="Kesco.Lib.Entities.Persons.Dossier.DoisserEmployee" shape="rect" coords="360,2576,710,2600"/>
+<area href="../../de/de2/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_dossier_1_1_dossier.html" title="Класс сущности досье " alt="Kesco.Lib.Entities.Persons.Dossier.Dossier" shape="rect" coords="360,2632,710,2656"/>
+<area href="../../da/d73/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_dossier_1_1_dossier_context.html" title="Класс сущности Контекст досье лица " alt="Kesco.Lib.Entities.Persons.Dossier.DossierContext" shape="rect" coords="360,2688,710,2712"/>
+<area href="../../d5/d7d/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_dossier_1_1_dossier_menu_item.html" title="Класс сущности пункт меню досье " alt="Kesco.Lib.Entities.Persons.Dossier.DossierMenuItem" shape="rect" coords="360,2744,710,2768"/>
+<area href="../../df/db0/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person.html" title="Класс сущности Лицо " alt="Kesco.Lib.Entities.Persons.Person" shape="rect" coords="360,2800,710,2824"/>
+<area href="../../d0/db1/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html" title="Класс сущности Лицо " alt="Kesco.Lib.Entities.Persons.PersonBase" shape="rect" coords="360,2856,710,2880"/>
+<area href="../../d3/dcc/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_catalog.html" title="Класс сущности &quot;Каталоги&quot; " alt="Kesco.Lib.Entities.Persons.PersonCatalog" shape="rect" coords="360,2912,710,2936"/>
+<area href="../../dd/d88/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_customer.html" title="Класс сущности Лица заказчики " alt="Kesco.Lib.Entities.Persons.PersonCustomer" shape="rect" coords="360,2968,710,2992"/>
+<area href="../../dc/d97/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_incorporation_form.html" title="Класс сущности Орг.-прав. форма " alt="Kesco.Lib.Entities.Persons.PersonIncorporationForm" shape="rect" coords="360,3024,710,3048"/>
+<area href="../../d1/d09/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_name_lat.html" title="Класс сущности ФИО лица на латинице " alt="Kesco.Lib.Entities.Persons.PersonNameLat" shape="rect" coords="360,3080,710,3104"/>
+<area href="../../d9/d4c/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_name_reg.html" title="Класс сущности ФИО лица на языке страны регистрации " alt="Kesco.Lib.Entities.Persons.PersonNameReg" shape="rect" coords="360,3136,710,3160"/>
+<area href="../../de/ded/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_nick_name.html" title="Класс сущности псевдоним лица " alt="Kesco.Lib.Entities.Persons.PersonNickName" shape="rect" coords="360,3192,710,3216"/>
+<area href="../../de/ddc/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_old_1_1_person_old.html" title="Класс сущности Лицо для совместимости с V3 " alt="Kesco.Lib.Entities.Persons.PersonOld.PersonOld" shape="rect" coords="360,3248,710,3272"/>
+<area href="../../d6/d09/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_old_1_1_person_old_1_1_card.html" title="Класс карточки клиента " alt="Kesco.Lib.Entities.Persons.PersonOld.PersonOld.Card" shape="rect" coords="360,3304,710,3328"/>
+<area href="../../df/d0a/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_theme.html" title="Класс сущности Тема лица " alt="Kesco.Lib.Entities.Persons.PersonTheme" shape="rect" coords="360,3360,710,3384"/>
+<area href="../../df/d5a/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_type.html" title="Класс сущности Тип лица " alt="Kesco.Lib.Entities.Persons.PersonType" shape="rect" coords="360,3416,710,3440"/>
+<area href="../../d2/d08/class_kesco_1_1_lib_1_1_entities_1_1_residence.html" title="Бизнес-объект - Место хранения " alt="Kesco.Lib.Entities.Residence" shape="rect" coords="360,3472,710,3496"/>
+<area href="../../df/dc9/class_kesco_1_1_lib_1_1_entities_1_1_resources_1_1_resource.html" title="Бизнес-объект - Ресурс " alt="Kesco.Lib.Entities.Resources.Resource" shape="rect" coords="360,3528,710,3552"/>
+<area href="../../d5/dbe/class_kesco_1_1_lib_1_1_entities_1_1_resources_1_1_unit.html" title="Единица измерения " alt="Kesco.Lib.Entities.Resources.Unit" shape="rect" coords="360,3584,710,3608"/>
+<area href="../../d3/d3d/class_kesco_1_1_lib_1_1_entities_1_1_stores_1_1_store.html" title="Бизнес-объект - склад " alt="Kesco.Lib.Entities.Stores.Store" shape="rect" coords="360,3640,710,3664"/>
+<area href="../../d3/d0b/class_kesco_1_1_lib_1_1_entities_1_1_stores_1_1_store_type.html" title="Тип склада " alt="Kesco.Lib.Entities.Stores.StoreType" shape="rect" coords="360,3696,710,3720"/>
+<area href="../../dc/d11/class_kesco_1_1_lib_1_1_entities_1_1_territories_1_1_territory.html" title="Класс сущности Територия " alt="Kesco.Lib.Entities.Territories.Territory" shape="rect" coords="360,3752,710,3776"/>
+<area href="../../d9/d04/class_kesco_1_1_lib_1_1_entities_1_1_transactions_1_1_transaction.html" title="Бизнес-объект - транзакции Не путать с транзакциями в БД " alt="Kesco.Lib.Entities.Transactions.Transaction" shape="rect" coords="360,3808,710,3832"/>
+<area href="../../df/d62/class_kesco_1_1_lib_1_1_entities_1_1_transactions_1_1_transaction_type.html" title="Бизнес-объект - типы транзакций " alt="Kesco.Lib.Entities.Transactions.TransactionType" shape="rect" coords="360,3864,710,3888"/>
+<area href="../../d0/dbe/class_kesco_1_1_lib_1_1_entities_1_1_transport_1_1_basis.html" title="Базис поставки " alt="Kesco.Lib.Entities.Transport.Basis" shape="rect" coords="360,3920,710,3944"/>
+<area href="../../d0/dad/class_kesco_1_1_lib_1_1_entities_1_1_tree_node_entity.html" title="Базовый класс древовидных структур данных " alt="Kesco.Lib.Entities.TreeNodeEntity" shape="rect" coords="360,3976,710,4000"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a03943afe95acb2c6eaabe63c06983ae7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a03943afe95acb2c6eaabe63c06983ae7">Load</a> ()</td></tr>
+<tr class="memdesc:a03943afe95acb2c6eaabe63c06983ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод получения сущности  <a href="#a03943afe95acb2c6eaabe63c06983ae7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a03943afe95acb2c6eaabe63c06983ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c87000cea9b65e6274cf1c5c46bdfa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a8c87000cea9b65e6274cf1c5c46bdfa3">Save</a> (bool evalLoad, List&lt; <a class="el" href="../../db/d6b/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds=null)</td></tr>
+<tr class="memdesc:a8c87000cea9b65e6274cf1c5c46bdfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохранение сущности  <a href="#a8c87000cea9b65e6274cf1c5c46bdfa3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8c87000cea9b65e6274cf1c5c46bdfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72016415c7e0db1f2369fc4ef39e0fb7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a72016415c7e0db1f2369fc4ef39e0fb7">Delete</a> (bool evalLoad, List&lt; <a class="el" href="../../db/d6b/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt; cmds=null)</td></tr>
+<tr class="memdesc:a72016415c7e0db1f2369fc4ef39e0fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаление сущности  <a href="#a72016415c7e0db1f2369fc4ef39e0fb7">Подробнее...</a><br /></td></tr>
+<tr class="separator:a72016415c7e0db1f2369fc4ef39e0fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2904f477f563d12c8ec545df4573740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af2904f477f563d12c8ec545df4573740">ValueChangedEvent_Invoke</a> (string newVal, string oldVal)</td></tr>
+<tr class="memdesc:af2904f477f563d12c8ec545df4573740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполяняет действия события ValueChangedEvent  <a href="#af2904f477f563d12c8ec545df4573740">Подробнее...</a><br /></td></tr>
+<tr class="separator:af2904f477f563d12c8ec545df4573740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:a622ac5255416c0dc6e62998089c46112"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a622ac5255416c0dc6e62998089c46112">FillData</a> (DataTable dt)</td></tr>
+<tr class="memdesc:a622ac5255416c0dc6e62998089c46112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод заполнения таблицы с данными сущности  <a href="#a622ac5255416c0dc6e62998089c46112">Подробнее...</a><br /></td></tr>
+<tr class="separator:a622ac5255416c0dc6e62998089c46112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70c2b95c253aec72c709fc4d896d05e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ad70c2b95c253aec72c709fc4d896d05e">Entity</a> ()</td></tr>
+<tr class="memdesc:ad70c2b95c253aec72c709fc4d896d05e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор базовой сущности  <a href="#ad70c2b95c253aec72c709fc4d896d05e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad70c2b95c253aec72c709fc4d896d05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17196659d5305852536b06a896e8657"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac17196659d5305852536b06a896e8657">Entity</a> (string id)</td></tr>
+<tr class="memdesc:ac17196659d5305852536b06a896e8657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор базовой сущности с параметрами  <a href="#ac17196659d5305852536b06a896e8657">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac17196659d5305852536b06a896e8657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Свойства</h2></td></tr>
+<tr class="memitem:aa29286b090ec7be0dc967c073514d29a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Unavailable</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa29286b090ec7be0dc967c073514d29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность сущности. Удалось по ключу создать экземпляр объекта. false = ok  <a href="#aa29286b090ec7be0dc967c073514d29a">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa29286b090ec7be0dc967c073514d29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d166c745c27f42d9c96e1bc7f621ebb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a4d166c745c27f42d9c96e1bc7f621ebb">RequiredRefreshInfo</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4d166c745c27f42d9c96e1bc7f621ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Необходимо заново получить данные для закэшированных свойств объекта  <a href="#a4d166c745c27f42d9c96e1bc7f621ebb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4d166c745c27f42d9c96e1bc7f621ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5395d4e7d9753f78dbfb281d3a80786"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#ac5395d4e7d9753f78dbfb281d3a80786">Available</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac5395d4e7d9753f78dbfb281d3a80786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доступность сущности. Удалось по ключу создать экземпляр объекта.  <a href="#ac5395d4e7d9753f78dbfb281d3a80786">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac5395d4e7d9753f78dbfb281d3a80786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a76df4523b9913e6c91f736174e8bd"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a66a76df4523b9913e6c91f736174e8bd">CN</a><code> [get]</code></td></tr>
+<tr class="memdesc:a66a76df4523b9913e6c91f736174e8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Строка подключения к БД. Обязательно к переопределению для классов подключающихся к БД  <a href="#a66a76df4523b9913e6c91f736174e8bd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a66a76df4523b9913e6c91f736174e8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab166d4768d2953e6646d13bd320c0b"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Id</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:adab166d4768d2953e6646d13bd320c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Код объекта  <a href="#adab166d4768d2953e6646d13bd320c0b">Подробнее...</a><br /></td></tr>
+<tr class="separator:adab166d4768d2953e6646d13bd320c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383c4b9da28d1b2fad3cc1eafcd7dd89"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a383c4b9da28d1b2fad3cc1eafcd7dd89">Name</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a383c4b9da28d1b2fad3cc1eafcd7dd89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Имя объекта  <a href="#a383c4b9da28d1b2fad3cc1eafcd7dd89">Подробнее...</a><br /></td></tr>
+<tr class="separator:a383c4b9da28d1b2fad3cc1eafcd7dd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
+События</h2></td></tr>
+<tr class="memitem:af304c276e111a99483ade098b6cb5fac"><td class="memItemLeft" align="right" valign="top">ValueChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">ValueChangedEvent</a></td></tr>
+<tr class="memdesc:af304c276e111a99483ade098b6cb5fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие изменения значения  <a href="#af304c276e111a99483ade098b6cb5fac">Подробнее...</a><br /></td></tr>
+<tr class="separator:af304c276e111a99483ade098b6cb5fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a9776df340cb1bd80b533ed88fcee7204"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a9776df340cb1bd80b533ed88fcee7204">requiredRefreshInfo</a> = false</td></tr>
+<tr class="separator:a9776df340cb1bd80b533ed88fcee7204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый класс сущности </p>
+<p>Существует программа, преобразования запроса или ХП в класс сущности и начитки данных: <a href="https://titan.kescom.com:8443/svn/web/GeneratorORM">https://titan.kescom.com:8443/svn/web/GeneratorORM</a> </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00019">19</a></p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="ad70c2b95c253aec72c709fc4d896d05e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70c2b95c253aec72c709fc4d896d05e">&#9670;&nbsp;</a></span>Entity() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Entities.Entity.Entity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Конструктор базовой сущности </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00121">121</a></p>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        {</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="comment">// по умолчанию сущность не доступна</span></div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Unavailable</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_entity_html_aa29286b090ec7be0dc967c073514d29a"><div class="ttname"><a href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Kesco.Lib.Entities.Entity.Unavailable</a></div><div class="ttdeci">bool Unavailable</div><div class="ttdoc">Доступность сущности. Удалось по ключу создать экземпляр объекта. false = ok </div><div class="ttdef"><b>Definition:</b> <a href="../../de/db3/_entity_8cs_source.html#l00025">Entity.cs:25</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac17196659d5305852536b06a896e8657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17196659d5305852536b06a896e8657">&#9670;&nbsp;</a></span>Entity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Entities.Entity.Entity </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Конструктор базовой сущности с параметрами </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Код сущности</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00131">131</a></p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                    :<span class="keyword">this</span>()</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Id</a> = id;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_entity_html_adab166d4768d2953e6646d13bd320c0b"><div class="ttname"><a href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#adab166d4768d2953e6646d13bd320c0b">Kesco.Lib.Entities.Entity.Id</a></div><div class="ttdeci">virtual string Id</div><div class="ttdoc">Код объекта </div><div class="ttdef"><b>Definition:</b> <a href="../../de/db3/_entity_8cs_source.html#l00057">Entity.cs:57</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a72016415c7e0db1f2369fc4ef39e0fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72016415c7e0db1f2369fc4ef39e0fb7">&#9670;&nbsp;</a></span>Delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Kesco.Lib.Entities.Entity.Delete </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>evalLoad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="../../db/d6b/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt;&#160;</td>
+          <td class="paramname"><em>cmds</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Удаление сущности </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">evalLoad</td><td>Выполнить повторную загрузку</td></tr>
+    <tr><td class="paramname">cmds</td><td>Объект sql-команд для анализа запроса</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяется в <a class="el" href="../../d9/d8e/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_document_position.html#a9f1dfd1b2af9c9b01633be8503932c5e">Kesco.Lib.Entities.Documents.EF.DocumentPosition&lt; T &gt;</a>.</p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00087">87</a></p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NotImplementedException(<span class="stringliteral">&quot;Метод Delete не реализован для класса наследника&quot;</span>);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a622ac5255416c0dc6e62998089c46112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622ac5255416c0dc6e62998089c46112">&#9670;&nbsp;</a></span>FillData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Kesco.Lib.Entities.Entity.FillData </td>
+          <td>(</td>
+          <td class="paramtype">DataTable&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод заполнения таблицы с данными сущности </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dt</td><td>Таблица для записи в нее данных сущности</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяется в <a class="el" href="../../df/d0c/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html#ad768fb9a3bca23ab6f00ba56ab2b29a1">Kesco.Lib.Entities.Corporate.Employee</a>, <a class="el" href="../../d8/d41/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_contacts_1_1_contact.html#aa29e8db5623455c323372c3c44c95d0e">Kesco.Lib.Entities.Persons.Contacts.Contact</a>, <a class="el" href="../../d0/db1/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a0f8c38138f71015b66d6ca5d666bbe14">Kesco.Lib.Entities.Persons.PersonBase</a>, <a class="el" href="../../d3/d3d/class_kesco_1_1_lib_1_1_entities_1_1_stores_1_1_store.html#afc3578750e9c90171a668f2d2118d1b2">Kesco.Lib.Entities.Stores.Store</a>, <a class="el" href="../../de/ddc/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_old_1_1_person_old.html#a7adf6c916255941b4225ea11209f3fa6">Kesco.Lib.Entities.Persons.PersonOld.PersonOld</a>, <a class="el" href="../../df/db0/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person.html#a72857ae06cc059f74f5343191fe531bc">Kesco.Lib.Entities.Persons.Person</a>, <a class="el" href="../../d4/dd6/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_natural.html#a2a92483c3f7dff77f021769f95de90b3">Kesco.Lib.Entities.Persons.PersonNatural</a>, <a class="el" href="../../d5/dc2/class_kesco_1_1_lib_1_1_entities_1_1_contacts_1_1_telephone_number.html#a65f75d2710612677a8de643b49e77028">Kesco.Lib.Entities.Contacts.TelephoneNumber</a>, <a class="el" href="../../d0/dbe/class_kesco_1_1_lib_1_1_entities_1_1_transport_1_1_basis.html#ade73895aeb33db00fb4429e45cf60f79">Kesco.Lib.Entities.Transport.Basis</a>, <a class="el" href="../../d8/d59/class_kesco_1_1_lib_1_1_entities_1_1_location.html#a6807641c4008a2383e3af499c47510b3">Kesco.Lib.Entities.Location</a>, <a class="el" href="../../d7/dc7/class_kesco_1_1_lib_1_1_entities_1_1_contacts_1_1_contact_type.html#ab982c8cedbecf4ea28b560e12c3fb42f">Kesco.Lib.Entities.Contacts.ContactType</a>, <a class="el" href="../../d2/dfb/class_kesco_1_1_lib_1_1_entities_1_1_attributes_1_1_attribute_format_type.html#abefa2e4b8f626cadd87a186aec101b69">Kesco.Lib.Entities.Attributes.AttributeFormatType</a>, <a class="el" href="../../dc/d11/class_kesco_1_1_lib_1_1_entities_1_1_territories_1_1_territory.html#ac09a0b79a4d04bbb715223859ad0af42">Kesco.Lib.Entities.Territories.Territory</a>, <a class="el" href="../../d3/d0b/class_kesco_1_1_lib_1_1_entities_1_1_stores_1_1_store_type.html#a5d92ea5d508b268173159dedea1590a3">Kesco.Lib.Entities.Stores.StoreType</a>, <a class="el" href="../../df/dc9/class_kesco_1_1_lib_1_1_entities_1_1_resources_1_1_resource.html#a58408b23784f939d8de7fd4a76f3f641">Kesco.Lib.Entities.Resources.Resource</a>, <a class="el" href="../../df/d0a/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_theme.html#a4827c06a6ae48664370c909b5a8d2c64">Kesco.Lib.Entities.Persons.PersonTheme</a>, <a class="el" href="../../d2/d08/class_kesco_1_1_lib_1_1_entities_1_1_residence.html#a910a3d1aecb1379c3206735e36ab0935">Kesco.Lib.Entities.Residence</a>, <a class="el" href="../../d0/d32/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_business_project_1_1_business_project.html#ae6a685b770ab474625d2fb01da20e0ed">Kesco.Lib.Entities.Persons.BusinessProject.BusinessProject</a>, <a class="el" href="../../dc/d97/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_incorporation_form.html#a055434951d9b6e368cc037ae1c49db28">Kesco.Lib.Entities.Persons.PersonIncorporationForm</a>, <a class="el" href="../../dd/d88/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_customer.html#ac1a866a7065815c04fcba8cec6fe0274">Kesco.Lib.Entities.Persons.PersonCustomer</a>, <a class="el" href="../../d3/dcc/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_catalog.html#ae71d93d458d0ffbd5517f1b844132206">Kesco.Lib.Entities.Persons.PersonCatalog</a>, <a class="el" href="../../d6/d7b/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_position.html#ad77fc86013f317b5dfc9f6421b1054e9">Kesco.Lib.Entities.Corporate.Position</a>, <a class="el" href="../../dd/d73/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_template.html#a433ea7ec6f4237ae951809cd3b759128">Kesco.Lib.Entities.Documents.Template</a>, <a class="el" href="../../d6/dac/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_role.html#a7306b6a17e67eed6bbcf79e822f0a4e0">Kesco.Lib.Entities.Corporate.Role</a> и <a class="el" href="../../d4/d48/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_vacation_type.html#a8e5020cde7ea132d1244a4244dc77a1b">Kesco.Lib.Entities.Corporate.VacationType</a>.</p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00096">96</a></p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NotImplementedException(<span class="stringliteral">&quot;Метод FillData не реализован для класса наследника&quot;</span>);</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a03943afe95acb2c6eaabe63c06983ae7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03943afe95acb2c6eaabe63c06983ae7">&#9670;&nbsp;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Kesco.Lib.Entities.Entity.Load </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Метод получения сущности </p>
+
+<p>Переопределяется в <a class="el" href="../../d3/d67/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a35c9381a20dffef238dc4f2d77390cff">Kesco.Lib.Entities.Documents.Document</a>, <a class="el" href="../../df/d0c/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee.html#a1ad481aaa2b145d40baf8f685cff7c9a">Kesco.Lib.Entities.Corporate.Employee</a>, <a class="el" href="../../de/d72/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document_data.html#a1358d22824b70422d5eb5821d88384bd">Kesco.Lib.Entities.Documents.DocumentData</a>, <a class="el" href="../../d1/de3/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_field.html#af708eb2dafc0cc84d139627f63503b4c">Kesco.Lib.Entities.Documents.DocField</a>, <a class="el" href="../../d2/d83/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_type.html#a5aec0f93459000895bfd40812bd6e207">Kesco.Lib.Entities.Documents.DocType</a>, <a class="el" href="../../d9/d04/class_kesco_1_1_lib_1_1_entities_1_1_transactions_1_1_transaction.html#a56a12ff0072a2671c2730864fce25698">Kesco.Lib.Entities.Transactions.Transaction</a>, <a class="el" href="../../d0/db1/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_base.html#a9d39ea32f22c66044e238e1501e75404">Kesco.Lib.Entities.Persons.PersonBase</a>, <a class="el" href="../../de/ddc/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_old_1_1_person_old.html#abf87235f5ec823cd2c3e8214369bb64b">Kesco.Lib.Entities.Persons.PersonOld.PersonOld</a>, <a class="el" href="../../d3/d3d/class_kesco_1_1_lib_1_1_entities_1_1_stores_1_1_store.html#a11c0b5476fb94623d389964b02eaec19">Kesco.Lib.Entities.Stores.Store</a>, <a class="el" href="../../df/db0/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person.html#ab49e1013880567b0ea1ed7b8a114dabc">Kesco.Lib.Entities.Persons.Person</a>, <a class="el" href="../../d4/dd6/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_natural.html#a7a04239e89d13658d0dd9c1c15e67641">Kesco.Lib.Entities.Persons.PersonNatural</a>, <a class="el" href="../../d8/d59/class_kesco_1_1_lib_1_1_entities_1_1_location.html#a7c00c265e4d687c54082eceeddf12bb7">Kesco.Lib.Entities.Location</a>, <a class="el" href="../../df/dc9/class_kesco_1_1_lib_1_1_entities_1_1_resources_1_1_resource.html#ad0eb6303cf024c97b14480af33b48166">Kesco.Lib.Entities.Resources.Resource</a>, <a class="el" href="../../d8/d41/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_contacts_1_1_contact.html#a5c1a7f5d4c5941af587b649ed1c3dbc8">Kesco.Lib.Entities.Persons.Contacts.Contact</a>, <a class="el" href="../../d8/d27/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_sign.html#a7ccb741f779a1547eed9eb0f375b8bf4">Kesco.Lib.Entities.Documents.DocSign</a>, <a class="el" href="../../da/dae/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_attributes_1_1_attribute_format.html#afc9e377a1ef9d1718f086928ee06973f">Kesco.Lib.Entities.Persons.Attributes.AttributeFormat</a>, <a class="el" href="../../d5/d73/class_kesco_1_1_lib_1_1_entities_1_1_link_1_1_link.html#afc4587a348b9e97545ecc00d17c27285">Kesco.Lib.Entities.Link.Link</a>, <a class="el" href="../../d2/d08/class_kesco_1_1_lib_1_1_entities_1_1_residence.html#a4f1056b35d01e2018dad699f082b681a">Kesco.Lib.Entities.Residence</a>, <a class="el" href="../../d8/d8d/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_doc_link.html#afd25085d52d5f08c0b097299d125e3a9">Kesco.Lib.Entities.Documents.DocLink</a>, <a class="el" href="../../d7/d7b/class_kesco_1_1_lib_1_1_entities_1_1_attributes_1_1_attribute_format_base.html#a0ad476939e6b863f95c57da6c8f8ccbb">Kesco.Lib.Entities.Attributes.AttributeFormatBase</a>, <a class="el" href="../../d4/d45/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_attributes_1_1_attribute.html#a68ce6111e39f72e267c74fc410f177e3">Kesco.Lib.Entities.Persons.Attributes.Attribute</a>, <a class="el" href="../../df/d62/class_kesco_1_1_lib_1_1_entities_1_1_transactions_1_1_transaction_type.html#aafdf5a037ee8e068053b712e395ca1e2">Kesco.Lib.Entities.Transactions.TransactionType</a>, <a class="el" href="../../d0/dbe/class_kesco_1_1_lib_1_1_entities_1_1_transport_1_1_basis.html#a28600de90de6b5d2839c7c05ee11a656">Kesco.Lib.Entities.Transport.Basis</a>, <a class="el" href="../../d3/d0b/class_kesco_1_1_lib_1_1_entities_1_1_stores_1_1_store_type.html#a4823f7631466c8cf94b939860079c1b9">Kesco.Lib.Entities.Stores.StoreType</a>, <a class="el" href="../../d5/d7d/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_dossier_1_1_dossier_menu_item.html#a7103149a16e3d1bb8a017b123397eeb5">Kesco.Lib.Entities.Persons.Dossier.DossierMenuItem</a>, <a class="el" href="../../da/d73/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_dossier_1_1_dossier_context.html#ac18ebd5d0a9acbb458b1062b40d1cf3e">Kesco.Lib.Entities.Persons.Dossier.DossierContext</a>, <a class="el" href="../../d7/dc7/class_kesco_1_1_lib_1_1_entities_1_1_contacts_1_1_contact_type.html#a29e17de24910e263d379bea778e53ea6">Kesco.Lib.Entities.Contacts.ContactType</a>, <a class="el" href="../../d9/d8e/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_document_position.html#aea4ec3350b681c7a3e97a07d79d2178b">Kesco.Lib.Entities.Documents.EF.DocumentPosition&lt; T &gt;</a>, <a class="el" href="../../d2/dfb/class_kesco_1_1_lib_1_1_entities_1_1_attributes_1_1_attribute_format_type.html#a2185fd01ef1caaa29c84f081ba6ad86d">Kesco.Lib.Entities.Attributes.AttributeFormatType</a>, <a class="el" href="../../dc/d11/class_kesco_1_1_lib_1_1_entities_1_1_territories_1_1_territory.html#a3999df72073402106ec1d03eae363e3b">Kesco.Lib.Entities.Territories.Territory</a>, <a class="el" href="../../df/d5a/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_type.html#add964af5da001931da5c1efbf8686c87">Kesco.Lib.Entities.Persons.PersonType</a>, <a class="el" href="../../df/d0a/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_theme.html#a0b9221ce5b56a3a0905c7a10c029cb2d">Kesco.Lib.Entities.Persons.PersonTheme</a>, <a class="el" href="../../d0/d32/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_business_project_1_1_business_project.html#ad522b0747918e329cce42b8cc1475ad7">Kesco.Lib.Entities.Persons.BusinessProject.BusinessProject</a>, <a class="el" href="../../dc/d97/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_incorporation_form.html#a273901334dcde119eb9825a4dbb2ee1d">Kesco.Lib.Entities.Persons.PersonIncorporationForm</a>, <a class="el" href="../../da/d69/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_domain_name.html#ae8d889b5ad71e3e921ca1a42c451f40b">Kesco.Lib.Entities.Corporate.DomainName</a>, <a class="el" href="../../d3/dcc/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_catalog.html#af746a1435fc32224d88d6eef67577ff2">Kesco.Lib.Entities.Persons.PersonCatalog</a>, <a class="el" href="../../d3/df2/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_advanced_grant.html#af68e50293b02595e5723df3fe28cd8f3">Kesco.Lib.Entities.Corporate.AdvancedGrant</a>, <a class="el" href="../../dc/d7e/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_common_folder.html#adddeb37d5f1ef6daf16f2559fb175abf">Kesco.Lib.Entities.Corporate.CommonFolder</a>, <a class="el" href="../../d4/d5d/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_subdivision.html#a75a87af3596da873bf52047aac0d265d">Kesco.Lib.Entities.Corporate.Subdivision</a>, <a class="el" href="../../dd/d88/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_customer.html#a1808e10f90287577e3d0709f4bf2a50e">Kesco.Lib.Entities.Persons.PersonCustomer</a>, <a class="el" href="../../d4/d21/class_kesco_1_1_lib_1_1_entities_1_1_persons_1_1_person_juridical.html#ab2dc6304656ef66fc5f60033117bdd86">Kesco.Lib.Entities.Persons.PersonJuridical</a>, <a class="el" href="../../d3/d83/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_employee_passage.html#a33e20b9d2256e3dce1f6019094b87104">Kesco.Lib.Entities.Corporate.EmployeePassage</a>, <a class="el" href="../../d5/d22/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_person_customer.html#ad849ece2f077b675f2ba7ed8e75280a6">Kesco.Lib.Entities.Corporate.PersonCustomer</a>, <a class="el" href="../../d6/d7b/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_position.html#add75013807a7d5b9b5ff08d24e0d4d18">Kesco.Lib.Entities.Corporate.Position</a>, <a class="el" href="../../dd/d73/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_template.html#ac6e7d378c6eeb0b669b6c5ea0de659c1">Kesco.Lib.Entities.Documents.Template</a>, <a class="el" href="../../d6/dac/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_role.html#a1aefd7897abc35be1ed1754ac2baeb50">Kesco.Lib.Entities.Corporate.Role</a>, <a class="el" href="../../d4/d48/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_vacation_type.html#a9cf2d1fdadb7266b3e6db4d4865aaedf">Kesco.Lib.Entities.Corporate.VacationType</a> и <a class="el" href="../../df/d5e/class_kesco_1_1_lib_1_1_entities_1_1_corporate_1_1_language.html#a46d27f8dd4bed51d9e1f69a866ab79d2">Kesco.Lib.Entities.Corporate.Language</a>.</p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00067">67</a></p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NotImplementedException(<span class="stringliteral">&quot;Метод Load не реализован для класса наследника&quot;</span>);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a8c87000cea9b65e6274cf1c5c46bdfa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c87000cea9b65e6274cf1c5c46bdfa3">&#9670;&nbsp;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Kesco.Lib.Entities.Entity.Save </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>evalLoad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="../../db/d6b/class_kesco_1_1_lib_1_1_d_a_l_c_1_1_d_b_command.html">DBCommand</a> &gt;&#160;</td>
+          <td class="paramname"><em>cmds</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сохранение сущности </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">evalLoad</td><td>Выполнить повторную загрузку</td></tr>
+    <tr><td class="paramname">cmds</td><td>Объект sql-команд для анализа запроса</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Переопределяется в <a class="el" href="../../d3/d67/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_document.html#a582417ff4cf0b1005893dc59576d6f0e">Kesco.Lib.Entities.Documents.Document</a>, <a class="el" href="../../d9/d8e/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_document_position.html#a43169810ff6204caf22505c9cba7c431">Kesco.Lib.Entities.Documents.EF.DocumentPosition&lt; T &gt;</a> и <a class="el" href="../../da/d64/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_e_f_1_1_m_t_r_1_1_m_t_r_claim.html#a21cbf01dbee1c992c8b2401599ac05ba">Kesco.Lib.Entities.Documents.EF.MTR.MTRClaim</a>.</p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00077">77</a></p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NotImplementedException(<span class="stringliteral">&quot;Метод Save не реализован для класса наследника&quot;</span>);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="af2904f477f563d12c8ec545df4573740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2904f477f563d12c8ec545df4573740">&#9670;&nbsp;</a></span>ValueChangedEvent_Invoke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Entity.ValueChangedEvent_Invoke </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>newVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>oldVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполяняет действия события ValueChangedEvent </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00110">110</a></p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        {</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            var handler = <a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">ValueChangedEvent</a>;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">if</span> (handler != null)</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                handler(<span class="keyword">this</span>, <span class="keyword">new</span> <a class="code" href="../../da/df2/class_kesco_1_1_lib_1_1_base_extention_1_1_value_changed_event_args.html">ValueChangedEventArgs</a>(newVal, oldVal));</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_base_extention_1_1_value_changed_event_args_html"><div class="ttname"><a href="../../da/df2/class_kesco_1_1_lib_1_1_base_extention_1_1_value_changed_event_args.html">Kesco.Lib.BaseExtention.ValueChangedEventArgs</a></div><div class="ttdoc">Класс обработки события ValueChange </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de6/_value_changed_event_args_8cs_source.html#l00009">ValueChangedEventArgs.cs:9</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_entity_html_af304c276e111a99483ade098b6cb5fac"><div class="ttname"><a href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#af304c276e111a99483ade098b6cb5fac">Kesco.Lib.Entities.Entity.ValueChangedEvent</a></div><div class="ttdeci">ValueChangedEventHandler ValueChangedEvent</div><div class="ttdoc">Событие изменения значения </div><div class="ttdef"><b>Definition:</b> <a href="../../de/db3/_entity_8cs_source.html#l00105">Entity.cs:105</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Поля</h2>
+<a id="a9776df340cb1bd80b533ed88fcee7204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9776df340cb1bd80b533ed88fcee7204">&#9670;&nbsp;</a></span>requiredRefreshInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Entity.requiredRefreshInfo = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00021">21</a></p>
+
+</div>
+</div>
+<h2 class="groupheader">Полный список свойств</h2>
+<a id="ac5395d4e7d9753f78dbfb281d3a80786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5395d4e7d9753f78dbfb281d3a80786">&#9670;&nbsp;</a></span>Available</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Entity.Available</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доступность сущности. Удалось по ключу создать экземпляр объекта. </p>
+<p>Unavailable - двойное отрицание слишком тяжелое для восприятия человеком </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00042">42</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01108">Kesco.App.Web.Docs.Trade.Factura.CheckFieldDogovorUE()</a> и <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l04204">Kesco.App.Web.Docs.Trade.Factura.ValidateBaseDocDate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> !<a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Unavailable</a>; } </div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keyword">set</span> { <a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Unavailable</a> = !value; }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_entity_html_aa29286b090ec7be0dc967c073514d29a"><div class="ttname"><a href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#aa29286b090ec7be0dc967c073514d29a">Kesco.Lib.Entities.Entity.Unavailable</a></div><div class="ttdeci">bool Unavailable</div><div class="ttdoc">Доступность сущности. Удалось по ключу создать экземпляр объекта. false = ok </div><div class="ttdef"><b>Definition:</b> <a href="../../de/db3/_entity_8cs_source.html#l00025">Entity.cs:25</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a66a76df4523b9913e6c91f736174e8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66a76df4523b9913e6c91f736174e8bd">&#9670;&nbsp;</a></span>CN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Kesco.Lib.Entities.Entity.CN</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Строка подключения к БД. Обязательно к переопределению для классов подключающихся к БД </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00052">52</a></p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{ <span class="keyword">get</span> { <span class="keywordflow">throw</span> <span class="keyword">new</span> NotImplementedException(<span class="stringliteral">&quot;Строка подключения не перопределена для класса наследника&quot;</span>); } }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="adab166d4768d2953e6646d13bd320c0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab166d4768d2953e6646d13bd320c0b">&#9670;&nbsp;</a></span>Id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Kesco.Lib.Entities.Entity.Id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Код объекта </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00057">57</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01204">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.AfterSave()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01656">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.CheckDocNumber()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01521">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.CheckForSimilarity()</a>, <a class="el" href="../../d0/d75/_validation_messages_8cs_source.html#l00114">Kesco.App.Web.Docs.Directions.ValidationMessages.CheckSotrudnikWorkPlace()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00903">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.CopyDoc()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00297">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.CopyDocMethod()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01516">Kesco.App.Web.Docs.Trade.Factura.CorrectingDoc_OnChanged()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01351">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.DocumentSave()</a>, <a class="el" href="../../db/d0e/_doisser_employee_8cs_source.html#l00183">Kesco.Lib.Entities.Persons.Dossier.DoisserEmployee.DoisserEmployee()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l00499">Kesco.App.Web.Docs.Directions.DirectionIT.efSotrudnikParent_OnRenderNtf()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l01049">Kesco.App.Web.Docs.Directions.DirectionIT.FillPositionCommonFoldersByEmployee()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l01344">Kesco.App.Web.Docs.Directions.DirectionIT.FillPositionRolesByEmployee()</a>, <a class="el" href="../../da/dca/_contact_8cs_source.html#l00200">Kesco.Lib.Entities.Persons.Contacts.Contact.GetContactParametrs()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01998">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.GetLinkedDocsInfo()</a>, <a class="el" href="../../d7/d10/_doc_sign_8cs_source.html#l00222">Kesco.Lib.Entities.Documents.DocSign.GetSignsByDocumentId()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01885">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.LoadSequelDocs()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00182">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.OnInit()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00978">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.OpenDoc()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00466">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.PrepareDocToCopy()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l01771">Kesco.App.Web.Docs.Directions.DirectionIT.RefreshPositionDialogAdvancedGrants()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l00957">Kesco.App.Web.Docs.Directions.DirectionIT.RefreshPositionDialogCommonFolders()</a>, <a class="el" href="../../d6/d81/_signs_manager_8cs_source.html#l00427">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.SignsManager.RemoveSign()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01005">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.RenderDocTitle()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l02013">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.RenderLinkedDocsInfoDetails()</a>, <a class="el" href="../../da/d82/_page_8cs_source.html#l01419">Kesco.Lib.Web.Controls.V4.Common.Page.RenderLinkEmployee()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l02814">Kesco.App.Web.Docs.Trade.Factura.RenderSales()</a>, <a class="el" href="../../d0/d6f/_holiday_8aspx_8cs_source.html#l00374">Kesco.App.Web.Docs.Vacation.Holiday.selDirector_OnRenderNtf()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l02048">Kesco.App.Web.Docs.Directions.DirectionIT.SetDefaultDomainByEmployee()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l00050">Kesco.App.Web.Docs.Directions.DirectionIT.SetInitControls()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l00125">Kesco.App.Web.Docs.Trade.Factura.SetInitValue()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l03716">Kesco.App.Web.Docs.Trade.Factura.SetSchetByDocument()</a> и <a class="el" href="../../d0/d6f/_holiday_8aspx_8cs_source.html#l00603">Kesco.App.Web.Docs.Vacation.Holiday.TestEmplCompanyNtf()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a383c4b9da28d1b2fad3cc1eafcd7dd89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a383c4b9da28d1b2fad3cc1eafcd7dd89">&#9670;&nbsp;</a></span>Name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Entities.Entity.Name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Имя объекта </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00062">62</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../df/d41/_document_8cs_source.html#l01389">Kesco.Lib.Entities.Documents.Document.CompareToChanges()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l02509">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.DocNameChanged()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l01049">Kesco.App.Web.Docs.Directions.DirectionIT.FillPositionCommonFoldersByEmployee()</a>, <a class="el" href="../../df/d41/_document_8cs_source.html#l00769">Kesco.Lib.Entities.Documents.Document.GetFullDocumentName()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00650">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.GetPageTitle()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01854">Kesco.App.Web.Docs.Trade.Factura.Pokupatel_InfoSet()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01679">Kesco.App.Web.Docs.Trade.Factura.Prodavets_InfoSet()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l01771">Kesco.App.Web.Docs.Directions.DirectionIT.RefreshPositionDialogAdvancedGrants()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l00957">Kesco.App.Web.Docs.Directions.DirectionIT.RefreshPositionDialogCommonFolders()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l02227">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.RenderDocNumDateNameRows()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l01271">Kesco.App.Web.Docs.Directions.DirectionIT.RenderPositionRoles()</a> и <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l00050">Kesco.App.Web.Docs.Directions.DirectionIT.SetInitControls()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a4d166c745c27f42d9c96e1bc7f621ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d166c745c27f42d9c96e1bc7f621ebb">&#9670;&nbsp;</a></span>RequiredRefreshInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Entity.RequiredRefreshInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Необходимо заново получить данные для закэшированных свойств объекта </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00030">30</a></p>
+<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                        {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> <a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a9776df340cb1bd80b533ed88fcee7204">requiredRefreshInfo</a>; }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keyword">set</span> { <a class="code" href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a9776df340cb1bd80b533ed88fcee7204">requiredRefreshInfo</a> = value; }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_entity_html_a9776df340cb1bd80b533ed88fcee7204"><div class="ttname"><a href="../../d0/d31/class_kesco_1_1_lib_1_1_entities_1_1_entity.html#a9776df340cb1bd80b533ed88fcee7204">Kesco.Lib.Entities.Entity.requiredRefreshInfo</a></div><div class="ttdeci">bool requiredRefreshInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db3/_entity_8cs_source.html#l00021">Entity.cs:21</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa29286b090ec7be0dc967c073514d29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29286b090ec7be0dc967c073514d29a">&#9670;&nbsp;</a></span>Unavailable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Kesco.Lib.Entities.Entity.Unavailable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доступность сущности. Удалось по ключу создать экземпляр объекта. false = ok </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00025">25</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01053">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.AddSign()</a>, <a class="el" href="../../db/dff/_vacation_8cs_source.html#l00422">Kesco.Lib.Entities.Documents.EF.Applications.Vacation.BodyFull_TD()</a>, <a class="el" href="../../d0/d75/_validation_messages_8cs_source.html#l00078">Kesco.App.Web.Docs.Directions.ValidationMessages.CheckEmployeesOnWorkPlace()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01108">Kesco.App.Web.Docs.Trade.Factura.CheckFieldDogovorUE()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l02586">Kesco.App.Web.Docs.Trade.Factura.DocumentOsnovanie_FacilityChange()</a>, <a class="el" href="../../db/d0e/_doisser_employee_8cs_source.html#l00183">Kesco.Lib.Entities.Persons.Dossier.DoisserEmployee.DoisserEmployee()</a>, <a class="el" href="../../d5/d5a/_direction_i_t_8aspx_8cs_source.html#l00499">Kesco.App.Web.Docs.Directions.DirectionIT.efSotrudnikParent_OnRenderNtf()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l00182">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.OnInit()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01933">Kesco.App.Web.Docs.Trade.Factura.Person_GetName()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01602">Kesco.App.Web.Docs.Trade.Factura.Person_PreRender()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01854">Kesco.App.Web.Docs.Trade.Factura.Pokupatel_InfoSet()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l02044">Kesco.App.Web.Docs.Trade.Factura.Prilozhenie_InfoSet()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01679">Kesco.App.Web.Docs.Trade.Factura.Prodavets_InfoSet()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l03533">Kesco.App.Web.Docs.Trade.Factura.RenderDogovorKurator()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l03344">Kesco.App.Web.Docs.Trade.Factura.RenderKurs()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l02013">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.RenderLinkedDocsInfoDetails()</a>, <a class="el" href="../../d2/d6a/_page_handler_8cs_source.html#l00156">Kesco.Lib.Web.Controls.V4.Handlers.PageHandler.RenderPageReload()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l02814">Kesco.App.Web.Docs.Trade.Factura.RenderSales()</a>, <a class="el" href="../../d5/de7/_doc_page_8cs_source.html#l01141">Kesco.Lib.Web.Controls.V4.Common.DocumentPage.DocPage.SaveDocument()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l02345">Kesco.App.Web.Docs.Trade.Factura.Schet_InfoFullSet()</a>, <a class="el" href="../../d0/d6f/_holiday_8aspx_8cs_source.html#l00403">Kesco.App.Web.Docs.Vacation.Holiday.selCompany_OnRenderNtf()</a>, <a class="el" href="../../d0/d6f/_holiday_8aspx_8cs_source.html#l00374">Kesco.App.Web.Docs.Vacation.Holiday.selDirector_OnRenderNtf()</a>, <a class="el" href="../../d0/d6f/_holiday_8aspx_8cs_source.html#l00419">Kesco.App.Web.Docs.Vacation.Holiday.selPerson_OnRenderNtf()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l00125">Kesco.App.Web.Docs.Trade.Factura.SetInitValue()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l01147">Kesco.App.Web.Docs.Trade.Factura.SetKursAndScale()</a>, <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l02624">Kesco.App.Web.Docs.Trade.Factura.SetNumberByOsnovanie()</a> и <a class="el" href="../../d4/df5/_faktura_8aspx_8cs_source.html#l03716">Kesco.App.Web.Docs.Trade.Factura.SetSchetByDocument()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Cобытия</h2>
+<a id="af304c276e111a99483ade098b6cb5fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af304c276e111a99483ade098b6cb5fac">&#9670;&nbsp;</a></span>ValueChangedEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ValueChangedEventHandler Kesco.Lib.Entities.Entity.ValueChangedEvent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Событие изменения значения </p>
+
+<p class="definition">См. определение в файле <a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a> строка <a class="el" href="../../de/db3/_entity_8cs_source.html#l00105">105</a></p>
+
+<p class="reference">Используется в <a class="el" href="../../d6/ddf/_bind_doc_field_8cs_source.html#l00018">Kesco.Lib.Web.Controls.V4.Binding.BindDocField.BindDocField()</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Source/WEB_V4/Kesco.Lib.Entities/<a class="el" href="../../de/db3/_entity_8cs_source.html">Entity.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:39. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

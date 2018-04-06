@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Kesco.Lib.Entities.Documents.BaseDocFacade.ValueChangedEvent_Invoke</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d2/d2a/namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="../../da/dd9/namespace_kesco_1_1_lib_1_1_entities.html">Entities</a></li><li class="navelem"><a class="el" href="../../df/d65/namespace_kesco_1_1_lib_1_1_entities_1_1_documents.html">Documents</a></li><li class="navelem"><a class="el" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade.html">BaseDocFacade</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_aa3d52468a68d902655c974283a5888ce.html#aa3d52468a68d902655c974283a5888ce">_document</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a9bf256de8ac0f491fe0bdf291538f691.html#a9bf256de8ac0f491fe0bdf291538f691">_field</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_aa709cfbaf7c04b584b37d148b833fddf.html#aa709cfbaf7c04b584b37d148b833fddf">_oldValue</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a92d4076e708fb2bfd90632a636e3153c.html#a92d4076e708fb2bfd90632a636e3153c">BaseDocFacade</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a95073e94649f246461ecf540072b4d5d.html#a95073e94649f246461ecf540072b4d5d">ChangeBehavior</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a574a7c8386843e667da2ca53fedb149d.html#a574a7c8386843e667da2ca53fedb149d">RemoveAllAndAddDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a912bb9bfc0b12ac2ddfb1a3812da0b92.html#a912bb9bfc0b12ac2ddfb1a3812da0b92">SetAction</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a25faeb053a4bd7d16f67af078800b55b.html#a25faeb053a4bd7d16f67af078800b55b">SetBaseDoc</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_abb8a781522f84fb4d8ffe4845b22ef67.html#abb8a781522f84fb4d8ffe4845b22ef67">Value</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a24bc3c86d16ae423918c252af4605305.html#a24bc3c86d16ae423918c252af4605305">ValueChangedEvent</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a06a931dc57ecf45671ee6345dd4a6864.html#a06a931dc57ecf45671ee6345dd4a6864">ValueChangedEvent_Invoke</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a06a931dc57ecf45671ee6345dd4a6864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06a931dc57ecf45671ee6345dd4a6864">&#9670;&nbsp;</a></span>ValueChangedEvent_Invoke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Kesco.Lib.Entities.Documents.BaseDocFacade.ValueChangedEvent_Invoke </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>newVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>oldVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Выполяняет действия события ValueChangedEvent </p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        {</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            var handler = <a class="code" href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a24bc3c86d16ae423918c252af4605305.html#a24bc3c86d16ae423918c252af4605305">ValueChangedEvent</a>;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">if</span> (handler != null)</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                handler(<span class="keyword">this</span>, <span class="keyword">new</span> <a class="code" href="../../da/df2/class_kesco_1_1_lib_1_1_base_extention_1_1_value_changed_event_args.html">ValueChangedEventArgs</a>(newVal, oldVal));</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div><div class="ttc" id="class_kesco_1_1_lib_1_1_base_extention_1_1_value_changed_event_args_html"><div class="ttname"><a href="../../da/df2/class_kesco_1_1_lib_1_1_base_extention_1_1_value_changed_event_args.html">Kesco.Lib.BaseExtention.ValueChangedEventArgs</a></div><div class="ttdoc">Класс обработки события ValueChange </div><div class="ttdef"><b>Definition:</b> ValueChangedEventArgs.cs:9</div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a24bc3c86d16ae423918c252af4605305_html_a24bc3c86d16ae423918c252af4605305"><div class="ttname"><a href="../../dc/dfa/class_kesco_1_1_lib_1_1_entities_1_1_documents_1_1_base_doc_facade_a24bc3c86d16ae423918c252af4605305.html#a24bc3c86d16ae423918c252af4605305">Kesco.Lib.Entities.Documents.BaseDocFacade.ValueChangedEvent</a></div><div class="ttdeci">ValueChangedEventHandler ValueChangedEvent</div><div class="ttdoc">Событие изменения значения </div><div class="ttdef"><b>Definition:</b> BaseDocFacade.cs:100</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 15:55:09. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

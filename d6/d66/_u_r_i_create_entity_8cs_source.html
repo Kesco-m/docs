@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Исходный файл Source/WEB_V4/Kesco.Lib.Web.Controls.V4/URICreateEntity.cs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_4781ae3b1ec0850db8bd10105eacd4d3.html">WEB_V4</a></li><li class="navelem"><a class="el" href="../../dir_7dca8a941fb28335e1583370d3dbcce4.html">Kesco.Lib.Web.Controls.V4</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">URICreateEntity.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d6/d66/_u_r_i_create_entity_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.Lib.Web.Controls.V4</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html">    8</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html">URICreateEntity</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a62b598d60c2db6627ddcfb13201ed4f7">   13</a></span>&#160;        <span class="keyword">private</span> readonly Guid <a class="code" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a62b598d60c2db6627ddcfb13201ed4f7">_id</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#afeab7db1079202fbe7ea39de5c5661fd">   18</a></span>&#160;        <span class="keyword">private</span> readonly <span class="keywordtype">string</span> _imgPath = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#aece9e70539ad81d4c289a7c3bf372c42">   23</a></span>&#160;        <span class="keyword">private</span> readonly <span class="keywordtype">string</span> _label = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#afd3d82cdd0d29d1157b1c351c40f483b">   28</a></span>&#160;        <span class="keyword">private</span> readonly <span class="keywordtype">string</span> _url = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a40e9bf0ecf5c05549c426c1f3a18d7bd">   36</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a40e9bf0ecf5c05549c426c1f3a18d7bd">URICreateEntity</a>(<span class="keywordtype">string</span> imgPath, <span class="keywordtype">string</span> url, <span class="keywordtype">string</span> label)</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            _id = Guid.NewGuid();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            _imgPath = imgPath;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            _url = url;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            _label = label;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">public</span> Guid Id</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a43714dd21911fc1495044d7c5a84bbda">   48</a></span>&#160;        {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> _id; }</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> ImgPath</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#af3d85da444995b3c8ba97f6ef1ee68b9">   56</a></span>&#160;        {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> _imgPath; }</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> URL</div><div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a5d3dfcad37ac9430004d7ebce632f9ed">   64</a></span>&#160;        {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> _url; }</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> Label</div><div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#adb5df0ee2caee65dfd027f9e43fa9c88">   72</a></span>&#160;        {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> _label; }</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div><div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity_html_a62b598d60c2db6627ddcfb13201ed4f7"><div class="ttname"><a href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a62b598d60c2db6627ddcfb13201ed4f7">Kesco.Lib.Web.Controls.V4.URICreateEntity._id</a></div><div class="ttdeci">readonly Guid _id</div><div class="ttdoc">Идентификатор ссылки </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d66/_u_r_i_create_entity_8cs_source.html#l00013">URICreateEntity.cs:13</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="../../d8/dd0/namespace_system.html">System</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity_html_a40e9bf0ecf5c05549c426c1f3a18d7bd"><div class="ttname"><a href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html#a40e9bf0ecf5c05549c426c1f3a18d7bd">Kesco.Lib.Web.Controls.V4.URICreateEntity.URICreateEntity</a></div><div class="ttdeci">URICreateEntity(string imgPath, string url, string label)</div><div class="ttdoc">Конструктор </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d66/_u_r_i_create_entity_8cs_source.html#l00036">URICreateEntity.cs:36</a></div></div>
+<div class="ttc" id="namespace_kesco_html"><div class="ttname"><a href="../../d2/d2a/namespace_kesco.html">Kesco</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity_html"><div class="ttname"><a href="../../da/d9b/class_kesco_1_1_lib_1_1_web_1_1_controls_1_1_v4_1_1_u_r_i_create_entity.html">Kesco.Lib.Web.Controls.V4.URICreateEntity</a></div><div class="ttdoc">Класс описывающий объект, необходимы для формирования ссылки на создание сущности в контроле Select ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d66/_u_r_i_create_entity_8cs_source.html#l00008">URICreateEntity.cs:8</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:36. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

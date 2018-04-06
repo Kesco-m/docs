@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: Исходный файл Source/WEB_V4/Kesco.Lib.Web.DBSelect.V4/DSO/FOpt/Location/FOptWorkPlace.cs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_4781ae3b1ec0850db8bd10105eacd4d3.html">WEB_V4</a></li><li class="navelem"><a class="el" href="../../dir_5156e4ab66ff643f8f82d853db254f5c.html">Kesco.Lib.Web.DBSelect.V4</a></li><li class="navelem"><a class="el" href="../../dir_e67854ebee26606c541f99540150f2d6.html">DSO</a></li><li class="navelem"><a class="el" href="../../dir_a2bdf8e8463c8e31ca8a09e5cf4e5f59.html">FOpt</a></li><li class="navelem"><a class="el" href="../../dir_58ac068722640a418438de559118d602.html">Location</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">FOptWorkPlace.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d2/d8c/_f_opt_work_place_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dd0/namespace_system.html">System</a>.Globalization;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.<a class="code" href="../../dd/d63/namespace_kesco_1_1_lib.html">Lib</a>.<a class="code" href="../../da/dc7/namespace_kesco_1_1_lib_1_1_base_extention.html">BaseExtention</a>.<a class="code" href="../../d1/de7/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums.html">Enums</a>.<a class="code" href="../../d2/dc8/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_corporate.html">Corporate</a>;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/d2a/namespace_kesco.html">Kesco</a>.Lib.Web.DBSelect.V4.DSO.FOpt.Location</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html">    9</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html">FOptWorkPlace</a> : FOptBase, IFilterOption</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html#a99211cfc777e3dbaf786bf4f04ff0575">   11</a></span>&#160;        <span class="keyword">private</span> <span class="keywordtype">int</span> _value = 1;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">string</span> Value</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html#ac544589755c01f8cbb49f681f8055595">   17</a></span>&#160;        {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> _value.ToString(CultureInfo.InvariantCulture); }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">object</span> ValueType</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html#a4175f063a16034e4f62642e8c59b1cfc">   25</a></span>&#160;        {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">get</span> { <span class="keywordflow">return</span> (<a class="code" href="../../d2/dc8/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_corporate.html#a4e5e6d5efd9e8ed855ad4d776862a0b5">ТипыРабочихМест</a>) _value; }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">set</span> { _value = (int) value; }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html#aecf71bb020d8a4902e38ac5d107f1e1d">   34</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code" href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html#aecf71bb020d8a4902e38ac5d107f1e1d">SQLGetClause</a>()</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">return</span> <span class="keywordtype">string</span>.Format(<span class="stringliteral">&quot; T0.РабочееМесто = {0}&quot;</span>, Value);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div><div class="ttc" id="namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_html"><div class="ttname"><a href="../../d1/de7/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums.html">Kesco.Lib.BaseExtention.Enums</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_corporate_html"><div class="ttname"><a href="../../d2/dc8/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_corporate.html">Kesco.Lib.BaseExtention.Enums.Corporate</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0c/_corporate_8cs_source.html#l00001">Corporate.cs:1</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="../../d8/dd0/namespace_system.html">System</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_html"><div class="ttname"><a href="../../dd/d63/namespace_kesco_1_1_lib.html">Kesco.Lib</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_corporate_html_a4e5e6d5efd9e8ed855ad4d776862a0b5"><div class="ttname"><a href="../../d2/dc8/namespace_kesco_1_1_lib_1_1_base_extention_1_1_enums_1_1_corporate.html#a4e5e6d5efd9e8ed855ad4d776862a0b5">Kesco.Lib.BaseExtention.Enums.Corporate.ТипыРабочихМест</a></div><div class="ttdeci">ТипыРабочихМест</div><div class="ttdoc">Перечисление типов рабочих мест расположений </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0c/_corporate_8cs_source.html#l00007">Corporate.cs:7</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place_html"><div class="ttname"><a href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html">Kesco.Lib.Web.DBSelect.V4.DSO.FOpt.Location.FOptWorkPlace</a></div><div class="ttdoc">Класс опции поиска по типу рабочего места расположения </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d8c/_f_opt_work_place_8cs_source.html#l00009">FOptWorkPlace.cs:9</a></div></div>
+<div class="ttc" id="class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place_html_aecf71bb020d8a4902e38ac5d107f1e1d"><div class="ttname"><a href="../../d2/d64/class_kesco_1_1_lib_1_1_web_1_1_d_b_select_1_1_v4_1_1_d_s_o_1_1_f_opt_1_1_location_1_1_f_opt_work_place.html#aecf71bb020d8a4902e38ac5d107f1e1d">Kesco.Lib.Web.DBSelect.V4.DSO.FOpt.Location.FOptWorkPlace.SQLGetClause</a></div><div class="ttdeci">string SQLGetClause()</div><div class="ttdoc">Построение запроса </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d8c/_f_opt_work_place_8cs_source.html#l00034">FOptWorkPlace.cs:34</a></div></div>
+<div class="ttc" id="namespace_kesco_1_1_lib_1_1_base_extention_html"><div class="ttname"><a href="../../da/dc7/namespace_kesco_1_1_lib_1_1_base_extention.html">Kesco.Lib.BaseExtention</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/_a_d_s_i_8cs_source.html#l00003">ADSI.cs:3</a></div></div>
+<div class="ttc" id="namespace_kesco_html"><div class="ttname"><a href="../../d2/d2a/namespace_kesco.html">Kesco</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Kesco Development Network. Последние изменения: Пт 6 Апр 2018 17:25:37. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

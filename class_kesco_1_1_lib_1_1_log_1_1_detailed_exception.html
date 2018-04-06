@@ -1,0 +1,842 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kesco Development Network: РљР»Р°СЃСЃ Kesco.Lib.Log.DetailedException</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kesco Development Network
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- РЎРѕР·РґР°РЅРѕ СЃРёСЃС‚РµРјРѕР№ Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'РџРѕРёСЃРє');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','РџРѕРёСЃРє');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">РћС‚РєСЂС‹С‚С‹Рµ С‡Р»РµРЅС‹</a> &#124;
+<a href="#pro-methods">Р—Р°С‰РёС‰РµРЅРЅС‹Рµ С‡Р»РµРЅС‹</a> &#124;
+<a href="#properties">РЎРІРѕР№СЃС‚РІР°</a> &#124;
+<a href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception-members.html">РџРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє С‡Р»РµРЅРѕРІ РєР»Р°СЃСЃР°</a>  </div>
+  <div class="headertitle">
+<div class="title">РљР»Р°СЃСЃ Kesco.Lib.Log.DetailedException</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Переопределение базового класса Exception. Используется в приложениях холдинга для формирования цепочек исключений, содержащих дополнительную отладочную информацию.  
+ <a href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#details">РџРѕРґСЂРѕР±РЅРµРµ...</a></p>
+<div class="dynheader">
+Р“СЂР°С„ РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ:Kesco.Lib.Log.DetailedException:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.png" usemap="#Kesco.Lib.Log.DetailedException_map" alt=""/>
+  <map id="Kesco.Lib.Log.DetailedException_map" name="Kesco.Lib.Log.DetailedException_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+РћС‚РєСЂС‹С‚С‹Рµ С‡Р»РµРЅС‹</h2></td></tr>
+<tr class="memitem:aa0fc1e00993313102528a515d33c615c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#aa0fc1e00993313102528a515d33c615c">GetExtendedDetails</a> ()</td></tr>
+<tr class="memdesc:aa0fc1e00993313102528a515d33c615c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение строки с расширенными деталями цепочки исключений (доп. информация, SQL данные)  <a href="#aa0fc1e00993313102528a515d33c615c">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:aa0fc1e00993313102528a515d33c615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b4ea4186510fb6a6f91e0f97a10ec6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#ab7b4ea4186510fb6a6f91e0f97a10ec6">DetailedException</a> (string message, Exception innerException)</td></tr>
+<tr class="memdesc:ab7b4ea4186510fb6a6f91e0f97a10ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дефолтный конструктор <a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html" title="Переопределение базового класса Exception. Используется в приложениях холдинга для формирования цепочек исключений, содержащих дополнительную отладочную информацию...">DetailedException</a>  <a href="#ab7b4ea4186510fb6a6f91e0f97a10ec6">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:ab7b4ea4186510fb6a6f91e0f97a10ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2c7c9c12e3b23c23cde434e89ac542"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a3a2c7c9c12e3b23c23cde434e89ac542">DetailedException</a> (string message, Exception innerException, <a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a> priority)</td></tr>
+<tr class="memdesc:a3a2c7c9c12e3b23c23cde434e89ac542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор с возможностью изменять приоритет исключительной ситуации  <a href="#a3a2c7c9c12e3b23c23cde434e89ac542">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a3a2c7c9c12e3b23c23cde434e89ac542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d502a4d4d3ceb80773f655677a5c21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#aa9d502a4d4d3ceb80773f655677a5c21">DetailedException</a> (string message, Exception innerException, string details)</td></tr>
+<tr class="memdesc:aa9d502a4d4d3ceb80773f655677a5c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор, предполагающий обязательную отправку письма в службу поддержки.  <a href="#aa9d502a4d4d3ceb80773f655677a5c21">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:aa9d502a4d4d3ceb80773f655677a5c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80082025beba78847d2be981a6c25da8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a80082025beba78847d2be981a6c25da8">DetailedException</a> (string message, Exception innerException, bool sendMail)</td></tr>
+<tr class="memdesc:a80082025beba78847d2be981a6c25da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор с указанием необходимости отправки письма в службу поддержки без доп. деталей.  <a href="#a80082025beba78847d2be981a6c25da8">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a80082025beba78847d2be981a6c25da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72d4a59e48b136e8c1104da34bbdbb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#af72d4a59e48b136e8c1104da34bbdbb7">DetailedException</a> (string message, Exception innerException, string details, bool sendMail)</td></tr>
+<tr class="memdesc:af72d4a59e48b136e8c1104da34bbdbb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор с указанием необходимости отправки письма в службу поддержки с дополнительными отладочными данными.  <a href="#af72d4a59e48b136e8c1104da34bbdbb7">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:af72d4a59e48b136e8c1104da34bbdbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34cf74227a58cbb9fe4c95b163300a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#ab34cf74227a58cbb9fe4c95b163300a2">DetailedException</a> (string message, Exception innerException, <a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a> priority, string details)</td></tr>
+<tr class="memdesc:ab34cf74227a58cbb9fe4c95b163300a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор с указанием необходимости отправки письма в службу поддержки с дополнительными отладочными данными.  <a href="#ab34cf74227a58cbb9fe4c95b163300a2">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:ab34cf74227a58cbb9fe4c95b163300a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d1f93ee62e865ae3d2aa36e9b88aae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a14d1f93ee62e865ae3d2aa36e9b88aae">DetailedException</a> (string message, Exception innerException, <a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a> priority, string details, bool sendMail)</td></tr>
+<tr class="memdesc:a14d1f93ee62e865ae3d2aa36e9b88aae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор с указанием необходимости отправки письма в службу поддержки с дополнительными отладочными данными.  <a href="#a14d1f93ee62e865ae3d2aa36e9b88aae">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a14d1f93ee62e865ae3d2aa36e9b88aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621221170c5583048bc64ed5f328956f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a621221170c5583048bc64ed5f328956f">DetailedException</a> (string message, Exception innerException, IDbCommand sqlCmd)</td></tr>
+<tr class="memdesc:a621221170c5583048bc64ed5f328956f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор на основании SQL исключения. Отправка письма определяется классом SQL исключения (12 не отправляется)  <a href="#a621221170c5583048bc64ed5f328956f">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a621221170c5583048bc64ed5f328956f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f114a720eed633a277958a52a59ef1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a1f114a720eed633a277958a52a59ef1d">DetailedException</a> (string message, Exception innerException, IDbCommand sqlCmd, <a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a> priority)</td></tr>
+<tr class="memdesc:a1f114a720eed633a277958a52a59ef1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор на основании SQL исключения. Отправка письма определяется классом SQL исключения (12 не отправляется)  <a href="#a1f114a720eed633a277958a52a59ef1d">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a1f114a720eed633a277958a52a59ef1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ed17ff588b68905d32ecde1931fb0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#aa9ed17ff588b68905d32ecde1931fb0b">DetailedException</a> (string message, Exception innerException, IDbCommand sqlCmd, string details)</td></tr>
+<tr class="memdesc:aa9ed17ff588b68905d32ecde1931fb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор на основании SQL исключения с доп. деталями. Отправка письма определяется классом SQL исключения (12 не отправляется)  <a href="#aa9ed17ff588b68905d32ecde1931fb0b">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:aa9ed17ff588b68905d32ecde1931fb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f18613654a432df8fb577fcb5774d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#ac5f18613654a432df8fb577fcb5774d0">DetailedException</a> (string message, Exception innerException, IDbCommand sqlCmd, <a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a> priority, string details)</td></tr>
+<tr class="memdesc:ac5f18613654a432df8fb577fcb5774d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Констуктор на основании SQL исключения с доп. деталями. Отправка письма определяется классом SQL исключения (12 не отправляется)  <a href="#ac5f18613654a432df8fb577fcb5774d0">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:ac5f18613654a432df8fb577fcb5774d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a957f2a46e3cf17540f43905a6701af0e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a957f2a46e3cf17540f43905a6701af0e">GetObjectData</a> (SerializationInfo info, StreamingContext context)</td></tr>
+<tr class="memdesc:a957f2a46e3cf17540f43905a6701af0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сериализация содержимого ошибки  <a href="#a957f2a46e3cf17540f43905a6701af0e">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a957f2a46e3cf17540f43905a6701af0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Р—Р°С‰РёС‰РµРЅРЅС‹Рµ С‡Р»РµРЅС‹</h2></td></tr>
+<tr class="memitem:a945a60f5b165c4ff4f52db43035bdeb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#a945a60f5b165c4ff4f52db43035bdeb1">DetailedException</a> (SerializationInfo info, StreamingContext context)</td></tr>
+<tr class="memdesc:a945a60f5b165c4ff4f52db43035bdeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор  <a href="#a945a60f5b165c4ff4f52db43035bdeb1">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a945a60f5b165c4ff4f52db43035bdeb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+РЎРІРѕР№СЃС‚РІР°</h2></td></tr>
+<tr class="memitem:aaaa2c8c188a7c7fa1f9a4eb70a570924"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html#aaaa2c8c188a7c7fa1f9a4eb70a570924">CustomMessage</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaaa2c8c188a7c7fa1f9a4eb70a570924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Аксессор к сообщения об ошибке, которое написал программист  <a href="#aaaa2c8c188a7c7fa1f9a4eb70a570924">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:aaaa2c8c188a7c7fa1f9a4eb70a570924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ</h2>
+<div class="textblock"><p>Переопределение базового класса Exception. Используется в приложениях холдинга для формирования цепочек исключений, содержащих дополнительную отладочную информацию. </p>
+</div><h2 class="groupheader">РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ(С‹)</h2>
+<a id="ab7b4ea4186510fb6a6f91e0f97a10ec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7b4ea4186510fb6a6f91e0f97a10ec6">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[1/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Дефолтный конструктор <a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html" title="Переопределение базового класса Exception. Используется в приложениях холдинга для формирования цепочек исключений, содержащих дополнительную отладочную информацию...">DetailedException</a> </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>"пойманный" глубже Exception или null</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3a2c7c9c12e3b23c23cde434e89ac542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2c7c9c12e3b23c23cde434e89ac542">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[2/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a>&#160;</td>
+          <td class="paramname"><em>priority</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор с возможностью изменять приоритет исключительной ситуации </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>"пойманный" глубже Exception или null</td></tr>
+    <tr><td class="paramname">priority</td><td>приоритет исключения</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa9d502a4d4d3ceb80773f655677a5c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9d502a4d4d3ceb80773f655677a5c21">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[3/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор, предполагающий обязательную отправку письма в службу поддержки. </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>"пойманный" глубже Exception или null</td></tr>
+    <tr><td class="paramname">details</td><td>подробное описание</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a80082025beba78847d2be981a6c25da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80082025beba78847d2be981a6c25da8">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[4/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sendMail</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор с указанием необходимости отправки письма в службу поддержки без доп. деталей. </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">sendMail</td><td>Флаг-нужно ли отправлять данную ошибку в Службу поддержки</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af72d4a59e48b136e8c1104da34bbdbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af72d4a59e48b136e8c1104da34bbdbb7">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[5/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sendMail</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор с указанием необходимости отправки письма в службу поддержки с дополнительными отладочными данными. </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">details</td><td>дополнительная отладочная информация</td></tr>
+    <tr><td class="paramname">sendMail</td><td>Флаг-нужно ли отправлять данную ошибку в Службу поддержки</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab34cf74227a58cbb9fe4c95b163300a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34cf74227a58cbb9fe4c95b163300a2">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[6/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a>&#160;</td>
+          <td class="paramname"><em>priority</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор с указанием необходимости отправки письма в службу поддержки с дополнительными отладочными данными. </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">priority</td><td>приоритет исключения</td></tr>
+    <tr><td class="paramname">details</td><td>дополнительная отладочная информация</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a14d1f93ee62e865ae3d2aa36e9b88aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d1f93ee62e865ae3d2aa36e9b88aae">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[7/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a>&#160;</td>
+          <td class="paramname"><em>priority</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sendMail</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор с указанием необходимости отправки письма в службу поддержки с дополнительными отладочными данными. </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">priority</td><td>приоритет исключения</td></tr>
+    <tr><td class="paramname">details</td><td>дополнительная отладочная информация</td></tr>
+    <tr><td class="paramname">sendMail</td><td>Флаг-нужно ли отправлять данную ошибку в Службу поддержки</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a621221170c5583048bc64ed5f328956f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a621221170c5583048bc64ed5f328956f">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[8/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDbCommand&#160;</td>
+          <td class="paramname"><em>sqlCmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор на основании SQL исключения. Отправка письма определяется классом SQL исключения (12 не отправляется) </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">sqlCmd</td><td>команда к БД - для получения строки подключения к БД и собственно текста sql-комманды</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1f114a720eed633a277958a52a59ef1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f114a720eed633a277958a52a59ef1d">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[9/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDbCommand&#160;</td>
+          <td class="paramname"><em>sqlCmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a>&#160;</td>
+          <td class="paramname"><em>priority</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор на основании SQL исключения. Отправка письма определяется классом SQL исключения (12 не отправляется) </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">sqlCmd</td><td>команда к БД - для получения строки подключения к БД и собственно текста sql-комманды</td></tr>
+    <tr><td class="paramname">priority</td><td>приоритет исключения</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa9ed17ff588b68905d32ecde1931fb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9ed17ff588b68905d32ecde1931fb0b">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[10/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDbCommand&#160;</td>
+          <td class="paramname"><em>sqlCmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор на основании SQL исключения с доп. деталями. Отправка письма определяется классом SQL исключения (12 не отправляется) </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">sqlCmd</td><td>команда к БД - для получения строки подключения к БД и собственно текста sql-комманды</td></tr>
+    <tr><td class="paramname">details</td><td>дополнительная отладочная информация</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac5f18613654a432df8fb577fcb5774d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f18613654a432df8fb577fcb5774d0">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[11/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Exception&#160;</td>
+          <td class="paramname"><em>innerException</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDbCommand&#160;</td>
+          <td class="paramname"><em>sqlCmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_kesco_1_1_lib_1_1_log.html#abf69ccf5343d8def656067c90330a582">Priority</a>&#160;</td>
+          <td class="paramname"><em>priority</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Констуктор на основании SQL исключения с доп. деталями. Отправка письма определяется классом SQL исключения (12 не отправляется) </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>краткое описание</td></tr>
+    <tr><td class="paramname">innerException</td><td>объект типа Exception</td></tr>
+    <tr><td class="paramname">sqlCmd</td><td>команда к БД - для получения строки подключения к БД и собственно текста sql-комманды</td></tr>
+    <tr><td class="paramname">priority</td><td>приоритет исключения</td></tr>
+    <tr><td class="paramname">details</td><td>дополнительная отладочная информация</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a945a60f5b165c4ff4f52db43035bdeb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a945a60f5b165c4ff4f52db43035bdeb1">&#9670;&nbsp;</a></span>DetailedException() <span class="overload">[12/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Kesco.Lib.Log.DetailedException.DetailedException </td>
+          <td>(</td>
+          <td class="paramtype">SerializationInfo&#160;</td>
+          <td class="paramname"><em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StreamingContext&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Конструктор </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">info</td><td>Информация необходимация для сериализации</td></tr>
+    <tr><td class="paramname">context</td><td>Содержимое для сериализации</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">РњРµС‚РѕРґС‹</h2>
+<a id="aa0fc1e00993313102528a515d33c615c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0fc1e00993313102528a515d33c615c">&#9670;&nbsp;</a></span>GetExtendedDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Log.DetailedException.GetExtendedDetails </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получение строки с расширенными деталями цепочки исключений (доп. информация, SQL данные) </p>
+<dl class="section return"><dt>Р’РѕР·РІСЂР°С‰Р°РµС‚</dt><dd>дополнительная отладочная информация</dd></dl>
+
+</div>
+</div>
+<a id="a957f2a46e3cf17540f43905a6701af0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a957f2a46e3cf17540f43905a6701af0e">&#9670;&nbsp;</a></span>GetObjectData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Kesco.Lib.Log.DetailedException.GetObjectData </td>
+          <td>(</td>
+          <td class="paramtype">SerializationInfo&#160;</td>
+          <td class="paramname"><em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StreamingContext&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Сериализация содержимого ошибки </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">info</td><td>Информация необходимация для сериализации</td></tr>
+    <tr><td class="paramname">context</td><td>Содержимое для сериализации</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">РџРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє СЃРІРѕР№СЃС‚РІ</h2>
+<a id="aaaa2c8c188a7c7fa1f9a4eb70a570924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa2c8c188a7c7fa1f9a4eb70a570924">&#9670;&nbsp;</a></span>CustomMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Kesco.Lib.Log.DetailedException.CustomMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Аксессор к сообщения об ошибке, которое написал программист </p>
+
+</div>
+</div>
+<hr/>РћР±СЉСЏРІР»РµРЅРёСЏ Рё РѕРїРёСЃР°РЅРёСЏ С‡Р»РµРЅРѕРІ РєР»Р°СЃСЃР° РЅР°С…РѕРґСЏС‚СЃСЏ РІ С„Р°Р№Р»Рµ:<ul>
+<li>Source/WEB_V4/Kesco.Lib.Log/<a class="el" href="_detailed_exception_8cs.html">DetailedException.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_kesco.html">Kesco</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib.html">Lib</a></li><li class="navelem"><a class="el" href="namespace_kesco_1_1_lib_1_1_log.html">Log</a></li><li class="navelem"><a class="el" href="class_kesco_1_1_lib_1_1_log_1_1_detailed_exception.html">DetailedException</a></li>
+    <li class="footer">РЎРѕР·РґР°РЅРѕ СЃРёСЃС‚РµРјРѕР№
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
